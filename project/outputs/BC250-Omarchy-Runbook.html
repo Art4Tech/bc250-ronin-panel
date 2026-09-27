@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A practical BC250 bench-test, Minorsonic AIO, power-wiring and Omarchy installation runbook for a 1TB NVMe office desktop.">
+<title>BC250 → Omarchy · Build &amp; Test Runbook</title>
+<style>
+:root{color-scheme:light;--ink:#142438;--muted:#526173;--line:#d6dfe8;--paper:#fff;--bg:#edf2f7;--blue:#064fbd;--nav:#10243b;--amber:#fff4d8;--red:#a52626}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:25px}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--blue);text-underline-offset:3px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}a:focus-visible,button:focus-visible{outline:3px solid #e79717;outline-offset:4px}.skip{position:absolute;top:-80px;left:20px;background:white;padding:10px;z-index:5}.skip:focus{top:10px}
+aside{position:fixed;width:254px;inset:0 auto 0 0;background:var(--nav);color:#fff;padding:30px 23px;overflow-y:auto}.brand{font-size:24px;font-weight:750;letter-spacing:.02em;margin-bottom:5px}.edition{color:#b9c9db;font-size:14px;margin-bottom:28px}nav a{display:block;color:#dfebf8;text-decoration:none;padding:9px 10px;border-left:2px solid #38506a;font-size:15px;margin:3px 0}nav a:hover{background:#203b57;border-color:#59b9ff}nav b{display:inline-block;width:28px;color:#72c8ff}aside .note{font-size:14px;color:#b9c9db;margin-top:30px}
+main{max-width:1200px;margin-left:254px;padding:36px 48px 70px}header,section{background:var(--paper);padding:32px 38px;margin-bottom:22px;border:1px solid var(--line);border-radius:8px}header{border-top:6px solid var(--blue)}.eyebrow{font-size:14px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}h1{font-size:clamp(30px,4vw,46px);line-height:1.13;letter-spacing:-.035em;margin:12px 0 18px}h2{font-size:28px;line-height:1.25;letter-spacing:-.02em;margin:4px 0 22px}h3{font-size:20px;line-height:1.35;margin:28px 0 10px}p{margin:12px 0}li{padding-left:4px;margin:10px 0}ul,ol{padding-left:24px}.lead{font-size:20px;line-height:1.5}.muted,.source{color:var(--muted)}.source{font-size:14px}.callout{background:#edf5ff;border-left:4px solid var(--blue);padding:15px 19px;margin:20px 0}.caution{background:var(--amber);border-left-color:#bf7800}.stop{background:#fff0ed;border-left-color:var(--red)}.callout p:first-child{margin-top:0}.callout p:last-child{margin-bottom:0}.tag{display:inline-block;background:#e7eef7;padding:3px 9px;border-radius:4px;font-size:14px;font-weight:650;margin:3px 5px 3px 0}.table-wrap{overflow-x:auto;margin:18px 0}table{width:100%;border-collapse:collapse;font-size:16px;text-align:left}th,td{padding:13px 14px;border:1px solid var(--line);vertical-align:top}th{background:#eff4f9;font-weight:700}td:first-child{font-weight:600}code{font: .9em/1.6 ui-monospace,"Cascadia Code",Consolas,monospace;background:#eaf0f6;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}pre{background:#10243b;color:#e4f1ff;padding:19px 21px;overflow-x:auto;border-radius:6px;font-size:14px;line-height:1.65}pre code{background:none;padding:0;color:inherit;white-space:pre;overflow-wrap:normal;font-size:inherit}.wiring{display:grid;gap:12px;margin:20px 0}.wire{display:grid;grid-template-columns:minmax(120px,1fr) 30px minmax(160px,1.4fr);align-items:center;gap:10px;padding:13px 16px;background:#f1f6fc;border:1px solid var(--line);border-radius:5px;font-size:16px}.arrow{text-align:center;font-weight:bold;color:var(--blue)}.wire small{display:block;color:var(--muted);font-size:14px}.gate{border-top:2px solid #1e7787;margin-top:25px;padding-top:15px}.gate strong{color:#125564}.print-note{font-size:14px;color:var(--muted)}footer{font-size:14px;color:var(--muted);padding:5px 15px}.record td{height:50px}.record td:last-child{width:50%}
+@media(min-width:1600px){main{margin-left:calc(254px + (100vw - 1600px)/2)}}
+@media(max-width:900px){aside{position:static;width:auto;padding:22px}aside .edition{margin-bottom:12px}aside .note{display:none}nav{display:flex;flex-wrap:wrap;gap:5px}nav a{font-size:14px;padding:7px 10px;background:#1b354f;border:0;border-radius:3px}main{margin:0;padding:20px}header,section{padding:24px}h2{font-size:25px}}
+@media(max-width:480px){body{font-size:16px}main{padding:12px}header,section{padding:20px 16px}.wire{grid-template-columns:1fr}.arrow{transform:rotate(90deg)}th,td{padding:10px}pre{padding:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{body{background:#fff;font-size:11pt;color:#000}aside,.skip{display:none}main{margin:0;padding:0;max-width:none}header,section{border:0;border-radius:0;padding:10px 0;margin:0 0 18px}h1{font-size:26pt}h2{font-size:20pt}h3{font-size:14pt}h2,h3{break-after:avoid}pre,.callout,.wire,tr{break-inside:avoid}pre{white-space:pre-wrap;background:#f0f0f0;color:#000}pre code{white-space:pre-wrap}a{color:#000}section{break-before:page}header+section{break-before:auto}.table-wrap{overflow:visible}.source{font-size:9pt}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to runbook</a>
+<aside aria-label="Runbook navigation">
+<div class="brand">BC250 / OMARCHY</div><div class="edition">Personal build runbook<br>Research checked 9 September 2026</div>
+<nav>
+<a href="#start"><b>00</b> What changes</a><a href="#power"><b>01</b> Power map</a><a href="#bench"><b>02</b> Test it now</a><a href="#live"><b>03</b> Linux screening</a><a href="#aio"><b>04</b> AIO conversion</a><a href="#fans"><b>05</b> Pump &amp; fans</a><a href="#install"><b>06</b> Install Omarchy</a><a href="#configure"><b>07</b> Configure the board</a><a href="#accept"><b>08</b> Acceptance checks</a><a href="#recover"><b>09</b> Recovery</a><a href="#record"><b>10</b> Build record</a>
+</nav><p class="note">Read in order for a new build. The first two test stages retain the original heatsink and memory plate.</p>
+</aside>
+<main id="main">
+<header>
+<div class="eyebrow">Bench test → cooling → desktop</div>
+<h1>Your BC250 build,<br>one stage at a time.</h1>
+<p class="lead">Check the board while it is still returnable, fit the Minorsonic 240mm AIO, then install Omarchy on the new 1TB NVMe.</p>
+<p><span class="tag">Apevia SFX-AP500W assumed</span><span class="tag">mosfet.party ATX + EPS adapters</span><span class="tag">One 1440p DisplayPort screen</span><span class="tag">Possible vertical 1515 frame</span></p>
+<p class="print-note">One self-contained HTML file. Open in a browser and scroll; Ctrl+P prints it or saves a PDF. Source links need internet. Commands labeled Linux run on the BC250, not in Windows PowerShell.</p>
+</header>
+
+<section id="start">
+<div class="eyebrow">00 / Recommendation</div><h2>The plan still works—with three adjustments.</h2>
+<ol>
+<li><strong>Keep the existing heatsink and heavy memory plate for the first tests.</strong> Temporary fans can support a short, supervised screening. Don’t remove the heatsink, flash firmware, or unlock cores before you have a baseline and understand the seller’s return terms.</li>
+<li><strong>Use externally powered fans unless the board header’s load capacity is established.</strong> A passive splitter adds the fans’ current loads together. I could not establish a trustworthy BC250 CPU_FAN1 current limit. A SATA-powered PWM hub avoids powering all those motors through it.</li>
+<li><strong>Commander Duo + OpenLinkHub is a documented Linux option.</strong> NexGen3D explicitly uses this combination for the Steam Machine Pro. The earlier recommendation to defer the Duo was based too narrowly on liquidctl and is corrected here. OpenLinkHub lists the exact DUO and records support since September 2025. <a href="https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/SteamMachinePro/README.md">NexGen3D setup</a> · <a href="https://github.com/jurkovic-nikola/OpenLinkHub/blob/main/docs/supported-devices.md">Supported devices</a> · <a href="https://github.com/jurkovic-nikola/OpenLinkHub/blob/main/CHANGELOG.md">Support history</a>.</li>
+</ol>
+<div class="callout"><p><strong>Correction to the earlier advice:</strong> the detailed pinout documents a standard four-pin <code>CPU_FAN1</code>. The large <code>J4003</code> rack-fan connector is a different, multi-fan signal header. Verify the silkscreen and orientation; don’t treat every connector as a fan power socket. <a href="https://elektricm.github.io/amd-bc250-docs/hardware/pinouts/">BC250 pinouts</a>.</p></div>
+<p>Your board already has a metal plate contacting the VRAM. Preserve its pads and contact. Adding another plate or blindly replacing pads with “2mm” parts is not the starting task.</p>
+<p class="muted"><strong>What remains conditional:</strong> pump connector and current, temporary fan ratings, adapter revision and mounting kit. The UPC identifies the likely cooler below, but does not verify its motor wiring. Arch on BC250 is documented; this exact Omarchy/AIO combination has not been tested by me. <a href="https://elektricm.github.io/amd-bc250-docs/linux/arch/">Arch compatibility</a>.</p>
+</section>
+
+<section id="power">
+<div class="eyebrow">01 / Before applying power</div><h2>Keep the three PSU cable paths distinct.</h2>
+<p>Assuming the label says <strong>SFX-AP500W</strong>, Apevia specifies +12V at 33A: <strong>396W on 12V</strong>. That is adequate on paper for a stock board plus cooling. It is not an independent assessment of PSU quality or proof that your individual unit is healthy. The manufacturer lists one CPU 4+4, one PCIe 6+2, a 24-pin lead and SATA power. <a href="https://www.apevia.com/products-power-supply/sfx-ap500w">Apevia specifications</a>.</p>
+<div class="wiring" aria-label="Power connection map; not a pin-level schematic">
+<div class="wire"><div>PSU 24-pin ATX<small>20+4 joined together</small></div><div class="arrow">→</div><div>mosfet.party 24-pin start adapter<small>Supplied board connections + power button</small></div></div>
+<div class="wire"><div>PSU PCIe / VGA<small>6+2 joined together</small></div><div class="arrow">→</div><div>BC250 main PCIe 8-pin<small>Retain this connection</small></div></div>
+<div class="wire"><div>PSU CPU / EPS<small>4+4 joined together</small></div><div class="arrow">→</div><div>mosfet.party EPS adapter<small>Both Micro-Fit outputs → matching BC250 connectors</small></div></div>
+<div class="wire"><div>PSU SATA power</div><div class="arrow">→</div><div>Powered fan hub / compatible pump power adapter<small>Within each device’s electrical limits</small></div></div>
+</div>
+<p>The EPS adapter maker explicitly requires it to be used <strong>together with the main PCIe connection</strong>. It supplements power delivery; it does not replace that cable. Its input accepts CPU/EPS, not PCIe. Use one PSU for all these paths. <a href="https://mosfet.party/products/eps-8pin-to-dual-microfit">EPS adapter instructions</a>.</p>
+<ol>
+<li>Unplug AC before assembling or changing any cable. The PSU’s standby supply can remain active when the computer is “off.”</li>
+<li>Check the voltage selector, if present, with AC disconnected. Match local mains: 115V position for nominal 120V, 230V for nominal 230V. Never change it live. <a href="https://www.apevia.com/products-power-supply/sfx-ap500w">PSU selector specification</a>.</li>
+<li>Install the <strong>ATX 24-pin version</strong> of the start board using its exact supplied instructions. Follow the maker’s <a href="https://youtu.be/zLvxkjl1s1Y">24-pin installation video</a> for the small board connections and jumper setup. Do not copy the FSP-specific adapter wiring.</li>
+<li>Leave out paperclip start jumpers or a second latching switch. This adapter provides the start-control function. Check clearance between its PCB and any metal. <a href="https://mosfet.party/products/adapter-3">24-pin adapter product instructions</a>.</li>
+</ol>
+<div class="callout caution"><p><strong>Verify the revision in your hand.</strong> The web product page does not provide enough text to reproduce every small connector orientation. Use the supplied diagram/video for that step. If it differs, stop that connection and resolve it with the maker; the map above is deliberately not a pin-level wiring drawing.</p></div>
+</section>
+
+<section id="bench">
+<div class="eyebrow">02 / Immediate screening</div><h2>Test with the original heatsink still mounted.</h2>
+<p><strong>Goal:</strong> reach BIOS, establish stable basic power and cooling, and record the as-received condition. A successful POST is useful evidence, not a full health certificate.</p>
+<h3>Arrange the temporary cooling</h3>
+<ol>
+<li>Photograph both sides, serial labels, connectors and damaged-looking areas. Check for loose screws or conductive debris without disassembling the cooling.</li>
+<li>Support the board on stable, electrically insulating supports at appropriate mounting points. Leave space under the plate. Don’t use an antistatic bag as a powered work surface or balance the board on connectors.</li>
+<li>Secure the top fan so air <strong>enters and travels along the open fin channels</strong>. A fan just hovering over a closed face may move plenty of air around the heatsink and little through it. A short nonconductive duct can help, without touching electronics or obstructing exhaust.</li>
+<li>Space the underside fan clear of the plate and cables. For an open bench, I would start by blowing <strong>toward/across the plate</strong>. Your proposed outward exhaust can work in the finished case if its intake draws replacement air across the plate. A close, solid plate can choke a fan; keep an open inlet path. These are airflow recommendations, not measured results for your case.</li>
+<li>A preconfigured Commander Duo can power the two temporary fans from SATA, with a suitable splitter if needed; follow <a href="#fans">the Duo setup below</a>. Alternatively use a PSU-powered PWM hub or a purpose-made full-12V fan power adapter within its ratings. A basic PWM hub takes its control lead from verified CPU_FAN1, initially set to full speed in BIOS. Visually confirm <em>both</em> fans start immediately; one RPM reading does not prove both are running.</li>
+</ol>
+<p class="source">Hardware background: <a href="https://elektricm.github.io/amd-bc250-docs/hardware/cooling/">BC250 cooling guide</a>. Hub power/control: <a href="https://support.arctic.de/en/case-fan-hub">ARCTIC hub manual</a>.</p>
+<h3>First power-on: a short supervised check</h3>
+<ol>
+<li>For the very first POST, leave the NVMe and extra USB devices out. Connect one known-good DisplayPort monitor and wired keyboard. Turn the monitor on before starting the board.</li>
+<li>Check the power map, then start the board. Be ready to disconnect power if a fan fails, smoke/odor appears, or the board behaves abnormally.</li>
+<li>Enter BIOS using Delete. Photograph the firmware version, memory information and hardware-monitor screen.</li>
+<li>If a credible temperature readout is available, watch it for about 2–5 minutes. For this screening I would stop at <strong>80°C and still rising</strong>, or a rapid rise immediately after boot. This is a conservative test cutoff, not an AMD maximum rating. If the readings are absent or implausible, don’t use them as permission for a long test.</li>
+<li>Power down, disconnect AC, fit the 1TB NVMe with its correct standoff/screw, and repeat. Verify detection. Try three cold boots; keep settings and cooling unchanged.</li>
+</ol>
+<div class="gate"><strong>Continue when:</strong> POST is repeatable, both fans work, temperatures stabilize, and the SSD is detected. If it fails, use <a href="#recover">recovery</a> before deciding the card is faulty. Leave the AIO conversion for after Linux screening.</div>
+</section>
+
+<section id="live">
+<div class="eyebrow">03 / Before modifying the board</div><h2>Check a live Linux desktop.</h2>
+<p>A second USB with a current <a href="https://fedoraproject.org/kde/download/">Fedora KDE live image</a> lets you test without installing onto the SSD. Choose the live/try session, not the disk installer. Fedora has an established BC250 community setup path, but the particular ISO/kernel still matters. <a href="https://elektricm.github.io/amd-bc250-docs/linux/distributions/">Distribution notes</a>.</p>
+<ol>
+<li>Write the ISO to USB using the distribution’s instructions. Boot its UEFI entry. Disable Secure Boot for the subsequent Omarchy setup; disable IOMMU if exposed. Record changes.</li>
+<li>Try the normal live boot first. If it black-screens, a basic-graphics option can help diagnose bootability, but it does <strong>not</strong> establish that accelerated graphics works.</li>
+<li>Browse for 10–15 minutes under supervision. Check Ethernet, keyboard, mouse, spare USB ports and your intended audio device. Stop if thermal behavior is poor.</li>
+<li>In a terminal, record these read-only results. Save or photograph them before ending the live session.</li>
+</ol>
+<pre><code>uname -r
+cat /proc/cmdline
+lspci -nnk
+free -h
+lsblk -o NAME,MODEL,SIZE,FSTYPE,MOUNTPOINTS
+journalctl -b -p err --no-pager</code></pre>
+<p>Look for <code>Kernel driver in use: amdgpu</code> under the graphics device, a sensible memory split, and no repeating GPU resets or storage errors. Individual ACPI messages can be platform quirks; errors need context. Record which kernel produced the result. <a href="https://elektricm.github.io/amd-bc250-docs/troubleshooting/boot/">Diagnostic background</a>.</p>
+<div class="callout caution"><p><strong>Don’t run a maximum-load benchmark yet.</strong> A pair of temporarily positioned fans is not a validated thermal solution. A live-desktop pass screens basic operation; it does not exercise all shared memory or certify the GPU under sustained load.</p></div>
+<div class="gate"><strong>Decision point:</strong> keep the hardware unmodified if you see repeatable failures at stock settings. Cross-check the display cable, power and another suitable kernel before calling the board defective. Preserve the evidence while your return window is open.</div>
+</section>
+
+<section id="aio">
+<div class="eyebrow">04 / After the board passes screening</div><h2>Fit the AIO without losing board cooling.</h2>
+<div class="callout"><p><strong>Your cooler identifier:</strong> UPC <code>746721778544</code> matches Minorsonic <strong>MS240B TP1</strong>, the black non-ARGB 240mm model. The matching manufacturer-sold Amazon listing uses ASIN <code>B0FHW5DZ29</code>; the supplied <code>B0FHW5DZ20</code> did not resolve. Treat that final-character difference as an identifier discrepancy to check, not a different cooler already established. <a href="https://www.amazon.com/dp/B0FHW5DZ29">Matching product listing</a>.</p></div>
+<p>The brand’s listing specifies two 120mm PWM fans at 600–1600RPM, pump speed 3000RPM ±10%, and a nominal radiator body of 274 × 120 × 27mm. Measure yours before CAD: radiator end tanks, fittings, fan thickness and tubing bends all need space. Its generic “5W” field does not establish separate pump/fan current ratings or the pump connector pinout. <a href="https://www.amazon.com/dp/B0FHW5DZ29">Brand specification table</a>.</p>
+<p>The 240mm radiator size is a reasonable starting choice. <strong>Exact mounting compatibility matters more than “240mm.”</strong> Nexgen3d’s mount page discusses Minorsonic-specific parts, springs and fasteners; match the current files and bill of materials to your actual block. The stock AM4/AM5 bracket alone does not establish BC250 fitment. <a href="https://www.printables.com/model/1554003-nexgen3d-aio-mount-for-the-bc-250">Nexgen3d AIO mount and BOM</a>.</p>
+<ol>
+<li>With AC disconnected, dry-fit the case, radiator, tubing route, board, adapter boards and PSU before removing the stock heatsink. Check fan and cable clearance.</li>
+<li>Use the exact mount revision’s specified print material, spring hardware and fasteners. Do not improvise screw torque or spring compression on the exposed APU. No validated torque value is supplied here.</li>
+<li>Remove the original heatsink carefully, supporting the board. Keep all hardware. If old paste binds it, don’t pry against the PCB or exposed chip.</li>
+<li>Clean mating surfaces with appropriate isopropyl alcohol and lint-free material; let them dry. Remove the cold-plate protective film. Apply nonconductive thermal paste to cover the exposed die using the mount maker’s method.</li>
+<li>Seat the cold plate squarely. Tighten evenly in a cross pattern to the mount’s instructions. Confirm the block does not rest on surrounding components and the board does not bow.</li>
+<li>Preserve the underside plate/pad contact. If disturbed, inspect and replace damaged pads to the actual required thickness and compression. Too-thick pads can create poor contact elsewhere; don’t substitute a thickness from a different build.</li>
+<li>Keep airflow over the plate <strong>and the power-delivery components</strong>. Moving APU heat to a radiator removes the old heatsink airflow, so inspect what now gets little air.</li>
+<li>For a pump-in-block AIO, place the radiator’s highest point above the pump. Top mounting is often convenient; for vertical side mounting, tubes down can help if routing allows. Follow the exact Minorsonic layout if its pump is elsewhere. Avoid kinked tubes and use the specified radiator screws. <a href="https://cwsmgmt.corsair.com/documents/WW_Elite_LCD_XT_QSG_AB.pdf">General pump/radiator orientation guidance</a>.</li>
+</ol>
+<p class="source">Minorsonic lists both <a href="https://www.minorsonic.com/aio-cooler">plain AIO</a> and <a href="https://www.minorsonic.com/argb-cooler">ARGB</a> product families. The retrieved pages do not establish your unit’s pump connector/current. Its label and included manual take priority.</p>
+<div class="gate"><strong>Before CPU power:</strong> confirm pump wiring, cold-plate mounting, fan start behavior and dry fittings. Where a suitable separate power-only test setup is available, check the sealed AIO for operation/leaks first. Don’t improvise live jumpers around the assembled board.</div>
+<h3>Your vertical 1515-extrusion case concept</h3>
+<p>I would prototype a vertical board tray beside a side-mounted radiator. This is a proposed layout, not a dimensioned or thermally tested design. The case can be entirely your own while retaining a proven, cooler-specific BC250 mounting bracket.</p>
+<div class="table-wrap"><table><thead><tr><th>Area</th><th>Starting arrangement</th></tr></thead><tbody>
+<tr><td>Radiator side</td><td>Mount vertically with its top above the pump; put tubing connections down if the hoses reach comfortably. Exhaust through that side, with a clear opposite intake. A 240 radiator cannot be assumed to fit a small square top panel.</td></tr>
+<tr><td>Memory-plate side</td><td>Create an open passage across the plate. Your outward-facing fan can exhaust from this passage, provided intake openings feed it along the plate rather than through a nearby shortcut.</td></tr>
+<tr><td>APU / power-delivery side</td><td>Leave an air path across exposed power components; add a small board fan if the radiator and plate fans leave a dead area.</td></tr>
+<tr><td>PSU</td><td>Keep it low for balance, with its own unobstructed intake/exhaust. Retain the enclosed PSU, inlet and protective-earth arrangement; do not relocate mains wiring for the prototype.</td></tr>
+</tbody></table></div>
+<p>Mount the PCB on a tray with appropriate standoffs; do not let solder joints touch the conductive extrusion or brackets. Include connector insertion clearance, the DisplayPort latch, tube bend radius, and access to the NVMe and CMOS battery. Cut/drill/deburr the frame away from electronics and remove all metal chips before assembly. Do not rely on anodizing to provide electrical insulation.</p>
+<p>Make a cardboard clearance mock-up before cutting the corner posts. Use the measured board length and connector envelope for height, and radiator-plus-fan depth for width/depth. Test with temporary panels: an open frame and a closed tower can behave very differently. The tall case also needs a stable base and strain relief for heavy cables.</p>
+</section>
+
+<section id="fans">
+<div class="eyebrow">05 / Cooling electrical plan</div><h2>Separate pump power from fan speed control.</h2>
+<p><strong>Revised preferred arrangement for your proposed controller:</strong> Commander Duo powered by SATA, with the compatible pump alone on one channel and the radiator/plate fans on the other through a suitable splitter. This separates the pump’s fixed operating setting from the fans’ adjustable curve without needing two separate powered controllers. Confirm the pump’s actual connector and load first; a product-family match is not a pinout.</p>
+<div class="table-wrap"><table><thead><tr><th>If the pump has…</th><th>Use this path</th><th>Verify before power-on</th></tr></thead><tbody>
+<tr><td>SATA power plus a small tach/control lead</td><td>Native PSU SATA → pump. Connect tach/control only as its manual specifies.</td><td>The small lead may report RPM without powering the pump. Trace actual wire functions.</td></tr>
+<tr><td>A standard 3-pin motor plug</td><td>A purpose-made PSU-to-12V fan/pump adapter with adequate current capacity, if the pump manual specifies constant 12V.</td><td>Ground, 12V and tach pinout; running/startup current; no reduced-voltage “quiet” adapter.</td></tr>
+<tr><td>A standard 4-pin PWM motor plug</td><td>A separately powered, rated PWM pump channel/controller set to the specified full-speed duty initially.</td><td>Do not assume that an unplugged PWM signal means full speed. Confirm the pump’s behavior and start-up.</td></tr>
+<tr><td>A proprietary connector</td><td>The manufacturer’s controller or documented compatible adapter.</td><td>No fit-by-shape or color-only wiring. Resolve the exact SKU first.</td></tr>
+</tbody></table></div>
+<p>Those are connector-based engineering choices, not a claim that all Minorsonic models use the same wiring. Keep the pump off the fans’ variable curve: a fan-stop or low-duty setting must not stop circulation.</p>
+<h3>A simple hub is enough to start</h3>
+<p>For example, ARCTIC’s Case Fan Hub supplies fan power from SATA, passes one PWM command to all outputs, and reports RPM from socket 1. Its published limits are 1A per port and 4.5A total; include startup headroom. It will not provide three independent fan curves. <a href="https://www.arctic.de/en/Case-Fan-Hub/ACFAN00175A">Hub specifications</a>.</p>
+<p>A passive Y-splitter powers all connected motors from the board. Add their maximum currents, allow startup margin, and compare with a <em>verified</em> header limit. “Only two fans” is not sufficient. For this board, that limit remains unresolved, so the powered hub is my recommendation. Return only one tach signal. <a href="https://www.arctic.de/us/blog/what-exactly-is-pwm-pst">PWM sharing and current limits</a>.</p>
+<h3>Commander Duo wiring for this build</h3>
+<div class="callout"><p><strong>Correction:</strong> OpenLinkHub is the Linux control software used in NexGen3D’s Pro setup. liquidctl is a separate project; its pending Duo work is not a reason to call the Duo unsupported on Linux. <a href="https://github.com/NexGen-3D-Printing/SteamMachine/blob/main/SteamMachinePro/README.md">Pro instructions</a>.</p></div>
+<div class="table-wrap"><table><thead><tr><th>Connection</th><th>Proposed assignment</th></tr></thead><tbody>
+<tr><td>PSU SATA → Duo</td><td>Powers the controller and connected motors. USB alone is not the motor supply.</td></tr>
+<tr><td>Duo mode switch</td><td>ARGB / standalone mode. Set with power disconnected. A separate iCUE LINK System Hub is unnecessary for this arrangement.</td></tr>
+<tr><td>Duo USB-C → BC250 USB-A</td><td>Use a USB-A-to-USB-C data cable. This avoids needing an internal USB header.</td></tr>
+<tr><td>PWM channel 1 → pump alone</td><td>Only for a verified standard compatible motor plug within the output rating. Start with fixed full-speed operation as specified by the pump maker.</td></tr>
+<tr><td>PWM channel 2 → fan splitter</td><td>Two radiator fans plus the plate fan; all share one PWM curve. Add their maximum loads, including startup allowance.</td></tr>
+</tbody></table></div>
+<p>Corsair rates each fan port at <strong>12V, 1.5A</strong>. The channel’s entire splitter load counts against that limit. The pump’s connector/current and your fans’ actual ratings remain the final electrical checks. <a href="https://www.corsair.com/ww/en/explorer/diy-builder/accessories/corsair-commander-duo/">Corsair manual and power ratings</a>.</p>
+<p>A standard three-pin 12V pump may run at full speed on a compatible four-pin output, but PWM speed control does not apply to that three-pin motor. Confirm this against the pump manual; don’t mistake a tach-only lead for power. For a SATA-powered pump, keep its SATA supply and use the small lead only as documented. Lighting connectors stay unused for your non-ARGB cooler.</p>
+<h3>Prepare the Duo before depending on it for cooling</h3>
+<ol>
+<li>If a Windows PC is available, connect the Duo’s SATA power and USB there first. Use iCUE to check firmware and configure a conservative Device Memory profile. NexGen3D recommends doing firmware setup in Windows; its guide mentions 0.9.107. Check current Corsair guidance rather than automatically installing an older beta.</li>
+<li>In Device Memory Mode, establish fixed fan/pump outputs appropriate for the first test. Verify they persist after removing power and with iCUE closed. A curve depending on host CPU temperature is not necessarily available without host software. <a href="https://www.corsair.com/ca/en/explorer/diy-builder/fans/how-to-install-corsair-commando-duo-and-set-up-in-icue/">Device Memory Mode</a>.</li>
+<li>Transfer the controller to the BC250 with all power disconnected. The same preconfigured controller can run the two bench fans before the AIO conversion. Check fan startup in BIOS; after conversion, check pump operation there too.</li>
+<li>On Omarchy, follow <a href="https://github.com/jurkovic-nikola/OpenLinkHub#installation-recommended">OpenLinkHub’s current upstream installation</a>. Its recommended installer creates a user service; its system installation is another path. Do not copy Bazzite’s RPM commands into Arch. Use one installation method and avoid multiple applications controlling the Duo simultaneously.</li>
+<li>Open <code>http://127.0.0.1:27003</code>. Confirm the Duo and both channel RPM readings. Keep the pump channel at its fixed operating setting; change the fan channel gradually and confirm physical response. Select a temperature source that actually reports valid BC250 readings. Keep the web interface on localhost unless you deliberately configure remote access.</li>
+<li>Test a cold boot held at disk unlock, a session logout, and stopping the control service. Cooling must remain adequate in all three states. A user service does not by itself solve operation before login. Use the verified hardware profile for that interval.</li>
+</ol>
+<p class="source">OpenLinkHub explicitly lists DUO PID <code>0c56</code>, with two PWM ports and two probes: <a href="https://github.com/jurkovic-nikola/OpenLinkHub/blob/main/docs/supported-devices.md">device support</a>. Installation and dashboard: <a href="https://github.com/jurkovic-nikola/OpenLinkHub">upstream documentation</a>. If you have no Windows machine, validate factory behavior with fans first; do not assume an unknown profile is suitable for the pump.</p>
+<div class="callout stop"><p><strong>Cooling must work before Linux starts.</strong> Test it while sitting at BIOS and at the disk-unlock screen. Keep ARGB lighting separate from motor power: a three-pin 5V ARGB connector is not a three-pin 12V pump connector.</p></div>
+</section>
+
+<section id="install">
+<div class="eyebrow">06 / New 1TB NVMe</div><h2>Install Omarchy using its standard layout.</h2>
+<p>The board’s M.2 link is documented as PCIe 2.0 ×2, approximately 1GB/s at most. Your SSD’s full advertised speed will not be available; office use does not require it. <a href="https://elektricm.github.io/amd-bc250-docs/hardware/specifications/">Storage specification</a>.</p>
+<ol>
+<li>Download the current ISO from <a href="https://omarchy.org/">omarchy.org</a> and follow its signature-verification guidance. Write it to a USB with balenaEtcher on Windows; check the USB target because writing the image erases it. <a href="https://omarchy.org/manual/security/">ISO signing information</a>.</li>
+<li>Fit the SSD inside the BC250. Disconnect other unnecessary storage. Use Ethernet, one DisplayPort monitor and a wired keyboard.</li>
+<li>In BIOS, use UEFI with CSM off and Secure Boot off. Disable IOMMU if available. Record firmware/version and existing memory allocation; retain stock clocks and core counts.</li>
+<li>Boot the USB’s UEFI entry. Select the new SSD by <strong>model and capacity</strong>. A nominal 1TB drive may display about 931GiB.</li>
+<li>Choose full-disk installation and retain default encryption. This erases the selected SSD. Let Omarchy create its standard partitions/filesystems. Keep the drive-unlock password somewhere recoverable.</li>
+<li>Complete identity and keyboard settings, finish installation, remove USB, and boot the SSD. Confirm cooling continues throughout disk unlock.</li>
+</ol>
+<p class="source">Installer workflow: <a href="https://omarchy.org/manual/getting-started/">official Omarchy instructions</a>. BC250 settings: <a href="https://elektricm.github.io/amd-bc250-docs/bios/flashing/">BIOS guide</a>.</p>
+<p><strong>Black screen?</strong> Don’t format again immediately. Try Ctrl+Alt+F3 for a text console, check the display cable and use the known live USB. <code>nomodeset</code> can help recovery but must not remain in the normal accelerated desktop configuration. Omarchy uses <strong>Limine</strong>; GRUB update commands from Bazzite/Arch tutorials are not the right procedure. <a href="https://omarchy.org/manual/system-snapshots/">Omarchy boot/snapshot documentation</a>.</p>
+</section>
+
+<section id="configure">
+<div class="eyebrow">07 / Establish a reproducible baseline</div><h2>Change one thing, then verify it.</h2>
+<h3>Your single 1440p DisplayPort monitor</h3>
+<p>Connect it directly; no MST hub or HDMI conversion is needed. Start at its native 2560 × 1440 and 60Hz, then raise refresh after basic stability is established. Confirm supported modes rather than assuming a refresh rate. <a href="https://elektricm.github.io/amd-bc250-docs/hardware/display/">BC250 DisplayPort guidance</a>.</p>
+<p>Omarchy’s default high-DPI scaling can make a 1440p desktop look oversized. Open <strong>Setup → Monitors</strong>. The current manual uses <code>~/.config/hypr/monitors.lua</code>; edit its existing variables to:</p>
+<pre><code>local omarchy_gdk_scale = 1
+local omarchy_monitor_scale = 1</code></pre>
+<p>These are configuration lines, not terminal commands. Restart affected applications. If your installed version uses another file format, follow that version’s configuration instead of pasting Lua into an older file. <a href="https://omarchy.org/manual/monitors/">Official 1440p scaling guidance</a>.</p>
+<h3>1. Record and update</h3>
+<p>Run the read-only commands from <a href="#live">Linux screening</a> again. Create a snapshot before board changes. Use Omarchy’s Update menu for a full update, reboot, and confirm the desktop still works. Then install diagnostic tools:</p>
+<pre><code>omarchy-snapshot create
+# After the normal Omarchy update and successful reboot:
+sudo pacman -S --needed lm_sensors mesa-utils vulkan-tools stress-ng nvme-cli
+glxinfo -B
+vulkaninfo --summary
+sensors</code></pre>
+<p>Look for AMD hardware rendering, rather than <code>llvmpipe</code>, and RADV Vulkan support. Don’t install AMDGPU-PRO or a random mesa-git build as a first step. Recent packaged Mesa provides BC250 support; avoid the historically broken kernel ranges 6.15.0–6.15.6 and 6.17.8–6.17.10. A past known-good version is a recovery reference, not a reason to freeze updates indefinitely. <a href="https://elektricm.github.io/amd-bc250-docs/linux/arch/">Arch graphics guidance</a>.</p>
+<h3>2. Disable unreliable sleep</h3>
+<pre><code>sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target</code></pre>
+<p>Retain screen locking. BC250-focused SkillFishOS reports failure to resume from suspend; treat shutdown and display blanking separately from system sleep. Encryption also means a cold boot usually needs a local unlock before remote access works. <a href="https://skillfishos.com/en/docs/hardware-bc250/">Suspend findings</a>.</p>
+<h3>3. Choose a useful memory allocation</h3>
+<p>For this office desktop, start with a 512MB minimum GPU reservation if the firmware exposes it. The rest remains a shared resource; this does not create extra memory. Avoid 2048MB, which has reported boot problems. <a href="https://elektricm.github.io/amd-bc250-docs/bios/vram/">Memory allocation notes</a>.</p>
+<p>If the menu is hidden and the board is already working with stock P3.00 or P5.00, the <a href="https://github.com/fanoush/bc250_memcfg">upstream memory utility</a> supports changing CMOS without flashing. Read its README first. Run each step only if the preceding one succeeds:</p>
+<pre><code>sudo pacman -S --needed base-devel git
+mkdir -p ~/bc250-tools
+cd ~/bc250-tools
+git clone https://github.com/fanoush/bc250_memcfg.git
+cd bc250_memcfg
+make
+# Read and save the existing settings:
+sudo ./bc250memcfg
+# Only after confirming the supported BIOS and intended change:
+sudo ./bc250memcfg UMA_SIZE 512
+sudo reboot</code></pre>
+<p>This persists in battery-backed CMOS and is reversed by clearing CMOS, not by restoring an OS snapshot. If the BIOS differs, stop this step and establish compatibility. Do not tune memory timings or flash an unlock BIOS just to complete an office setup.</p>
+<h3>4. Add a GPU governor after stock testing</h3>
+<p>The community’s <code>cyan-skillfish-governor-smu</code> package is an AUR option that does not need the older frequency kernel patch. Review the AUR package before building. It is additional board software, not an Omarchy requirement. <a href="https://elektricm.github.io/amd-bc250-docs/system/governor/">Governor installation guide</a>.</p>
+<pre><code># If yay is available; otherwise use Omarchy's AUR installer:
+yay -S cyan-skillfish-governor-smu
+sudo systemctl stop cyan-skillfish-governor-smu.service
+sudo cp -n /etc/cyan-skillfish-governor-smu/config.toml /etc/cyan-skillfish-governor-smu/config.toml.before-office</code></pre>
+<p>Open the installed config with your editor. If it uses the currently documented schema, edit the existing <code>[frequency-range]</code> section to <code>min = 1000</code> and <code>max = 1500</code> MHz for an initial office profile. Don’t add a second duplicate section or paste an old YAML example. Retain the packaged voltage curve for initial evaluation; even defaults need testing on your board. <a href="https://raw.githubusercontent.com/filippor/cyan-skillfish-governor/smu/default-config.toml">Upstream configuration schema</a>.</p>
+<pre><code>sudo systemctl enable --now cyan-skillfish-governor-smu.service
+systemctl status cyan-skillfish-governor-smu.service --no-pager
+journalctl -u cyan-skillfish-governor-smu.service -b --no-pager</code></pre>
+<p>Only run one GPU governor. If instability begins, disable it and reboot to compare at stock. CPU ACPI/power patches and undervolting are later experiments. Keep CPU security mitigations on; nexgen3d’s Bazzite scripts change these and other settings that do not match this build. <a href="https://github.com/NexGen-3D-Printing/SteamMachine">Script scope</a>.</p>
+<h3>5. Keep the first swap configuration</h3>
+<pre><code>free -h
+swapon --show
+systemctl status fstrim.timer --no-pager</code></pre>
+<p>Record the installer’s swap setup before changing it. Don’t automatically apply a gaming script’s 32GB swapfile or disable zram. Test your actual browser/agent-control workload first. If more swap is needed, add it using a method appropriate to the installed filesystem; a generic file recipe can be wrong on Btrfs. Verify scheduled SSD trimming, and investigate before changing an existing configuration.</p>
+</section>
+
+<section id="accept">
+<div class="eyebrow">08 / Before relying on it</div><h2>Prove the finished machine in stages.</h2>
+<p>These are proposed acceptance checks for your build. Run with the AIO fitted correctly, confirmed pump operation, active memory/board airflow, and temperature monitoring. They do not certify every component or every byte of memory.</p>
+<ol>
+<li><strong>Idle:</strong> spend 15 minutes in the desktop. Record room temperature, credible sensors, pump/fan RPM and wall power if available. Do not infer total power from one GPU sensor.</li>
+<li><strong>Short CPU load:</strong> monitor in one terminal and run a one-minute test in another. Stop if temperature rapidly rises, reaches the conservative 80°C screening cutoff and continues rising, or cooling behaves abnormally.</li>
+</ol>
+<pre><code># Terminal 1; Ctrl+C stops the display:
+watch -n 2 sensors
+
+# Terminal 2; Ctrl+C stops the load early:
+stress-ng --cpu 2 --timeout 60s --metrics-brief</code></pre>
+<p>After cooling and readings are demonstrably stable, a five-minute six-worker run is a useful next step:</p>
+<pre><code>stress-ng --cpu 6 --timeout 5m --metrics-brief</code></pre>
+<p class="source">Tool behavior and selectable workloads: <a href="https://github.com/ColinIanKing/stress-ng">stress-ng upstream</a>.</p>
+<ol start="3">
+<li><strong>Graphics:</strong> verify hardware rendering, then use a light 3D application and your actual browser/video workload. <code>vulkaninfo</code> lists capabilities; it is not a GPU stress or VRAM integrity test. Watch for artifacts, compositor exits and repeated driver resets.</li>
+<li><strong>Storage:</strong> use <code>sudo nvme list</code> to identify the SSD, then <code>sudo nvme smart-log /dev/nvme0</code> only if that is the listed controller. Record critical warnings, temperature and media errors. Those are read-only checks, not a complete storage burn-in. <a href="https://github.com/linux-nvme/nvme-cli">nvme-cli upstream</a>.</li>
+<li><strong>Real work:</strong> spend at least an hour with the intended browser tabs, editor, SSH sessions and audio. Check <code>free -h</code> and <code>swapon --show</code> under that workload. Then repeat inside the closed case; an open-bench pass does not validate case airflow.</li>
+<li><strong>Power behavior:</strong> try three shutdown/cold-start cycles. Verify the start adapter removes main power after OS shutdown, pump/fans restart before login, the SSD boots consistently, and the monitor returns after being switched off/on.</li>
+</ol>
+<p>If controlling agents across networks, Omarchy offers Tailscale through <strong>Install → Service → Tailscale</strong>. Use individual SSH keys and keep long-running jobs on the remote agents, so restarting the desktop does not terminate the work. <a href="https://omarchy.org/manual/commercial-apps-services/">Omarchy service setup</a>.</p>
+<div class="gate"><strong>Ready for office duty:</strong> repeatable cold boots, stable real workload, functioning audio/network, no unexplained resets or artifacts, and cooling independent of desktop software. Create another snapshot and separately back up documents/keys. A snapshot on the same SSD is not a backup against SSD failure.</div>
+</section>
+
+<section id="recover">
+<div class="eyebrow">09 / When a stage fails</div><h2>Change the smallest possible variable.</h2>
+<div class="table-wrap"><table><thead><tr><th>Symptom</th><th>First response</th></tr></thead><tbody>
+<tr><td>No POST</td><td>Disconnect AC. Recheck PSU selector, cable types, adapter installation and monitor input. Try the initial minimal setup without NVMe. Do not start with a BIOS flash.</td></tr>
+<tr><td>POST works; Omarchy black-screens</td><td>Try a text console and the live USB. Record kernel and boot arguments. Working live graphics points toward an OS/configuration difference, not proof of a bad board.</td></tr>
+<tr><td>Immediate temperature rise after AIO conversion</td><td>Stop. Check pump power, protective film, cold-plate contact and mounting pressure. More fan speed cannot fix absent cold-plate contact.</td></tr>
+<tr><td>Crashes only after governor setup</td><td>Disable the governor, reboot and retest stock. Do not immediately raise voltage.</td></tr>
+<tr><td>Crashes only after a long warm-up</td><td>Check plate contact, VRM airflow, PSU behavior and memory pressure. A cool APU does not rule out another overheating component.</td></tr>
+<tr><td>Fails after an OS update</td><td>Use the working snapshot from Limine. Preserve logs and compare kernel/graphics versions before applying further changes.</td></tr>
+<tr><td>Fails after a CMOS memory change</td><td>Disconnect AC and use the board’s documented CMOS-clear procedure, returning the jumper to its normal position before power. Restore recorded settings. OS snapshots do not restore CMOS.</td></tr>
+</tbody></table></div>
+<pre><code># If the newly added governor causes trouble:
+sudo systemctl disable --now cyan-skillfish-governor-smu.service
+sudo reboot
+
+# Useful logs after a failure/reboot, if retained:
+journalctl -b -1 -p err --no-pager</code></pre>
+<p class="source"><a href="https://elektricm.github.io/amd-bc250-docs/troubleshooting/boot/">BC250 boot troubleshooting</a> · <a href="https://github.com/fanoush/bc250_memcfg">CMOS utility recovery</a> · <a href="https://omarchy.org/manual/system-snapshots/">Limine snapshot restoration</a>.</p>
+<p>For a possible return, report the stock configuration, firmware/kernel versions, exact symptom and whether it repeats with another known-good display/power setup. Avoid presenting one failed distro boot as a confirmed hardware defect.</p>
+</section>
+
+<section id="record">
+<div class="eyebrow">10 / Keep with the machine</div><h2>Build record</h2>
+<p>Print this table or copy it into your notes. Blank cells are intentionally for your measurements; this page does not save entries.</p>
+<div class="table-wrap"><table class="record"><thead><tr><th>Item</th><th>Your record</th></tr></thead><tbody>
+<tr><td>Board serial / seller / return deadline</td><td></td></tr><tr><td>Original BIOS / original memory split</td><td></td></tr><tr><td>PSU exact model / +12V label / selector</td><td></td></tr><tr><td>Start adapter &amp; EPS adapter revision</td><td></td></tr><tr><td>Minorsonic SKU / pump plug / current</td><td></td></tr><tr><td>Fan models / max current / controller</td><td></td></tr><tr><td>Case and AIO mount revision / material</td><td></td></tr><tr><td>SSD model / serial / initial SMART</td><td></td></tr><tr><td>Working ISO / kernel / Mesa versions</td><td></td></tr><tr><td>Room temperature / idle and load readings</td><td></td></tr><tr><td>Cold-boot, audio and display results</td><td></td></tr><tr><td>Snapshot date / separate backup location</td><td></td></tr>
+</tbody></table></div>
+<p><strong>Next information needed to finalize connector-specific instructions:</strong> the pump connector/current from the MS240B TP1 label/manual, temporary fan current ratings, and the supplied mosfet.party revision diagram. Known display: one 1440p DisplayPort monitor. Case: undecided, with a vertical 1515-extrusion design under consideration.</p>
+</section>
+<footer>Prepared for this BC250 office-desktop build · 9 September 2026 · Manufacturer/project documentation is linked next to the relevant claims. Test durations, staged acceptance criteria and the 80°C screening cutoff are recommendations for this build, not manufacturer certification limits.</footer>
+</main>
+</body>
+</html>

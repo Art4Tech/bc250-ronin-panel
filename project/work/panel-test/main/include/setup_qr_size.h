@@ -1,0 +1,1 @@
+#define SETUP_QR_SIZE 225

@@ -1,0 +1,22 @@
+# Host state and private recovery data
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/running.json
+**/.venv/
+**/build/
+**/build-migrated/
+**/.env
+**/.env.*
+**/Panel-Recovery/
+SOURCE-PROVENANCE.json
+MANIFEST-SHA256.json
+# Release-provided dependencies and local downloads
+dependencies/
+project/work/esp-idf/
+project/work/elecrow-official/
+project/work/idf-tools/
+project/work/python/
+project/work/panel-tools/
+.downloads/
+media-rebuilt/

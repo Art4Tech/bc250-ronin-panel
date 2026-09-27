@@ -1,0 +1,32 @@
+{
+  "fps": 12,
+  "segments": [
+    [
+      "day2",
+      "day",
+      0,
+      0.75
+    ],
+    [
+      "nite2",
+      "night",
+      0,
+      1.5
+    ],
+    [
+      "sleep2",
+      "day",
+      0.75,
+      5.125
+    ],
+    [
+      "wake2",
+      "night",
+      1.5,
+      5.125
+    ]
+  ],
+  "audio": "day-original.mp4",
+  "audio_gain": 0.35,
+  "audio_loop_seconds": 4.7
+}

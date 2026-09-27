@@ -1,0 +1,34 @@
+[
+  {
+    "source": "dayidle.mp4",
+    "asset": "day3.rvj",
+    "frames": 201,
+    "fps": 10,
+    "bytes": 9093655,
+    "audio_bytes": 1286400
+  },
+  {
+    "source": "nightidle.mp4",
+    "asset": "nite3.rvj",
+    "frames": 201,
+    "fps": 10,
+    "bytes": 7693840,
+    "audio_bytes": 1286400
+  },
+  {
+    "source": "sleepytime.mp4",
+    "asset": "sleep3.rvj",
+    "frames": 52,
+    "fps": 10,
+    "bytes": 1637022,
+    "audio_bytes": 498348
+  },
+  {
+    "source": "wakeuptime.mp4",
+    "asset": "wake3.rvj",
+    "frames": 52,
+    "fps": 10,
+    "bytes": 1613458,
+    "audio_bytes": 584364
+  }
+]

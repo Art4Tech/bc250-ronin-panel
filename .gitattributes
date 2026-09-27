@@ -1,0 +1,10 @@
+* text=auto
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.bin binary
+*.rgb565 binary
+*.argb binary
+*.rvj binary
+*.pcm binary
+project/work/panel-test/managed_components/** -text
