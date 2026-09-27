@@ -44,3 +44,9 @@ Third-party source and tools retain their own licenses. No new blanket license i
 ![Day scene with simulated Omarchy/BC250 readings](project/outputs/Resource-Panel/simulations/bc250-day-bezel.png)
 
 This preview uses an unchanged frame of the current day video and the firmware's bitmap fonts. The active image is 800 × 480 pixels. The [printable sizing preview](project/outputs/Resource-Panel/simulations/bc250-day-actual-size.html) and [physical-size SVG](project/outputs/Resource-Panel/simulations/bc250-day-actual-size.svg) use a 120.7 × 76.3 mm black front, with a centered 108 × 64.8 mm active area. Values are illustrative, assuming approximately 8 GiB assigned to system RAM; they are not measured BC250 results. See preview-details.json for assumptions. This is not a fabrication drawing.
+
+## Bazzite preview
+
+![Bazzite dashboard concept](project/outputs/Resource-Panel/simulations/bazzite/bazzite-day-bezel.png)
+
+[Interactive preview](project/outputs/Resource-Panel/simulations/bazzite/bazzite-interactive-preview.html) (download and open locally): DroidSansM Nerd Font Mono, LED controller concept for two 24-pixel rings, and 120.7 × 76.3 mm outer dimensions with 3.5 mm top and 7.5 mm bottom bands. Native image is 800 × 480; the physical illustration models a 108 × 65.3 mm active area. This is a simulated UI, not flashed firmware or a fabrication drawing. [Preliminary wiring notes](project/outputs/Resource-Panel/simulations/bazzite/NEOPIXEL-WIRING.md).
