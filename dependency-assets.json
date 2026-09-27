@@ -1,0 +1,67 @@
+[
+  {
+    "name": "esp-idf-5.5.4.zip",
+    "bytes": 280292451,
+    "sha256": "7e3474007e109f6998228c05f3f8de566806a479d1a3729c0f7f18cc2e47d0be"
+  },
+  {
+    "name": "elecrow-vendor-source.zip",
+    "bytes": 299175263,
+    "sha256": "a7434ffab4ae6592e3cac68a9e84680a31aa88a8181a31b5b6f9ea506d00d041"
+  },
+  {
+    "name": "windows-python-environments.zip",
+    "bytes": 201105422,
+    "sha256": "4bc22a9c964f120c7a77c81937ea313954611737dcd34b4bfe45f5027c83c7b8"
+  },
+  {
+    "name": "git-windows-2.52.0.zip",
+    "bytes": 180240871,
+    "sha256": "40728d541113641df4d4f795df6c01d11de081d348b500327c2bb66dece76845"
+  },
+  {
+    "name": "idf-tool-ccache.zip",
+    "bytes": 1814511,
+    "sha256": "d392d614ea69166772ee3909c3c9be65fadd6810c992ce54b2bfe51d8b59bdc6"
+  },
+  {
+    "name": "idf-tool-cmake.zip",
+    "bytes": 47457716,
+    "sha256": "0ceea0491881dad8cafe4fcb7b9fe315e9804de0fa9aa888a09a473995c76eac"
+  },
+  {
+    "name": "idf-tool-esp-rom-elfs.zip",
+    "bytes": 3640619,
+    "sha256": "203a42d66c2e064f9b95c42b03e21cd088f2e8ff47706b5bfb5c0c74b6c815a4"
+  },
+  {
+    "name": "idf-tool-idf-exe.zip",
+    "bytes": 75779,
+    "sha256": "42f137a12cdf607f9a0999fee238fae206d7c9b37cd9db8ed37cd6723144ecc6"
+  },
+  {
+    "name": "idf-tool-ninja.zip",
+    "bytes": 295067,
+    "sha256": "62b06edd7459a4a97cf4a0dadbac654be46ea817bda0d15a5e030e2737f799b8"
+  },
+  {
+    "name": "idf-tool-openocd-esp32.zip",
+    "bytes": 3337927,
+    "sha256": "bcd6d91cfcaaeeac32112ed0fdbc35f0c188bbe800c8a6ade07f272e09603a0e"
+  },
+  {
+    "name": "idf-tool-riscv32-esp-elf.zip",
+    "bytes": 765797790,
+    "sha256": "c4f2852147b1a05d67829003a7132a239605e735c9132bd3e73dbf308938777a"
+  },
+  {
+    "name": "idf-tool-riscv32-esp-elf-gdb.zip",
+    "bytes": 35336438,
+    "sha256": "5fea28a92135c7f20d7a66c02eedd864209e5e003aaf2e852d3328d92065ac15"
+  },
+  {
+    "name": "idf-tool-metadata.zip",
+    "bytes": 1888,
+    "sha256": "144da252ba6afb67b83f3a309a1f6606ccb1eecd2ec8f1b4693848376cb55b10"
+  }
+]

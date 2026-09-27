@@ -31,13 +31,13 @@ Prepared 2026-09-26 for a new **Windows x64 development PC**. All original files
 
 ## What is included
 
-* `project/work/`: the entire original development tree, including the full ESP-IDF checkout, vendor checkout, managed components, toolchains, Python environments, standalone Python 3.12, build output, scripts, caches, tests and diagnostic logs.
+* `project/work/`: the entire original development tree, including the full ESP-IDF checkout, vendor checkout, managed components, toolchains, Python environments, standalone Python 3.12, build output, scripts, tests and diagnostic logs. Redundant pip/uv caches are excluded; their installed dependencies are included.
 * `project/outputs/`: the complete runbook, companion, firmware versions, factory backup, artwork, prompts, previews, media conversions and status documents.
 * `external-originals/Downloads/`: all six user-supplied MP4s, copied directly from Downloads: day, night, dayidle, nightidle, sleepytime, wakeuptime.
 * `external-originals/generated-images/`: all five images generated for this task, including earlier versions outside the project folder.
 * `dependencies/Python314/`: the original Python 3.14.7 base used by the esptool environment; `dependencies/Git/`: Git for Windows 2.52.0 including its command-line runtime and licenses.
 * `dependencies/LibreHardwareMonitor.NET.10.zip` and its extracted application folder, including existing settings. The optional system runtime/driver requirements are below.
-* `SOURCE-PROVENANCE.json`: original absolute path, copied path, size and SHA256 for every source file. This records the pre-migration source snapshot. `MANIFEST-SHA256.json` describes the final package, including migration scripts. Source files adapted for relocation may therefore intentionally differ between these two records.
+* `SOURCE-PROVENANCE.json`: original absolute path, copied path and size for every source file; hashes or prior-copy verification records accompany them. This records the pre-migration source snapshot. `MANIFEST-SHA256.json` describes the final package, including migration scripts. Source files adapted for relocation may therefore intentionally differ between these two records.
 * Exact Python package lists and ESP-IDF revision/submodule inventory are at the package root. Licenses supplied with dependencies are retained in their original directories.
 
 ## Authoritative source and build
