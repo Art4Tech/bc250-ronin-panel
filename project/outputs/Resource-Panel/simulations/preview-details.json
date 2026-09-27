@@ -1,0 +1,26 @@
+{
+  "simulated": true,
+  "panel_resolution": [
+    800,
+    480
+  ],
+  "outer_mm": [
+    120.7,
+    76.3
+  ],
+  "assumed_active_mm": [
+    108,
+    64.8
+  ],
+  "values": {
+    "cpu_percent": 8.6,
+    "cpu_c": 47,
+    "ram_percent": 41.6,
+    "ram_used_gib": 3.2,
+    "ram_total_gib": 7.7,
+    "disk_percent": 6.8
+  },
+  "background": "day3.rvj frame 20 at 10fps",
+  "fonts": "LVGL Montserrat Medium native glyph bitmaps 14px/24px",
+  "geometry_note": "Outer size supplied by user; centered active area inferred from Elecrow rounded 108x65mm specification and 800:480 pixel aspect. Not a fabrication drawing."
+}

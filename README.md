@@ -10,6 +10,8 @@ An Elecrow CrowPanel Advanced **5-inch ESP32-P4 V1.0** display for a BC250 deskt
 
 Clone this repository into a short path, then open PowerShell there:
 
+If Git is not installed yet, use GitHub's **Code → Download ZIP**, extract it to a short path such as `C:\BC250`, and run the same commands below. The dependency release includes Git for the firmware build.
+
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Get-Dependencies.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Build-Firmware.ps1
@@ -36,3 +38,9 @@ Current release binary: `project/outputs/Resource-Panel/firmware/dashboard-movie
 `Prepare-Media.py` rebuilds conversions into a new directory without overwriting supplied assets. The old procedural warp preview was rejected; the current animation uses supplied videos.
 
 Third-party source and tools retain their own licenses. No new blanket license is assigned to vendor code or supplied media by this repository.
+
+## Display preview
+
+![Day scene with simulated Omarchy/BC250 readings](project/outputs/Resource-Panel/simulations/bc250-day-bezel.png)
+
+This preview uses an unchanged frame of the current day video and the firmware's bitmap fonts. The active image is 800 × 480 pixels. The [printable sizing preview](project/outputs/Resource-Panel/simulations/bc250-day-actual-size.html) and [physical-size SVG](project/outputs/Resource-Panel/simulations/bc250-day-actual-size.svg) use a 120.7 × 76.3 mm black front, with a centered 108 × 64.8 mm active area. Values are illustrative, assuming approximately 8 GiB assigned to system RAM; they are not measured BC250 results. See preview-details.json for assumptions. This is not a fabrication drawing.
