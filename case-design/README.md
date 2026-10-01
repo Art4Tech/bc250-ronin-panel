@@ -1,5 +1,7 @@
 # BC250 case design
 
+[Project overview](../README.md) · [Display software and its original README](../display/README.md)
+
 Saved design and rendering snapshot imported on 2026-10-01. The original folder layout is retained so nearby parts, media and relative Blender references stay together.
 
 ## Open the design

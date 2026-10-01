@@ -1,5 +1,7 @@
 # BC250 / Elecrow resource panel — migration handover
 
+**Repository layout:** the package root referenced below is now `display/`. Open PowerShell there for these commands. The historical validation and private migration-package notes are retained.
+
 Prepared 2026-09-26 for a new **Windows x64 development PC**. All original files on the old PC are preserved. This folder is the copyable package; copy the whole folder, not just the companion. No device was flashed, erased, or reformatted during packaging.
 
 ## First use on the new PC

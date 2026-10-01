@@ -1,5 +1,7 @@
 # Public repository contents and private migration boundary
 
+The panel package now lives in `display/`. Paths in the case-design section below are relative to the repository root; the [case-design guide](../case-design/README.md) is alongside this package.
+
 ## Case-design addition (2026-10-01)
 
 `case-design/` adds the saved SolidWorks assembly and component files, neutral CAD files, display reference image, and all four delivered render folders (original, V2, V3 and V5). CAD and media binaries use Git LFS. `case-design/FILES-SHA256.json` records the imported files and their verified SHA-256 hashes. SolidWorks lock files and local `.codex` state are excluded. The original design folder is preserved. Third-party component models retain their existing rights; this addition assigns no blanket license to them.

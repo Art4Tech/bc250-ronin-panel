@@ -1,5 +1,7 @@
 # Migration validation
 
+The panel package has moved together into `display/`; paths below are relative to that package. These are the original migration results, not a claim of a new hardware test after the move.
+
 Validated during preparation on Windows x64:
 
 * Public source and media push succeeded; a fresh anonymous clone completed.

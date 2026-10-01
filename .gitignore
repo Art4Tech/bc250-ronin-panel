@@ -13,11 +13,11 @@ SOURCE-PROVENANCE.json
 MANIFEST-SHA256.json
 # Release-provided dependencies and local downloads
 dependencies/
-project/work/esp-idf/
-project/work/elecrow-official/
-project/work/idf-tools/
-project/work/python/
-project/work/panel-tools/
+display/project/work/esp-idf/
+display/project/work/elecrow-official/
+display/project/work/idf-tools/
+display/project/work/python/
+display/project/work/panel-tools/
 .downloads/
 media-rebuilt/
 # CAD locks, local agent state and editor backup files
