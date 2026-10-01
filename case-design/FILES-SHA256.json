@@ -1,0 +1,797 @@
+[
+  {
+    "path": "10x2_Magnet.SLDPRT",
+    "bytes": 95242,
+    "sha256": "86fedaabdbab376a37d658eed164cd85f99cc0160db1ddf7176abe98bbe00679"
+  },
+  {
+    "path": "16mm_Power_Button.SLDPRT",
+    "bytes": 1659289,
+    "sha256": "a7c2a35cabb6d2636e80f19a7e0a077665d149939fcc61155d7cf5a2dd138458"
+  },
+  {
+    "path": "180degree_USB_Adapter.SLDPRT",
+    "bytes": 212135,
+    "sha256": "ad410d32705d2cb38234c85bc391e17e1899413a9df2674827fabcb03dbb4fa0"
+  },
+  {
+    "path": "6x3_Magnet.SLDPRT",
+    "bytes": 96000,
+    "sha256": "441d3d7fc08ac5f0ce7f5bc878cf76067eabfafa7978fe9c6bcd97b5581248c4"
+  },
+  {
+    "path": "80mm_Fan_Grill.SLDPRT",
+    "bytes": 2003792,
+    "sha256": "6fddfba3bf682982a90c4fbfc8f82660ac49b61235c2a2ec7c067bc89eae4ad1"
+  },
+  {
+    "path": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer.SLDPRT",
+    "bytes": 49295,
+    "sha256": "406e86b33b7d995468fd3103a722505c912f2cef70a1255dc96c5b3e07f26ef2"
+  },
+  {
+    "path": "91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+    "bytes": 1201922,
+    "sha256": "e1d727880f6c4362dce7103900eb4bdbe5497a9ae50f81ea39c9cd2b4f0a1b9e"
+  },
+  {
+    "path": "92MM_Arctic_PST_FAN.SLDPRT",
+    "bytes": 1250633,
+    "sha256": "62b7c60e92774bf36c103db8b3aef81e24f94cca31c28d9f437a1867ffbdfc40"
+  },
+  {
+    "path": "92MM_Arctic_PST_Split_Insert.SLDPRT",
+    "bytes": 317815,
+    "sha256": "139893db052ad8434f3f519eb5aa8a8b79d546e0345ad541f25b2ef7f1fcd346"
+  },
+  {
+    "path": "93657A009_Nylon Unthreaded Spacer.SLDPRT",
+    "bytes": 158850,
+    "sha256": "a35211e6f6c2c7166b1e40bbb992f379d0a5ba4b0ea86e7a3469f85f0c18b110"
+  },
+  {
+    "path": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut.SLDPRT",
+    "bytes": 1259503,
+    "sha256": "90f685bbfa9541946f1bb219158acc5076846ba65c5c9f56d771696e7c6c7ca6"
+  },
+  {
+    "path": "94180A333_Brass Tapered Heat-Set Inserts for Plastic.SLDPRT",
+    "bytes": 1084858,
+    "sha256": "1d127353563187f9bf1bf3bcf83196e5a2263e3b873db8ba7c5ce07fb4b69a7e"
+  },
+  {
+    "path": "Adafruit NeoPixel Ring 24 rev C.step.SLDPRT",
+    "bytes": 8532306,
+    "sha256": "a0c26b64b36866111bf3d71cdd9284a87648534b14089cdeb7b39f2bbb2a5447"
+  },
+  {
+    "path": "ANT-W63-IPW1-NP.stp",
+    "bytes": 123974,
+    "sha256": "28a8a1c2507303c67e6dcf5059adb86e0fe1551f3b1a6c5b355799192375deb6"
+  },
+  {
+    "path": "Apevia_500_SFX.SLDPRT",
+    "bytes": 9808637,
+    "sha256": "f7df5b4585c0d82d56ffa31353784501eca92a3393d52e819f289e13af3fa651"
+  },
+  {
+    "path": "Apron.SLDPRT",
+    "bytes": 326139,
+    "sha256": "93c5af299ab6691e04ba4b70fdf8c8fff7f7840f9967850aec3dc55aebb43dcb"
+  },
+  {
+    "path": "Backbone.SLDPRT",
+    "bytes": 4672493,
+    "sha256": "c28712543405d952ed4c6a702f9bf105f030adc578b58ff6d148ee77f4587d97"
+  },
+  {
+    "path": "bazziteBC250gui.png",
+    "bytes": 567906,
+    "sha256": "f6fb9faebb12c7655582b199269966d2d36685b6939eb139db4eaf31dd233963"
+  },
+  {
+    "path": "bc250_after_heatsink_mod.step.SLDPRT",
+    "bytes": 5073777,
+    "sha256": "4efd14f9a07a45e96ca8baf0e94382309d4b2e2e5e5c0ae33037560446ce93eb"
+  },
+  {
+    "path": "bc250_am4_adapter_mount_v1.SLDPRT",
+    "bytes": 2231861,
+    "sha256": "b94e2ff39b526f2cf4d7757417721dabb5f2ae4cce5d9ff57b0b5e55d03970fb"
+  },
+  {
+    "path": "bc250_bare.SLDPRT",
+    "bytes": 5242848,
+    "sha256": "b369a93b1b6c758a3c08a4c85cc90e7dd7416790e9a1bf369b80de8c38a2585e"
+  },
+  {
+    "path": "BC250_HeatSink_Section1.SLDPRT",
+    "bytes": 700649,
+    "sha256": "11a068e679fb5404725c87fceee2cc604b4bb2c3fa90ce5e6c3ef1da7c7e3269"
+  },
+  {
+    "path": "BC250_HeatSink_Section2.SLDPRT",
+    "bytes": 209527,
+    "sha256": "0db0af3d9291bf5d93bc68dcd582bf75b823ca808330e2c6e15d1c3ce4a40f19"
+  },
+  {
+    "path": "BC250_HeatSink_Section3.SLDPRT",
+    "bytes": 249940,
+    "sha256": "de9236be2119782c1fc1d16dd6823b47860a6e47717bbda8d0ad1710bc858259"
+  },
+  {
+    "path": "BC250-Assy.SLDASM",
+    "bytes": 35712166,
+    "sha256": "271cf7703d2a2d1c0b56d6f5e30ba2481672cdabf75e36cca64796add342484a"
+  },
+  {
+    "path": "CSJ-RGFB-200-MHF4--3DModel-STEP-56544.STEP",
+    "bytes": 5441459,
+    "sha256": "3e368bf8210691ad0fb7dd1305130017903fee2928ec9f1aa6abeb3a04ac1588"
+  },
+  {
+    "path": "Dual_92MM_FAN_Shim.SLDPRT",
+    "bytes": 432165,
+    "sha256": "b4c0e645658163a31f02ccc67597c40139a3b5d48ccbd2cd4dd31f0268a4b473"
+  },
+  {
+    "path": "Dual_92MM_FAN_Shroud.SLDPRT",
+    "bytes": 1067341,
+    "sha256": "ee694920cb813460c6d8fec6c474d834027bd293ae0bcb7e2269353a02556686"
+  },
+  {
+    "path": "ESP32-P4-5_0-inch-20251230.stp",
+    "bytes": 15305320,
+    "sha256": "2c18b972412757f3b031c56bcf3e7a16a08fa18e73cb2783876baba9c0cf8ce5"
+  },
+  {
+    "path": "ESP32-P4-5_0-inch-20251230.stp.SLDPRT",
+    "bytes": 10345733,
+    "sha256": "badf224691fc50790c367b4979a3ff5164e52badf413ec1f7fa48c8d1bbb670b"
+  },
+  {
+    "path": "ESP32-P4-5in.SLDPRT",
+    "bytes": 10341227,
+    "sha256": "1893b58429978a90f75ba196c1ce5e9593bb0cdbede7c091dd00b2a7cbee2110"
+  },
+  {
+    "path": "Flat pattern - Backbone.DXF",
+    "bytes": 493076,
+    "sha256": "fed6fdbbc0bb83bb072fb81036c3ff2985c3ab75661250ac488a60181c95d2a0"
+  },
+  {
+    "path": "Front_Cover.SLDPRT",
+    "bytes": 533557,
+    "sha256": "8e1e14d40c0ae2cc1b5b8a168ff8a5758d4555cd08514899c6f7ddc147874e35"
+  },
+  {
+    "path": "High-efficiency Noctua 80mm fan grill v3.SLDPRT",
+    "bytes": 4216779,
+    "sha256": "e6a3433a52410dc847b3e648eff39931caf7862e791e9aef48e7ff9bb644905b"
+  },
+  {
+    "path": "Left_Apron.SLDPRT",
+    "bytes": 520938,
+    "sha256": "559f6bcb39efd4946f710491721378edc51d229f2be196f6971d00720b90d52d"
+  },
+  {
+    "path": "M2_Splitter.SLDPRT",
+    "bytes": 109991,
+    "sha256": "b6eb2362e7f4808949fe83f7f22b571d691144e31071eeca1f0a60a8c29ecf75"
+  },
+  {
+    "path": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+    "bytes": 1230359,
+    "sha256": "b7d67980b4f64e9b09852bd62d112fe4ff93b63e939887cbc9e082fb77938a25"
+  },
+  {
+    "path": "M3x45_91420A138_Steel Phillips Flat Head Screws.SLDPRT",
+    "bytes": 2822221,
+    "sha256": "9642414a720ed9866451338ec041b580f9f188c4a48bdf4ea3201193cbafa442"
+  },
+  {
+    "path": "MirrorRight_Apron.SLDPRT",
+    "bytes": 107258,
+    "sha256": "2135d513f7db7b429966dd75964b333d199fa9b2f7bb6227467cc75e59284457"
+  },
+  {
+    "path": "NF-A8_Public-CAD.stp.SLDPRT",
+    "bytes": 3939863,
+    "sha256": "603f8e66259c5574d1f238aae06e679fdd145fdd52a72528f63a45297991780b"
+  },
+  {
+    "path": "P16-TF-RF-X.stp",
+    "bytes": 1512681,
+    "sha256": "28c9f1d9c5f6d40f93d77d6eb2513a2303bc59b0308953cc43f01eb27ccb3aca"
+  },
+  {
+    "path": "PanelMnt_SMA_Antenna_Cable.SLDPRT",
+    "bytes": 1396431,
+    "sha256": "94790d423f1a5a3b1dee32d5fbc90ec8f4a81327e7ab6d47f793de1e902b5295"
+  },
+  {
+    "path": "PSU_SFX_APEVIA_500.SLDPRT",
+    "bytes": 166436,
+    "sha256": "ec66f4f5977ae6c62e5a8c5f3ab5b85800b42c592964d05a5c658d3070e44ad2"
+  },
+  {
+    "path": "Rear_Cover_Whole.SLDPRT",
+    "bytes": 8956489,
+    "sha256": "3723abf5b45048140ad7cb92890a21a4ba064b88ce075f4ad589268c707818b8"
+  },
+  {
+    "path": "Right_Apron.SLDPRT",
+    "bytes": 598268,
+    "sha256": "af88be83c926e21df682f93599ae0d94159548e7cd6fb9c984f3492e131987b9"
+  },
+  {
+    "path": "snowman_mc75-8_heatsink_v1.SLDPRT",
+    "bytes": 12540667,
+    "sha256": "fe0099eca63881b5b239db217f12e3db83f6d0193d9db0fc3b406ca5d0db0069"
+  },
+  {
+    "path": "Speaker.SLDPRT",
+    "bytes": 130711,
+    "sha256": "3821997fd7b08f07389b847581b4c0c6c46ccc1d006ec3c480e3d1a37ffd3ee0"
+  },
+  {
+    "path": "SSD_M2_2230.SLDPRT",
+    "bytes": 93193,
+    "sha256": "d25d350a9033935b04a4a6e813f24d2d18c22207eea3e53e2db75d3f4fbc1690"
+  },
+  {
+    "path": "SSD_M2_2230.step",
+    "bytes": 46775,
+    "sha256": "ae1dd6f1c577708c33d0751dd4128a880544970c99944f06ee677ea3baacfb6b"
+  },
+  {
+    "path": "SSD_M2_2280.SLDPRT",
+    "bytes": 88860,
+    "sha256": "3b456ccbc4bb8f650b1e750aeeab78456c3ec6e3bb78de02250dd6aa4e0cec39"
+  },
+  {
+    "path": "SSD_M2_2280.step",
+    "bytes": 45541,
+    "sha256": "8bd0f02d55c563f3d122aba86c5809f8d0c45e0dc633c668e0ddf96bb4242872"
+  },
+  {
+    "path": "Stubby_SMA_Wifi_Antenna.SLDPRT",
+    "bytes": 190385,
+    "sha256": "42f72d3c48734e8020d7aef70576bc9b95c4136dc2034957a886b69ec34322c2"
+  },
+  {
+    "path": "Top_Cover.SLDPRT",
+    "bytes": 1967390,
+    "sha256": "973b4203b5a8b3245f939d80f7a40242e07d70d67be9d86d2d6b7d0c8a6dcdf8"
+  },
+  {
+    "path": "USB_Hub.SLDPRT",
+    "bytes": 224051,
+    "sha256": "610628774a1e857fd94094618258ef48b5a012545f2c21c78d0c603884c3f7e7"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/BC250_Product_Studio.blend",
+    "bytes": 63022560,
+    "sha256": "9e9c7e6d0fbd54a54c1c9ba015832ea846e5008dd96ff9a0f239b4a50861b303"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/README.txt",
+    "bytes": 2686,
+    "sha256": "6a4f5d006d719ec4d94aebacacaee26fadb64aead815e46d273ada8d7f7b8e19"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/renders/01_BC250_Dark_Hero.png",
+    "bytes": 20404169,
+    "sha256": "51cf8c1c15de2260b4f092e493792f247679f904904bedbdddcb394391c63833"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/renders/02_BC250_Bright_Studio.png",
+    "bytes": 20898071,
+    "sha256": "0825d4ee600d3f0dbe4315320c4587b24d4e63fa82ca40a9298c134db7f2e0f2"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/renders/03_BC250_Rear_Illumination.png",
+    "bytes": 20845188,
+    "sha256": "052b3c0dd1fe9d47df039dd5c3a50bc05866dd2dbaf19f54fb07ad6d4f8239d1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/renders/04_BC250_Display_Detail.png",
+    "bytes": 21788547,
+    "sha256": "b34a3ece996003b184c6259f952396048852c00e7f7291d99cbf255399428819"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/renders/05_BC250_PCTG_Layers.png",
+    "bytes": 27130872,
+    "sha256": "413c10170f8ce962e0d429695affe0ffee7f7323ad0c73369136d0f40988eb89"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/renders/06_BC250_Animated_Studio_Loop.mp4",
+    "bytes": 1188297,
+    "sha256": "45d54e276b8c7852f483a39fbfd3adba25ca8e64b0446dc11d6fae4dfd032e3b"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/share-ready/01_BC250_Dark_Hero.jpg",
+    "bytes": 365760,
+    "sha256": "05dc5515fd3e1022ea6eb49f173e1c991b649717d90be8fdbed59e4a4883bd76"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/share-ready/02_BC250_Bright_Studio.jpg",
+    "bytes": 397635,
+    "sha256": "0ae5574fb59c4b6fc6561effd6d49ed7fcea0cfdb7deb47dd336a5b75cb1ce53"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/share-ready/03_BC250_Rear_Illumination.jpg",
+    "bytes": 358759,
+    "sha256": "9e314433388411800edb1988978b4bb7b772d33ddd229436c1198d4f358cd97e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/share-ready/04_BC250_Display_Detail.jpg",
+    "bytes": 607115,
+    "sha256": "af438842285d55ee9336888389794619f653e4041108b67bad9a2170ed747bff"
+  },
+  {
+    "path": "Product_Renders_2026-09-30/share-ready/05_BC250_PCTG_Layers.jpg",
+    "bytes": 1234042,
+    "sha256": "b91c34f8c9c26019a50befb65aeaf833e5dbad9ba8aed39624f72ec9511aa25d"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/BC250_LED_Studio.blend",
+    "bytes": 67217702,
+    "sha256": "bb772a378ef2639ea37d57117c13e0be65b3cff9a6b4b61607de9f03599ce09c"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/BC250_Showcase_Cycles.blend",
+    "bytes": 70973687,
+    "sha256": "785e3713a2fed8bd11a83902d0a31afd3deffe45ed4a17dc591ba4f4838957c1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/BC250_Showcase_V2.blend",
+    "bytes": 70970968,
+    "sha256": "3466c068cc09e78d75728a992c97398f9a4f139b2b07c4d046a2a6d778b92102"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/Photo_Contact_Sheet.jpg",
+    "bytes": 180801,
+    "sha256": "46e805a1922bcde5e36439f62c35ce31de8a74058ef277c460a01d90c07bbeb2"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/Preview.html",
+    "bytes": 3616,
+    "sha256": "665e921da39dc81bfde609dd6258ea8600a42316d3acd14d520f05e15bc0a4da"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/README.txt",
+    "bytes": 4064,
+    "sha256": "4e51a2574171e93c1aa0dc94ec99612f6004df15c1ea18811113966cff0b0288"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/01_Cyan_Dark_Hero.jpg",
+    "bytes": 365568,
+    "sha256": "640cf6786f0493b76d47466202f58c8ae756062e872bfb1adbb9b8c5f4593276"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/02_Amber_Rear.jpg",
+    "bytes": 352391,
+    "sha256": "3919cc1272c392767c5760a23e8238329dda22cb8e361c0fe2e4019ffa15c931"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/03_Magenta_Dark_Hero.jpg",
+    "bytes": 364591,
+    "sha256": "e2767a13c53738ef3522de29c8e0fdb7454c4b37720899df83cd6ddbf2a81a46"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/04_Mint_Bright_Studio.jpg",
+    "bytes": 400516,
+    "sha256": "fefb2632df4ea99b5e9dcad6a140acee0af8e0f53046204bfa58506e5c499c0f"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/05_RGB_Rear.jpg",
+    "bytes": 352592,
+    "sha256": "706062bbb09292a29d28ace8ea88fc95ed4b42efded1bb7e249f4ebe69329229"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/06_RGB_Display_Detail.jpg",
+    "bytes": 611212,
+    "sha256": "b42a422e6b4ff612c0f4a3aad8fce90d461da057e3026afc879a44a26cebacc1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/share-ready/07_RGB_PCTG_Layers.jpg",
+    "bytes": 1188763,
+    "sha256": "1ef218e94c94e77ea16eb19daf65104d49fb481d8001b996a3bccb843be22a5e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/01_Cyan_Dark_Hero.png",
+    "bytes": 17392296,
+    "sha256": "0705703dc764241052d1b6273d49876de1bcfbf59068d11a5e8929dcedba8e85"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/02_Amber_Rear.png",
+    "bytes": 17659085,
+    "sha256": "014aec5922ee3f342b5b395721a4b0ff5afbc589aff79da787b854c4ca34c9ad"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/03_Magenta_Dark_Hero.png",
+    "bytes": 17362983,
+    "sha256": "873d0bd1505203abc39500445dfe76d82f23ee2447aa4bc393d924cbd241a929"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/04_Mint_Bright_Studio.png",
+    "bytes": 17654164,
+    "sha256": "1d91e40934bf06b5f687c80de8853d759475681b49afb519b23fc59e5f4c8ba5"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/05_RGB_Rear.png",
+    "bytes": 17609296,
+    "sha256": "39285a824e11cc481f9bb6cb5a5d136362a6a104ef7bb531345a87c6f2bcfa89"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/06_RGB_Display_Detail.png",
+    "bytes": 18745365,
+    "sha256": "41c304b553b619263e94a19439801b323bc58438e5e1ad8ab188a008d3713764"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V2/stills/07_RGB_PCTG_Layers.png",
+    "bytes": 23311350,
+    "sha256": "69c23a0fd378c93b58cc688f008ad8eaa5b52167fcf73c7c40432179c4827da6"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/BC250_Directional_Studio.blend",
+    "bytes": 67020561,
+    "sha256": "112647b03a4fbf2925934ca19e87b138b8c9b3d8847b26eb71fe4dcc92cedf59"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/BC250_Showcase_Directional.blend",
+    "bytes": 70817222,
+    "sha256": "264a4221fc77b33defc3579f22651f4514b10a59c161731da3d2139e80e9174c"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/Photo_Contact_Sheet.jpg",
+    "bytes": 166190,
+    "sha256": "ac8a6bc7d7acdd0077d48115f988e30f9614341932ac92c0b165e7158f348b61"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/Photos.html",
+    "bytes": 5411,
+    "sha256": "6a502927a7cb483ccb2de32ea255a50357dcb5502c373a7b8f9b3cc2489d4d41"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/README.txt",
+    "bytes": 4116,
+    "sha256": "0993fab868d1942c27df0b1897fb951d3c71563b948f0db3078476386d870255"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/01_Cyan_Dark_Hero.jpg",
+    "bytes": 320969,
+    "sha256": "328815a1bed191c50c6d21ad217ee4decfb969493cb34fdb312e8b561a2dc2b1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/02_Neutral_White_Rear.jpg",
+    "bytes": 301038,
+    "sha256": "137ee1943a9fccfe0d5ec7608286458fa9c019931ee1587be3a444bd57d52d13"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/03_Magenta_Dark_Hero.jpg",
+    "bytes": 320766,
+    "sha256": "cdce44a59d87940d7fbbd2e2c66059eaa314a294e0e5e83466ddb796472ad38c"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/04_Mint_Bright_Studio.jpg",
+    "bytes": 399517,
+    "sha256": "0688d1211b9b7f50387b01bad2a4e9a11e94d3fe81a09b96949728025d22e052"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/05_RGB_Rear.jpg",
+    "bytes": 300575,
+    "sha256": "bcefdf61c927090ef02b013a354ff0a777f38f589a8cb715971ae298788792e1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/06_RGB_Display_Detail.jpg",
+    "bytes": 510408,
+    "sha256": "1d756f26694dfb8737f8a44bd52f14fce657d8e96a126d62a0187c8c9759dc9d"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/07_RGB_PCTG_Layers.jpg",
+    "bytes": 995537,
+    "sha256": "10e51b0b2f2fdbc5d2e2582577b8f72e7148d4d99568a3d62aa0cabbd6ed2b26"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/share-ready/08_Neutral_White_Hero.jpg",
+    "bytes": 321103,
+    "sha256": "1e3539ddc3605553e2f681751d481d2492cf0e81efc2bf914e3ddb2b7a9e1873"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/01_Cyan_Dark_Hero.png",
+    "bytes": 15245229,
+    "sha256": "2dee8e125ab079e46fb9f8b4c51fcf3a5eefe8d300eab34e8b668566f177bedb"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/02_Neutral_White_Rear.png",
+    "bytes": 15676232,
+    "sha256": "2a37691bc375260be5a1bab5ec7deac7babfe04b38ab25b82765fb19c18a773e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/03_Magenta_Dark_Hero.png",
+    "bytes": 15241038,
+    "sha256": "363584e2fe1596da2afef2b77086dc67cf789824e86dadf0185db41bc3bd1fd9"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/04_Mint_Bright_Studio.png",
+    "bytes": 17553085,
+    "sha256": "8ef52695aae1cfe4614bbc0f5fc029b8b653e3dcf42a58548989de6d32806ba7"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/05_RGB_Rear.png",
+    "bytes": 15672966,
+    "sha256": "399911817623a66caec7cff1d12c1c00d0d85b321146a802c6cb9aa4edc05068"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/06_RGB_Display_Detail.png",
+    "bytes": 17419431,
+    "sha256": "b9a097178c57a272318afd6939288200594d3d812b79ab0b8018f25dff7d3e0e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/07_RGB_PCTG_Layers.png",
+    "bytes": 22557992,
+    "sha256": "3112170a5d994e7f8adf6dd7ae98062b39a3c56b609a2c0e6c81cb2bee06631b"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V3/stills/08_Neutral_White_Hero.png",
+    "bytes": 15247049,
+    "sha256": "74210538977ce36311a792cea8e807487df187e7c6378f34e3c7db2f1c51e522"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_60s_Directional_RGB.mp4",
+    "bytes": 14513760,
+    "sha256": "cbb609e6571eb6fcf36c66c1f9a505ecf569b9d4303907a36769f44973ab2dea"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Cinematic_Commercial_Calm_Audio.mp4",
+    "bytes": 19241460,
+    "sha256": "663dcb137d6d4ed08e3aedd3b47378ed72c9852b59bf242f1734281b7dc8159f"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Cinematic_Commercial_verification.json",
+    "bytes": 925,
+    "sha256": "ff308400f093c822eaf666ef5bb4f4f52f24736d31756fe1cf3179036ce4f072"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Cinematic_Commercial.blend",
+    "bytes": 87305599,
+    "sha256": "ae4d10aea1d0729d59b0bd9f746e9e7cbf7ab121d742c5d7e334f6978c85e351"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Cinematic_Commercial.mp4",
+    "bytes": 19241460,
+    "sha256": "663dcb137d6d4ed08e3aedd3b47378ed72c9852b59bf242f1734281b7dc8159f"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Directional_Studio.blend",
+    "bytes": 67022989,
+    "sha256": "3f7dd2ee0de6efef90f9d7433354483e7ab7f910cc52fa61bb3ebdb68a81b2da"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Director_Light_Study.blend",
+    "bytes": 69604798,
+    "sha256": "b078687c974fc432f060f5be8c29c80559825813bf41c2832b9d70b94b0f637b"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Made_To_Be_Seen_Calm_Audio.mp4",
+    "bytes": 19311347,
+    "sha256": "d356cc067ad691c362c274c56fa44a6e5bc2cc3f171929ff561783fef8e57d1f"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Made_To_Be_Seen_verification.json",
+    "bytes": 903,
+    "sha256": "832dba68f39c1ee165c73601376bca87d1bb358c1219879e43c5dac801f94a59"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Made_To_Be_Seen.blend",
+    "bytes": 143411811,
+    "sha256": "d46cc1791c23d509a921cfae21edf906e4715f9aca453f18247b9a4e58d6f809"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Made_To_Be_Seen.mp4",
+    "bytes": 19311347,
+    "sha256": "d356cc067ad691c362c274c56fa44a6e5bc2cc3f171929ff561783fef8e57d1f"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/BC250_Showcase_Directional.blend",
+    "bytes": 70786453,
+    "sha256": "538a190cae38c535e1f7883620f3cca4b79cdee5d0ad3721bb2517ceae1b0d54"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/delivery_verification.json",
+    "bytes": 1316,
+    "sha256": "7227892736ab5f02b5cd56f6122b89830ef3afbf95f38fd6d47e656d28f426f5"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/director_geometry_verification.json",
+    "bytes": 421,
+    "sha256": "a51f793e3a6a1c77b8eea01fdd2f20ce82d3fb5092823e2f70bbde1f23ef9fbc"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/gallery_verification.json",
+    "bytes": 238,
+    "sha256": "1b64e8188e26970f90d7c0edfcd3a99b5abd0b61d25233890fbd2a466900fe46"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/live_project_verification.json",
+    "bytes": 921,
+    "sha256": "d89367844bd55913a7f8012e5f34c98771a3ebb708271aad2f008dbdb040125b"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/Photo_Contact_Sheet.jpg",
+    "bytes": 177005,
+    "sha256": "0bbfbebe48e8d5e843f8de4c67ed451864d65c83c07714be14cd52895a7b0cdf"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/Photos.html",
+    "bytes": 7186,
+    "sha256": "48a88893ecb7f6e3972544bb707ec6775493550199d80952fad64f11ed8a6419"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/Preview.html",
+    "bytes": 7186,
+    "sha256": "48a88893ecb7f6e3972544bb707ec6775493550199d80952fad64f11ed8a6419"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/project_verification.json",
+    "bytes": 1379,
+    "sha256": "cf3bdd7497784ee67767ea370f292bec70d3b4523b9c80c3c6add72d3ef23d1c"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/README.txt",
+    "bytes": 8626,
+    "sha256": "be6270f71451eef6e2fba8eaa6fa0a3f939ba1f7dbced5a63c79334f377dd644"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/audio_revision/project_audio_verification.json",
+    "bytes": 587,
+    "sha256": "3d6b41f1c71a884210b1294bfbc241387396fd08a5a92eda0fda13dc348156bb"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/audio_revision/revision_verification.json",
+    "bytes": 3060,
+    "sha256": "4fbbb0d2334aac9cce59522af7149a33a350c7fa81393be56b85bc7ef8d079a9"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/audio_verification.json",
+    "bytes": 783,
+    "sha256": "e16ae6dddc582fb0f6200b9451db9ad35920ff63b59547d6aa4bf360866b8fb2"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/BC250_Director_Score.wav",
+    "bytes": 17280044,
+    "sha256": "d57ff52112a567e47e03b92629d72d3f5a91d7055716287063f7c93c7ac9accd"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/BC250_Original_Electronic_Score.wav",
+    "bytes": 17280044,
+    "sha256": "64c06cdf459bf49c17d7e124dc535c354a7d9c40dedc39f3ea48d0f09afdf7e1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/CIN_01_Print.png",
+    "bytes": 12165963,
+    "sha256": "1a87a4099e7b88a932b6ee401410d15ce6df8a1f8fc38f9b6a7111568825be6f"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/CIN_02_Touch.png",
+    "bytes": 10642522,
+    "sha256": "d28d99904328cf602978f4e7af9fd166e6cc30739089f6186fdb0e033bac1bc5"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/CIN_03_USB.png",
+    "bytes": 10310912,
+    "sha256": "c6d3e281ee30bf86f2db777d7c0943aa55c5a29f10932507262f890f6cfe9046"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/CIN_04_Wireless.png",
+    "bytes": 11011480,
+    "sha256": "eba0d9d5d7af65c95792759ab29020abedb455e9facab71cbd0a9b6a9603d157"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/CIN_05_Cooling.png",
+    "bytes": 10301740,
+    "sha256": "aa6ff4695342f65e3eaf48603048f1519a7b85dee0cab0f1f8567b6a2cbef6bf"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/cinematic_assets/director_audio_verification.json",
+    "bytes": 774,
+    "sha256": "5fed58c2cb54b84c1a45dcacd646c63dd736c98e7ad32eb6ff62dffbdf7d2756"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/posters/Commercial.jpg",
+    "bytes": 275297,
+    "sha256": "7d077e07d9d99924dbd92919ef52fe5e2a9b947b1196a89e83f2186a8a94a0dd"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/posters/Director.jpg",
+    "bytes": 147996,
+    "sha256": "a6d63c1364551fbcf12dc3cc6826dc9e738a12cfc754b7078d0a4a2c18a42306"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/posters/Showcase.jpg",
+    "bytes": 131091,
+    "sha256": "a62c4337ded8b1ce9ffad756193e05a856373ec923c8712fc7aeb8350be2b307"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/01_Cyan_Dark_Hero.jpg",
+    "bytes": 325922,
+    "sha256": "bf38bd2293241b127aab5ffe008b1f001c250d7865e658d6ab17ee71f90b045b"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/02_Neutral_White_Rear.jpg",
+    "bytes": 311494,
+    "sha256": "a83128af6f32d3e298ebdd6da8e8af7e9c697278f8b0d0a8a8c350c1e37d7a4e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/03_Magenta_Dark_Hero.jpg",
+    "bytes": 325018,
+    "sha256": "6b1bfa887124838e5d120172c58fa630c159aff2db34ab06e854746024e520dc"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/04_Mint_Bright_Studio.jpg",
+    "bytes": 400417,
+    "sha256": "572b1140718cf80f16eb3ab1a258aa90c38b5ff9218b8fda05f7b2cc3dc5bb59"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/05_RGB_Rear.jpg",
+    "bytes": 308471,
+    "sha256": "dee9f6862e34bc2c6e2c91a55f98403da8f62a9fb19d4dafded575b59fed5509"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/06_RGB_Display_Detail.jpg",
+    "bytes": 534568,
+    "sha256": "8fe18b172e1735200632718afce2128e05d8c54dd49cda1e31b07bdf4d984c2e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/07_RGB_PCTG_Layers.jpg",
+    "bytes": 1046844,
+    "sha256": "c5133b6b7370676fca8ef164b02be9239f00b358fb4bdfb3785ba321a9660cab"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/share-ready/08_Neutral_White_Hero.jpg",
+    "bytes": 326324,
+    "sha256": "252c50c0c2bde89e13f3287004af2747d84760ffd1dd529515eb9c1428a52a2c"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/01_Cyan_Dark_Hero.png",
+    "bytes": 15492325,
+    "sha256": "7b547b41874cd2ca0b4e95d80630602397ca2bd95aad26c24f1fe72b60ddb4c6"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/02_Neutral_White_Rear.png",
+    "bytes": 15824286,
+    "sha256": "7b2050441c47837781ff03486cfc84bd6604eb786a4998cf3bd07ba83b47533e"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/03_Magenta_Dark_Hero.png",
+    "bytes": 15479544,
+    "sha256": "d898a566bccfdaecb3806e3173ae626d586d9cb2f8f7c893e2fb51a2613151d3"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/04_Mint_Bright_Studio.png",
+    "bytes": 17544625,
+    "sha256": "bff34600ae5dfd627dad8dc09b96aeb5f7af3a260c0911de65b1379b7d6750f1"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/05_RGB_Rear.png",
+    "bytes": 15838210,
+    "sha256": "d321358f5e2eba4c61afd339bed5c64b793e6e3e11c11caa8d30e1d5d5aacec6"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/06_RGB_Display_Detail.png",
+    "bytes": 17608816,
+    "sha256": "5179c6774f2446855c854090ea337b211ddeaf1dbf8df8c5121ff52c3bf22300"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/07_RGB_PCTG_Layers.png",
+    "bytes": 22661676,
+    "sha256": "4bd63e15a6578c0fecedd5d74daf5644e56ca1711ce903152f120d07cf9d2ad5"
+  },
+  {
+    "path": "Product_Renders_2026-09-30_V5/stills/08_Neutral_White_Hero.png",
+    "bytes": 15535268,
+    "sha256": "e8f72db8c649b049866e4d1f25ee61435c6087b42d70d358e153ca25f876529c"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "frames": 1440,
+  "fps": 24.0,
+  "seconds": 60.0,
+  "width": 1920,
+  "height": 1080,
+  "file_bytes": 14513760,
+  "photos": [
+    {
+      "file": "01_Cyan_Dark_Hero.png",
+      "width": 2400,
+      "height": 2400,
+      "depth": 16,
+      "bytes": 15492325
+    },
+    {
+      "file": "02_Neutral_White_Rear.png",
+      "width": 2400,
+      "height": 2400,
+      "depth": 16,
+      "bytes": 15824286
+    },
+    {
+      "file": "03_Magenta_Dark_Hero.png",
+      "width": 2400,
+      "height": 2400,
+      "depth": 16,
+      "bytes": 15479544
+    },
+    {
+      "file": "04_Mint_Bright_Studio.png",
+      "width": 2400,
+      "height": 2400,
+      "depth": 16,
+      "bytes": 17544625
+    },
+    {
+      "file": "05_RGB_Rear.png",
+      "width": 2400,
+      "height": 2400,
+      "depth": 16,
+      "bytes": 15838210
+    },
+    {
+      "file": "06_RGB_Display_Detail.png",
+      "width": 2600,
+      "height": 1800,
+      "depth": 16,
+      "bytes": 17608816
+    },
+    {
+      "file": "07_RGB_PCTG_Layers.png",
+      "width": 2600,
+      "height": 1800,
+      "depth": 16,
+      "bytes": 22661676
+    },
+    {
+      "file": "08_Neutral_White_Hero.png",
+      "width": 2400,
+      "height": 2400,
+      "depth": 16,
+      "bytes": 15535268
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "before": {
+    "sha256": "b6c605f5007b563e2440b8cfad5a4604dceb116df41eed3e2ec105377ffa699f",
+    "mesh_objects": 615,
+    "vertices": 2252020
+  },
+  "after": {
+    "sha256": "b6c605f5007b563e2440b8cfad5a4604dceb116df41eed3e2ec105377ffa699f",
+    "mesh_objects": 615,
+    "vertices": 2252020
+  },
+  "unchanged": true,
+  "maximum_transform_delta": 0.0,
+  "new_animation_frames": 192,
+  "new_meshes": 0
+}

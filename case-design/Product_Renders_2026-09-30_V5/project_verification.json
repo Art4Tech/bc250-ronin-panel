@@ -1,0 +1,46 @@
+[
+  {
+    "file": "BC250_Directional_Studio.blend",
+    "active_scene": "01 | Dark studio",
+    "external_vse_assets": [],
+    "missing_assets": []
+  },
+  {
+    "file": "BC250_Showcase_Directional.blend",
+    "active_scene": "04 | Final film + feature captions",
+    "external_vse_assets": [],
+    "missing_assets": []
+  },
+  {
+    "file": "BC250_Cinematic_Commercial.blend",
+    "active_scene": "04 | Cinematic commercial",
+    "external_vse_assets": [
+      "cinematic_assets\\CIN_01_Print.png",
+      "cinematic_assets\\CIN_02_Touch.png",
+      "cinematic_assets\\CIN_03_USB.png",
+      "cinematic_assets\\CIN_04_Wireless.png",
+      "cinematic_assets\\CIN_05_Cooling.png"
+    ],
+    "missing_assets": []
+  },
+  {
+    "file": "BC250_Director_Light_Study.blend",
+    "active_scene": "05 | Director light study",
+    "external_vse_assets": [],
+    "missing_assets": []
+  },
+  {
+    "file": "BC250_Made_To_Be_Seen.blend",
+    "active_scene": "06 | Made to be seen",
+    "external_vse_assets": [
+      "cinematic_assets\\CIN_02_Touch.png",
+      "cinematic_assets\\CIN_03_USB.png",
+      "cinematic_assets\\CIN_04_Wireless.png",
+      "cinematic_assets\\CIN_05_Cooling.png",
+      "stills\\01_Cyan_Dark_Hero.png",
+      "stills\\03_Magenta_Dark_Hero.png",
+      "stills\\08_Neutral_White_Hero.png"
+    ],
+    "missing_assets": []
+  }
+]

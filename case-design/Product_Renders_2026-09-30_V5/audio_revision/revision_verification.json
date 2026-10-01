@@ -1,0 +1,78 @@
+[
+  {
+    "film": "BC250_Cinematic_Commercial",
+    "revised_file": "BC250_Cinematic_Commercial_Calm_Audio.mp4",
+    "original_video_stream_sha256": "SHA256=8205f83d2b0e7846102c70bfa2208055235abea56d2b3938292046b3b6bd588f",
+    "revised_video_stream_sha256": "SHA256=8205f83d2b0e7846102c70bfa2208055235abea56d2b3938292046b3b6bd588f",
+    "video_stream_identical": true,
+    "decoded_audio_seconds": 60.010666666666665,
+    "decoded_audio": {
+      "peak_dBFS": -4.5573480271674525,
+      "RMS_dBFS": -21.943158223052702,
+      "no_clipping": true
+    },
+    "new_master_to_decoded_audio_correlation": 0.9999557237244654,
+    "source_revision": {
+      "file": "BC250_Original_Electronic_Score.wav",
+      "revision": "Calm audio / transition noise removed",
+      "original_synthesis": true,
+      "duration_seconds": 60,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 24,
+      "peak_dBFS": -4.552936116705676,
+      "RMS_dBFS": -21.93289843496965,
+      "no_clipping": true,
+      "all_transition_noise_sweeps_removed": true,
+      "scratchy_mechanical_clicks_removed": true,
+      "noise_hihat_removed": false,
+      "remaining_tonal_effect_gain": 0.2,
+      "remaining_tonal_effects": {
+        "peak_dBFS": -29.23141373698524,
+        "RMS_dBFS": -59.81598330677791,
+        "no_clipping": true
+      },
+      "music_gain_renormalized": false,
+      "original_master_matches_within_24bit_quantization": true,
+      "baseline_maximum_sample_error": 9.096361597293878e-08
+    }
+  },
+  {
+    "film": "BC250_Made_To_Be_Seen",
+    "revised_file": "BC250_Made_To_Be_Seen_Calm_Audio.mp4",
+    "original_video_stream_sha256": "SHA256=47cde18f685afa4f221e97cb8b1d98c73fca462a953cffe2f177e38c5afeaeee",
+    "revised_video_stream_sha256": "SHA256=47cde18f685afa4f221e97cb8b1d98c73fca462a953cffe2f177e38c5afeaeee",
+    "video_stream_identical": true,
+    "decoded_audio_seconds": 60.010666666666665,
+    "decoded_audio": {
+      "peak_dBFS": -3.8692017366843907,
+      "RMS_dBFS": -20.187496924938944,
+      "no_clipping": true
+    },
+    "new_master_to_decoded_audio_correlation": 0.9999328804556056,
+    "source_revision": {
+      "file": "BC250_Director_Score.wav",
+      "revision": "Calm audio / transition noise removed",
+      "original_synthesis": true,
+      "duration_seconds": 60,
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits": 24,
+      "peak_dBFS": -3.8667898469864923,
+      "RMS_dBFS": -20.173937898620807,
+      "no_clipping": true,
+      "all_transition_noise_sweeps_removed": true,
+      "scratchy_mechanical_clicks_removed": true,
+      "noise_hihat_removed": true,
+      "remaining_tonal_effect_gain": 0.2,
+      "remaining_tonal_effects": {
+        "peak_dBFS": -26.814505643558494,
+        "RMS_dBFS": -53.8438166829131,
+        "no_clipping": true
+      },
+      "music_gain_renormalized": false,
+      "original_master_matches_within_24bit_quantization": true,
+      "baseline_maximum_sample_error": 5.9604601122809076e-08
+    }
+  }
+]

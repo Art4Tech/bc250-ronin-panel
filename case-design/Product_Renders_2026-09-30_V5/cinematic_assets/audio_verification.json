@@ -1,0 +1,24 @@
+{
+  "file": "BC250_Original_Electronic_Score.wav",
+  "revision": "Calm audio / transition noise removed",
+  "original_synthesis": true,
+  "duration_seconds": 60,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 24,
+  "peak_dBFS": -4.552936116705676,
+  "RMS_dBFS": -21.93289843496965,
+  "no_clipping": true,
+  "all_transition_noise_sweeps_removed": true,
+  "scratchy_mechanical_clicks_removed": true,
+  "noise_hihat_removed": false,
+  "remaining_tonal_effect_gain": 0.2,
+  "remaining_tonal_effects": {
+    "peak_dBFS": -29.23141373698524,
+    "RMS_dBFS": -59.81598330677791,
+    "no_clipping": true
+  },
+  "music_gain_renormalized": false,
+  "original_master_matches_within_24bit_quantization": true,
+  "baseline_maximum_sample_error": 9.096361597293878e-08
+}

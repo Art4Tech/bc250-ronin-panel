@@ -1,0 +1,20 @@
+[
+  {
+    "project": "BC250_Cinematic_Commercial.blend",
+    "frame": 937,
+    "render_seconds": 12.96039867401123,
+    "output": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v5\\live_project_checks\\BC250_Cinematic_Commercial.png",
+    "mean_absolute_linear_RGB_error": 0.0037060673348605633,
+    "root_mean_squared_linear_RGB_error": 0.00947954598814249,
+    "reference": "Decoded final MP4 frame"
+  },
+  {
+    "project": "BC250_Made_To_Be_Seen.blend",
+    "frame": 145,
+    "render_seconds": 12.960177898406982,
+    "output": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v5\\live_project_checks\\BC250_Made_To_Be_Seen.png",
+    "mean_absolute_linear_RGB_error": 0.002537192776799202,
+    "root_mean_squared_linear_RGB_error": 0.0065844119526445866,
+    "reference": "Decoded final MP4 frame"
+  }
+]

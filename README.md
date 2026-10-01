@@ -1,4 +1,10 @@
-# BC250 Ronin resource panel
+# BC250 Ronin resource panel and case design
+
+This repository includes the ESP32 resource-panel software and the BC250 case design. The firmware and companion retain their existing paths under `project/`. The [case-design folder](case-design/README.md) contains the SolidWorks assembly and parts, STEP/DXF assets, editable Blender scenes, and rendered films and photographs.
+
+Case binary assets use **Git LFS**. Install Git LFS, then run `git lfs install` before cloning and `git lfs pull` inside the checkout afterward. Download ZIP is intended for the panel software workflow below; use a Git LFS checkout to obtain the complete case assets reliably.
+
+## Resource panel
 
 An Elecrow CrowPanel Advanced **5-inch ESP32-P4 V1.0** display for a BC250 desktop, with a serene animated ronin/onsen scene, day/night transitions, per-clip sound, and USB serial resource monitoring from Windows or Linux.
 

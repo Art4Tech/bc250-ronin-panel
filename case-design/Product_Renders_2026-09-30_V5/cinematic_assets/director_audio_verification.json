@@ -1,0 +1,24 @@
+{
+  "file": "BC250_Director_Score.wav",
+  "revision": "Calm audio / transition noise removed",
+  "original_synthesis": true,
+  "duration_seconds": 60,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 24,
+  "peak_dBFS": -3.8667898469864923,
+  "RMS_dBFS": -20.173937898620807,
+  "no_clipping": true,
+  "all_transition_noise_sweeps_removed": true,
+  "scratchy_mechanical_clicks_removed": true,
+  "noise_hihat_removed": true,
+  "remaining_tonal_effect_gain": 0.2,
+  "remaining_tonal_effects": {
+    "peak_dBFS": -26.814505643558494,
+    "RMS_dBFS": -53.8438166829131,
+    "no_clipping": true
+  },
+  "music_gain_renormalized": false,
+  "original_master_matches_within_24bit_quantization": true,
+  "baseline_maximum_sample_error": 5.9604601122809076e-08
+}

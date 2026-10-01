@@ -20,3 +20,9 @@ project/work/python/
 project/work/panel-tools/
 .downloads/
 media-rebuilt/
+# CAD locks, local agent state and editor backup files
+case-design/**/~$*
+case-design/**/.codex/
+case-design/**/*.blend1
+case-design/**/*.blend2
+case-design/**/Thumbs.db

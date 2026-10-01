@@ -1,5 +1,13 @@
 # Public repository contents and private migration boundary
 
+## Case-design addition (2026-10-01)
+
+`case-design/` adds the saved SolidWorks assembly and component files, neutral CAD files, display reference image, and all four delivered render folders (original, V2, V3 and V5). CAD and media binaries use Git LFS. `case-design/FILES-SHA256.json` records the imported files and their verified SHA-256 hashes. SolidWorks lock files and local `.codex` state are excluded. The original design folder is preserved. Third-party component models retain their existing rights; this addition assigns no blanket license to them.
+
+This is a snapshot of saved files, not unsaved SolidWorks edits or a validated SolidWorks Pack and Go export. External assembly references have not been resolved by reopening the model on a clean machine. See the case-design README for portability limits.
+
+## Panel software and migration package
+
 The public repository contains the full application source, companion, managed component source, project configuration, firmware application versions, user-supplied media originals, generated artwork, conversion tools, tests, hardware runbook and handover. Large SDK/toolchain/runtime dependencies are attached to the pinned GitHub release rather than committed as Git objects.
 
 The separate local migration package preserves the complete old setup, including the following **not published** items:

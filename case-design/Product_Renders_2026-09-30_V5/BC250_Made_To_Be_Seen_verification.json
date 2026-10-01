@@ -1,0 +1,43 @@
+{
+  "file": "BC250_Made_To_Be_Seen.mp4",
+  "frames": 1440,
+  "seconds": 60.0,
+  "width": 1920,
+  "height": 1080,
+  "bytes": 19311347,
+  "tracks": [
+    {
+      "timescale": 12288,
+      "duration_seconds": 60.0,
+      "type": "vide",
+      "codecs": [
+        "avc1"
+      ],
+      "samples": 1440
+    },
+    {
+      "timescale": 48000,
+      "duration_seconds": 60.02133333333333,
+      "type": "soun",
+      "codecs": [
+        "mp4a"
+      ],
+      "audio_channels": 2,
+      "audio_sample_rate": 48000.0,
+      "samples": 2814
+    }
+  ],
+  "decoded_audio": {
+    "channels": 2,
+    "sample_rate": 48000.0,
+    "decoded_frames": 2880512,
+    "decoded_duration_seconds": 60.010666666666665,
+    "peak_dBFS": -3.8692017366843907,
+    "RMS_dBFS": -20.187496924938944,
+    "no_clipping": true
+  },
+  "black_boundary_frames": {
+    "1": 0.0,
+    "1440": 0.0
+  }
+}

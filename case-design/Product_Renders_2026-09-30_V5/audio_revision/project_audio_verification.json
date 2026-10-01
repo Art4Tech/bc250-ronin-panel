@@ -1,0 +1,16 @@
+[
+  {
+    "project": "BC250_Cinematic_Commercial.blend",
+    "sound_strips_replaced": 1,
+    "packed_audio_matches_new_master": true,
+    "wav_sha256": "64c06cdf459bf49c17d7e124dc535c354a7d9c40dedc39f3ea48d0f09afdf7e1",
+    "render_output": "//BC250_Cinematic_Commercial_Calm_Audio.mp4"
+  },
+  {
+    "project": "BC250_Made_To_Be_Seen.blend",
+    "sound_strips_replaced": 1,
+    "packed_audio_matches_new_master": true,
+    "wav_sha256": "d57ff52112a567e47e03b92629d72d3f5a91d7055716287063f7c93c7ac9accd",
+    "render_output": "//BC250_Made_To_Be_Seen_Calm_Audio.mp4"
+  }
+]
