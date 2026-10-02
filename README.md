@@ -1,6 +1,6 @@
 # BC250 Ronin — case design
 
-A custom desktop enclosure built around the BC250 board: a sheet-metal backbone, removable magnetic covers, translucent PCTG panels, and an animated ESP32-P4 resource display at the base.
+A custom desktop enclosure built around the BC250 board: a sheet-metal backbone, removable magnetic and translucent PCTG covers, and an animated ESP32-P4 resource display at the base.
 
 [![BC250 Ronin case visualization](https://media.githubusercontent.com/media/Art4Tech/bc250-ronin-panel/main/case-design/Product_Renders_2026-09-30_V5/stills/01_Cyan_Dark_Hero.png)](https://artfedderson.tech/work/bc250-ronin)
 
