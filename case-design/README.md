@@ -43,12 +43,4 @@ foreach ($item in $items) {
 "Verified $($items.Count) imported files."
 ```
 
-Original imported text files also retain their source bytes, so checksums remain valid after checkout. The manifest excludes itself and this new README.
-
-## Continuing work
-
-Work in the cloned `case-design/` folder to track subsequent edits with Git, or explicitly copy saved updates from the original CAD folder before committing. This snapshot does not automatically synchronize a separate CAD working folder. Save the assembly and parts before taking the next snapshot. When updating imported files, update their entries in `FILES-SHA256.json` too.
-
-SolidWorks lock files (`~$*`) and local `.codex` state were omitted. No source CAD files were changed. The assembly has not been reopened on a clean machine to confirm that every reference is local: if SolidWorks reports an external reference, collect that dependency from the source setup or use Pack and Go before retiring it. The snapshot preserves saved bytes only; it cannot capture unsaved application edits.
-
 Third-party component models retain their existing rights. No blanket license is assigned by this import.
