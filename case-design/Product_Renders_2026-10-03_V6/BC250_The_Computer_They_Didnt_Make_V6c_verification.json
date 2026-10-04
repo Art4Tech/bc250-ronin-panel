@@ -1,0 +1,210 @@
+{
+  "movie": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c.mp4",
+  "source_audio_master": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\audio\\BC250_V6c_Instrumental_Master.wav",
+  "verification_status": "PASSED_AUTOMATED_AND_VISUAL_REVIEW",
+  "expected_duration_seconds": 89,
+  "expected_video_frames": 2136,
+  "ffmpeg": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v5\\audio_revision\\tools\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "manual_review_required": [
+    "Exact end-card wording",
+    "Representative image quality and sincere creator captions"
+  ],
+  "tracks": [
+    {
+      "timescale": 12288,
+      "duration_seconds": 89.0,
+      "type": "vide",
+      "codecs": [
+        "avc1"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "timing_samples": 2136,
+      "timing_ticks": 1093632,
+      "sample_deltas": [
+        512
+      ],
+      "samples": 2136,
+      "fps": 24.0
+    },
+    {
+      "timescale": 48000,
+      "duration_seconds": 89.02333333333333,
+      "type": "soun",
+      "codecs": [
+        "mp4a"
+      ],
+      "audio_channels": 2,
+      "audio_sample_rate": 48000.0,
+      "timing_samples": 4173,
+      "timing_ticks": 4273120,
+      "sample_deltas": [
+        993,
+        1023,
+        1024,
+        1025
+      ],
+      "samples": 4173
+    }
+  ],
+  "decoded_audio": {
+    "decoded_samples": 4272128,
+    "duration_seconds": 89.00266666666667,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dBFS": -6.262367229159702,
+    "RMS_dBFS": -20.68270071421772,
+    "no_clipping": true
+  },
+  "source_master_comparison": {
+    "lag_samples_decoded_after_source": 0,
+    "lag_milliseconds": 0.0,
+    "compared_samples": 4272000,
+    "channel_correlations": [
+      0.9999848389310766,
+      0.9999841344506684
+    ],
+    "minimum_channel_correlation": 0.9999841344506684,
+    "gain_relative_to_master": 0.9992744700373494,
+    "gain_relative_to_master_dB": -0.006304160389958513,
+    "gain_adjusted_error_RMS_dBFS": -65.76792936530262
+  },
+  "decoded_audio_loudness": {
+    "integrated_LUFS": -19.0,
+    "loudness_range_LU": 4.1,
+    "true_peak_dBFS": -6.3
+  },
+  "representative_frames": [
+    {
+      "zero_based_frame": 0,
+      "time_seconds": 0.0,
+      "label": "opening_black",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0000_opening_black.png"
+    },
+    {
+      "zero_based_frame": 48,
+      "time_seconds": 2.0,
+      "label": "voron_question",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0048_voron_question.png"
+    },
+    {
+      "zero_based_frame": 228,
+      "time_seconds": 9.5,
+      "label": "too_smart",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0228_too_smart.png"
+    },
+    {
+      "zero_based_frame": 340,
+      "time_seconds": 14.166666666666666,
+      "label": "printer_punchline",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0340_printer_punchline.png"
+    },
+    {
+      "zero_based_frame": 516,
+      "time_seconds": 21.5,
+      "label": "stock_specs",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0516_stock_specs.png"
+    },
+    {
+      "zero_based_frame": 691,
+      "time_seconds": 28.791666666666668,
+      "label": "cad_workflow",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0691_cad_workflow.png"
+    },
+    {
+      "zero_based_frame": 840,
+      "time_seconds": 35.0,
+      "label": "dual_fans",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0840_dual_fans.png"
+    },
+    {
+      "zero_based_frame": 972,
+      "time_seconds": 40.5,
+      "label": "four_usb",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\0972_four_usb.png"
+    },
+    {
+      "zero_based_frame": 1128,
+      "time_seconds": 47.0,
+      "label": "tiny_computer",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1128_tiny_computer.png"
+    },
+    {
+      "zero_based_frame": 1267,
+      "time_seconds": 52.791666666666664,
+      "label": "blamm_matchstick",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1267_blamm_matchstick.png"
+    },
+    {
+      "zero_based_frame": 1401,
+      "time_seconds": 58.375,
+      "label": "mosfet_adapters",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1401_mosfet_adapters.png"
+    },
+    {
+      "zero_based_frame": 1526,
+      "time_seconds": 63.583333333333336,
+      "label": "mandic_really_remix",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1526_mandic_really_remix.png"
+    },
+    {
+      "zero_based_frame": 1675,
+      "time_seconds": 69.79166666666667,
+      "label": "rgb_count",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1675_rgb_count.png"
+    },
+    {
+      "zero_based_frame": 1788,
+      "time_seconds": 74.5,
+      "label": "rgb_material",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1788_rgb_material.png"
+    },
+    {
+      "zero_based_frame": 1934,
+      "time_seconds": 80.58333333333333,
+      "label": "sleep_sequence",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1934_sleep_sequence.png"
+    },
+    {
+      "zero_based_frame": 1980,
+      "time_seconds": 82.5,
+      "label": "closing_transition",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\1980_closing_transition.png"
+    },
+    {
+      "zero_based_frame": 2064,
+      "time_seconds": 86.0,
+      "label": "end_card",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\2064_end_card.png"
+    },
+    {
+      "zero_based_frame": 2135,
+      "time_seconds": 88.95833333333333,
+      "label": "final_end_card",
+      "file": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\2135_final_end_card.png"
+    }
+  ],
+  "boundary_frame_checks": {
+    "opening_maximum_RGB": 0.00392156862745098,
+    "final_card": {
+      "black_pixel_fraction": 0.993521412037037,
+      "visible_lettering_pixel_fraction": 0.006225887345679013,
+      "border_black_fraction": 1.0,
+      "expected_exact_wording": [
+        "Don't count on it... soon\u2122.",
+        "artfedderson.tech"
+      ],
+      "exact_wording_status": "PASS_ROOT_VISUAL_REVIEW",
+      "review_image": "C:\\Users\\Arthur\\.codex\\visualizations\\2026\\09\\30\\01a0f39c-0ab6-7002-afc4-9dd8b2c59fde\\v6\\BC250_The_Computer_They_Didnt_Make_V6c_checks\\2135_final_end_card.png",
+      "note": "Visible lettering and black background are verified automatically. Exact spelling is reviewed from the extracted final frame; this script does not claim OCR verification."
+    }
+  },
+  "movie_sha256": "895e6c2761798f55df72c4a00fb46ffcebe671c83586ee7fdaeb66e63ca85997",
+  "source_master_sha256": "84c9039c805305c28ba4b6dc2184a2b5d79a2a730cb9d3e73705f924c7b07469",
+  "movie_bytes": 29833975,
+  "visual_review": {
+    "reviewer": "root",
+    "frames": "Representative decoded frames and rendered proofs",
+    "result": "Caption composition, creator credits and small raised trademark checked."
+  }
+}

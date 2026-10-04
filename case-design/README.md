@@ -4,13 +4,17 @@
 
 Saved design and rendering snapshot imported on 2026-10-01. The original folder layout is retained so nearby parts, media and relative Blender references stay together.
 
+## Latest media revision
+
+[Product_Renders_2026-10-03_V6/](Product_Renders_2026-10-03_V6/) contains the new 89-second V6c film and compressed website images. It shows the updated two-board, twenty-LED Matchstick arrangement and frosted untinted PCTG. This is a media release; the October 1 SolidWorks snapshot is retained unchanged. The earlier V5 editable scenes remain available at their original paths.
+
 ## Open the design
 
 - `BC250-Assy.SLDASM`: main SolidWorks assembly. The supplied `.SLDPRT` files are alongside it.
 - `Flat pattern - Backbone.DXF`: backbone flat-pattern export.
 - `.STEP` / `.stp` files: supplied neutral CAD component files.
 - `bazziteBC250gui.png`: display reference artwork.
-- `Product_Renders_2026-09-30_V5/`: latest delivered photography and films, including the calm-audio commercial revisions and their editable Blender masters. Start with its `README.txt` and `Preview.html`.
+- `Product_Renders_2026-09-30_V5/`: earlier delivered photography and films, including the calm-audio commercial revisions and their editable Blender masters. Start with its `README.txt` and `Preview.html`.
 - The original, V2 and V3 render folders preserve earlier deliverables.
 
 The V5 handover states that GUI images, fonts and audio are packed where supported, and image strips use relative paths. Keep `cinematic_assets`, `stills`, and the other companion directories beside the Blender files. No raw render caches or rendering scripts are required to reopen these delivered scenes according to that handover.

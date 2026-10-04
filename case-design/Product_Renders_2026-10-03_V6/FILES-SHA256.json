@@ -1,0 +1,42 @@
+[
+  {
+    "path": "BC250_The_Computer_They_Didnt_Make_V6c.mp4",
+    "bytes": 29833975,
+    "sha256": "895e6c2761798f55df72c4a00fb46ffcebe671c83586ee7fdaeb66e63ca85997"
+  },
+  {
+    "path": "BC250_The_Computer_They_Didnt_Make_V6c_verification.json",
+    "bytes": 9078,
+    "sha256": "f44c44ac51fc28c3f24be49509009bff1c0a327be3defd7e7e579bec67253fcd"
+  },
+  {
+    "path": "bc250-v6c-cyan.jpg",
+    "bytes": 57510,
+    "sha256": "9d24bb0849969109aaf742607ae40345bf229fb9ff7fa0e37104a2cee36e7def"
+  },
+  {
+    "path": "bc250-v6c-matchstick.jpg",
+    "bytes": 190998,
+    "sha256": "dfaae04d4dfcee3d8e90ea1fb594901047ee8ed314dbf8f8b2819523ceca3be5"
+  },
+  {
+    "path": "bc250-v6c-night.jpg",
+    "bytes": 197385,
+    "sha256": "d63949374526a202ef28cdc539b24260a30fa47e5b605e9eace9017593dcd5ee"
+  },
+  {
+    "path": "bc250-v6c-pctg.jpg",
+    "bytes": 109357,
+    "sha256": "9fdf5222c090932681edcf79f1680ea3a61fa34cf90e0fbcbffe55e3c8cf5fd0"
+  },
+  {
+    "path": "bc250-v6c-rear.jpg",
+    "bytes": 67939,
+    "sha256": "598b87407634278eb4cf68a95ec2c60aff43ee148929085c995a72460400e3a6"
+  },
+  {
+    "path": "bc250-v6c-workbench.jpg",
+    "bytes": 231943,
+    "sha256": "23e5298649909bbc5aae313d03a47d33dad91d2b53b551af557cd98f271742a1"
+  }
+]
