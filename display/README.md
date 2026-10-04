@@ -10,7 +10,31 @@ An Elecrow CrowPanel Advanced **5-inch ESP32-P4 V1.0** display for a BC250 deskt
 
 **Working:** CPU/RAM/disk usage, optional Windows CPU temperature through LibreHardwareMonitor, touchscreen sleep/wake, four SD video/audio clips, settings QR helper, and Bluetooth scanning/pairing experiments.
 
-**Unfinished:** reliable GameSir button input and PC power-on relay, standby wiring, controller handoff, Commander Duo probe/RGB controls, native USB microphone/speaker and video streaming. A successful BLE connection is not a completed PC power-on solution.
+**Unfinished:** the voice-companion workflow, two-board Matchstick ARGB control, app/page-aware touch shortcuts, reliable GameSir button input and PC power-on relay, standby wiring, controller handoff, and native USB microphone/speaker and video streaming. A successful BLE connection is not a completed PC power-on solution.
+
+## Display roadmap
+
+The ESP32-P4 panel already receives CPU, memory and disk readings over USB serial and plays its local animated scenes with audio. The next firmware work gives that small screen four more jobs; **these features are planned, not completed**:
+
+- **Voice companion:** use the panel's onboard microphone and amplified outputs for external speakers as the listening and speaking interface for a companion. The complete voice workflow still needs implementation.
+- **ARGB controller:** control the two ten-LED Rainbow on a Matchstick boards from the touch interface, with colors and effects for all twenty LEDs.
+- **Gamepad wake of the host:** use the controller to wake or start the BC250. Display connection-wake experiments are separate; they do not yet operate the host's power signal.
+- **Touch shortcut pages:** Stream Deck-like button pages that dispatch configured host scripts or commands according to the selected app/program, page or display screen. The context selection, action dispatch and host integration still need to be built.
+
+The [manufacturer audio lesson](https://www.elecrow.com/wiki/5inch_P4_Arduino_11_Playback_After_Recording.html) documents recording and speaker playback hardware. The current Bluetooth work demonstrates scanning/pairing experiments, rather than reliable host wake or controller handoff. Existing local touch controls and sound playback do not yet constitute the voice companion or shortcut system.
+
+## Planned Windows/Linux companion app
+
+The existing [Python resource companion](https://github.com/Art4Tech/bc250-ronin-panel/blob/main/display/project/outputs/Resource-Panel/resource_panel.py) sends host telemetry to the display over USB serial. It is the working resource-monitor helper, rather than the full app described below.
+
+The planned Windows and Linux app will bring the configuration together:
+
+- Advanced LED animations for the two Matchstick boards.
+- Installation and activation of resource-monitor modules.
+- Touch-button profiles and configured script, command and program integrations, with actions selected by app/program, page or display screen.
+- Configuration of the AI-agent portal connection used by the companion workflow.
+
+This full configuration app and its display/host integrations are future work. Existing telemetry and local media playback are not being presented as implementation of those new functions.
 
 ## Continue on Windows
 
@@ -52,8 +76,10 @@ Third-party source and tools retain their own licenses. No new blanket license i
 
 This preview uses an unchanged frame of the current day video and the firmware's bitmap fonts. The active image is 800 × 480 pixels. The [printable sizing preview](project/outputs/Resource-Panel/simulations/bc250-day-actual-size.html) and [physical-size SVG](project/outputs/Resource-Panel/simulations/bc250-day-actual-size.svg) use a 120.7 × 76.3 mm black front, with a centered 108 × 64.8 mm active area. Values are illustrative, assuming approximately 8 GiB assigned to system RAM; they are not measured BC250 results. See preview-details.json for assumptions. This is not a fabrication drawing.
 
-## Bazzite preview
+## Bazzite preview — historical UI concept
 
 ![Bazzite dashboard concept](project/outputs/Resource-Panel/simulations/bazzite/bazzite-day-bezel.png)
 
 [Interactive preview](project/outputs/Resource-Panel/simulations/bazzite/bazzite-interactive-preview.html) (download and open locally): DroidSansM Nerd Font Mono, LED controller concept for two 24-pixel rings, and 120.7 × 76.3 mm outer dimensions with 3.5 mm top and 7.5 mm bottom bands. Native image is 800 × 480; the physical illustration models a 108 × 65.3 mm active area. This is a simulated UI, not flashed firmware or a fabrication drawing. [Preliminary wiring notes](project/outputs/Resource-Panel/simulations/bazzite/NEOPIXEL-WIRING.md).
+
+This preserved Bazzite preview predates the current lighting hardware. Its two 24-pixel ring controls are historical UI concepts; the current target is two ten-LED Rainbow on a Matchstick boards. Matchstick control, voice interaction, host gamepad wake and contextual shortcut pages remain planned firmware work.
