@@ -1,0 +1,22 @@
+ID,Item,Modeled baseline,Additional/final qty,Final PN,Status,Confirmation needed
+additional_6x3_magnets,Additional 6 x 3 magnets,14,TBD,,open,"Additional quantity, grade, coating, polarity/orientation and retention fit."
+m3_countersunk_replacements,Different M3 countersunk bolts,11,TBD,,open,"Length, head angle/diameter, drive, grade, quantity, thread engagement and countersink fit; existing model has 3 x16 and 8 x45."
+threaded_magnets,Owner-requested 3 mm threaded magnets,0,TBD,,open,"Clarify M3 thread versus 3 mm body size, male/female thread, envelope, quantity, mounting and polarity."
+final_heatsets,Final heat-set inserts,8,TBD,,open,"Final PN, thread, OD/length, hole geometry, insertion method, quantity and pull-out test."
+display_led_harness,Display to LED bar 1 to LED bar 2 harness,0,TBD,,open,"Display output GPIO/header mapping, logic levels, +5V source/budget, common ground, LED revision pinout, connector housings/crimps, wire gauge, lengths, keyed orientation and test."
+led_mounting,Mounts/fasteners/clips for two chosen LED positions,0,TBD,,open,"Support surfaces, hole alignment, insulated clearance, insert/bolt selection, connector access, diffuser retention and service removal; no mount validated."
+usb_extensions,USB extension cables,0,TBD,,open,"Connector genders, USB speed/power requirements, length, bend radius, panel retention and exact quantity."
+usb_right_angle,90 degree USB-C to USB-A cable,0,TBD,,open,"Connector genders/orientation, data capability, cable length, bend clearance, strain relief and exact quantity; separate from two modeled 180-degree USB adapters."
+optional_p12,Possible ARCTIC P12 Slim PWM PST,0,TBD,,open,"Selection/quantity, airflow direction, 120 x120 x15 mm clearance, hole pattern, fan power/header budget, wiring and mount validation."
+mosfet_distribution,Mosfet.Party EPS power distribution adapter,0,TBD,,open,"Confirm product/revision/quantity, PSU cable compatibility, board bounds, mounting, both BC250 power paths and harness retention."
+mosfet_ps_on,Mosfet.Party PS_ON control adapter,0,TBD,,open,"Confirm ATX button/header versus LITE variant, board bounds/holes, button/LED connector pinout, PSU and BC250 sense wiring, quantity and mounting."
+psu_cable_management,Excess PSU cable retention,0,TBD,,open,"Choose case anchor/tie-point locations, zip-tie/mount PN/quantity, routing, bend radius, insulation, fan clearance and service slack."
+small_cable_management,Small/USB/LED/audio cable retention,0,TBD,,open,"Choose separate anchor/tie-point locations, zip ties/mounts/retainers, lengths, strain relief, connector access and service slack."
+speakers,Speaker wiring and final speaker parts,2,TBD,,open,"Exact speaker PN/impedance/rating, PH2.0 housing/pin orientation, harness length, mounting and clearance."
+wireless_identity,Wireless card and antenna identity,0,TBD,,open,"No explicitly named wireless card instance; confirm installed card PN, interface, adapter and antenna/bulkhead cable identities from owner evidence."
+nvme_splitter_identity,M.2 splitter identity,1,TBD,,open,"Manufacturer/PN, topology/interface compatibility, power, mounting and attached devices; generic CAD filename cannot establish exact purchased splitter."
+storage_identity,Final SSD identities,3,TBD,,open,PN/capacity/interface and role for 2 modeled 2230 and 1 modeled 2280 bodies.
+usb_hub_identity,USB hub identity,1,TBD,,open,"Exact PN, ports/speed, power source, cable and mounting."
+psu_identity,PSU identity and cable set,1,TBD,,open,"Apevia 500 SFX filename only; confirm exact label PN/revision, connectors/pinouts and cable gauges."
+am4_custom_subassembly_bom,Decompose the custom AM4 adapter subassembly,1,TBD,,open,"One imported custom CAD component contains 19 exported bodies. Identify fabricated parts and separately required hardware, checking against top-level washers, spacers and thumb nuts to avoid double-counting. Manufacturing/material and final physical quantities remain open; do not decompose bought board/PSU chips into separate purchases."
+remaining_items,Other owner-mentioned missing components,,TBD,,open,Owner to identify remaining components; inventory is not a purchasing checklist.

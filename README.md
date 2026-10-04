@@ -1,5 +1,8 @@
 # BC250 Ronin — case design
 
+> [!WARNING]
+> **In-progress project: the design and manual are changing rapidly.** Before buying parts, printing, or building a BC250 Ronin now, [contact Arthur](https://artfedderson.tech/#start) to confirm the current revision and unresolved interfaces. The Rev0.3 manual is a provisional first edition; it is not a finalized fabrication or wiring release.
+
 A custom desktop enclosure built around the BC250 board: a sheet-metal backbone, removable magnetic and translucent PCTG covers, and an animated ESP32-P4 resource display at the base.
 
 [![BC250 Ronin case visualization](https://media.githubusercontent.com/media/Art4Tech/bc250-ronin-panel/main/case-design/Product_Renders_2026-10-03_V6/bc250-v6c-cyan.jpg)](https://artfedderson.tech/work/bc250-ronin)
@@ -12,6 +15,7 @@ The film and images are CAD-based Blender visualizations. No case parts have bee
 
 | Location | Contents |
 | --- | --- |
+| [Printing and assembly manual — Rev0.3 draft](case-design/manual/README.md) | Illustrated PDF, editable BOM, open decisions, and proposed parts |
 | [case-design/](case-design/README.md) | Design guide, download instructions, and portability notes |
 | [BC250-Assy.SLDASM](case-design/BC250-Assy.SLDASM) | Main SolidWorks assembly, with component parts alongside it |
 | [Backbone flat pattern](case-design/Flat%20pattern%20-%20Backbone.DXF) | Sheet-metal DXF export |

@@ -1,0 +1,2731 @@
+{
+  "format": "bc250-owner-build-order-bom-reconciliation",
+  "version": 2,
+  "generated_utc": "2026-10-04T07:04:49.434750+00:00",
+  "status": "additive_owner_proposal_not_a_final_or_purchased_bom",
+  "baseline": {
+    "sha256": "1636440cd8dcbf44390c9c3dae6320075b19c1f7bc1676c47a859722a2560755",
+    "active_component_instances": 83,
+    "unique_part_paths": 34,
+    "open_bom_rows": 21,
+    "modeled_quantity_basis": "One exported active component record per modeled instance; not bodies, folders, purchased quantities or suppressed components.",
+    "source_export_sha256": "6629e8ec61feadab36cd367e2baddc19778b2425403b07549a4b3b1a90aa8ac1",
+    "baseline_modified": false
+  },
+  "quantity_policy": [
+    "Original modeled counts, stable CAD IDs and instance names are immutable in this additive file.",
+    "owner_proposed_quantity is an owner-proposal count only. It is separate from final_required_quantity, purchased_quantity and purchased_part_number, which remain null.",
+    "Null quantity means unstated/unresolved; it must never be converted to zero or inferred from holes, pictures, suffixes or CAD body counts.",
+    "Arithmetic deltas compare only stated families under a conditional role match; they are not approved purchase increments.",
+    "No separately named CAD row means no top-level named record was identified, not that hardware is absent from bought/custom imported assemblies.",
+    "Retained/reused stock screws are existing hardware; subset reuse is not an extra purchase.",
+    "Alternative supplied/candidate PSU screws and USB cables/adapters must not be summed as mandatory items.",
+    "CAD source-named part numbers are evidence of naming only; purchased identity/specification remains unconfirmed.",
+    "Assembly order and routes are owner proposals. This record validates no fit, pinout, thermal gap, power connection, service action or physical procedure."
+  ],
+  "baseline_rows": [
+    {
+      "cad_id": "cad_5d363ea21b12",
+      "cad_source_basename": "10x2_Magnet.SLDPRT",
+      "modeled_count": 6,
+      "instance_names": [
+        "10x2_Magnet-1",
+        "10x2_Magnet-2",
+        "10x2_Magnet-3",
+        "10x2_Magnet-4",
+        "10x2_Magnet-6",
+        "10x2_Magnet-5"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_8d5f897e6762",
+      "cad_source_basename": "16mm_Power_Button.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "16mm_Power_Button-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_6d644622411d",
+      "cad_source_basename": "180degree_USB_Adapter.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "180degree_USB_Adapter-2",
+        "180degree_USB_Adapter-3"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_770e1006735b",
+      "cad_source_basename": "6x3_Magnet.SLDPRT",
+      "modeled_count": 14,
+      "instance_names": [
+        "6x3_Magnet-3",
+        "6x3_Magnet-4",
+        "6x3_Magnet-9",
+        "6x3_Magnet-10",
+        "6x3_Magnet-8",
+        "6x3_Magnet-7",
+        "6x3_Magnet-13",
+        "6x3_Magnet-15",
+        "6x3_Magnet-11",
+        "6x3_Magnet-12",
+        "6x3_Magnet-14",
+        "6x3_Magnet-16",
+        "6x3_Magnet-1",
+        "6x3_Magnet-2"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_cc9b0a25d7ac",
+      "cad_source_basename": "80mm_Fan_Grill.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "80mm_Fan_Grill-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_bbb76eda1cce",
+      "cad_source_basename": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer.SLDPRT",
+      "modeled_count": 3,
+      "instance_names": [
+        "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-1",
+        "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-2",
+        "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-3"
+      ],
+      "class": "bought",
+      "source_named_part_number": "90718A110",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_ebda0ab48c7d",
+      "cad_source_basename": "92MM_Arctic_PST_FAN.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "92MM_Arctic_PST_FAN-1",
+        "92MM_Arctic_PST_FAN-2"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_5a28d4baaf93",
+      "cad_source_basename": "92MM_Arctic_PST_Split_Insert.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "92MM_Arctic_PST_Split_Insert-2",
+        "92MM_Arctic_PST_Split_Insert-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_0f109b8e4c7a",
+      "cad_source_basename": "93657A009_Nylon Unthreaded Spacer.SLDPRT",
+      "modeled_count": 3,
+      "instance_names": [
+        "93657A009_Nylon Unthreaded Spacer-2",
+        "93657A009_Nylon Unthreaded Spacer-1",
+        "93657A009_Nylon Unthreaded Spacer-3"
+      ],
+      "class": "bought",
+      "source_named_part_number": "93657A009",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_e4d8bb1694b8",
+      "cad_source_basename": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut.SLDPRT",
+      "modeled_count": 3,
+      "instance_names": [
+        "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-2",
+        "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-1",
+        "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-3"
+      ],
+      "class": "bought",
+      "source_named_part_number": "93886A220",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_dc7f205830dd",
+      "cad_source_basename": "94180A333_Brass Tapered Heat-Set Inserts for Plastic.SLDPRT",
+      "modeled_count": 8,
+      "instance_names": [
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-1",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-5",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-6",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-4",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-3",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-8",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-2",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-7"
+      ],
+      "class": "bought",
+      "source_named_part_number": "94180A333",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_4b6ba0b506c2",
+      "cad_source_basename": "Apevia_500_SFX.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Apevia_500_SFX-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_0af6f34f1220",
+      "cad_source_basename": "Backbone.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Backbone-1"
+      ],
+      "class": "custom",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_e99f1dd5efea",
+      "cad_source_basename": "bc250_after_heatsink_mod.step.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "bc250_after_heatsink_mod.step-3"
+      ],
+      "class": "custom",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_4dd575723499",
+      "cad_source_basename": "bc250_am4_adapter_mount_v1.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "bc250_am4_adapter_mount_v1-1"
+      ],
+      "class": "custom",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_3f9bb53cd308",
+      "cad_source_basename": "Dual_92MM_FAN_Shroud.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Dual_92MM_FAN_Shroud-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_69b1461d44c0",
+      "cad_source_basename": "ESP32-P4-5_0-inch-20251230.stp.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "ESP32-P4-5_0-inch-20251230.stp-2"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_7190ca57490e",
+      "cad_source_basename": "Front_Cover.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Front_Cover-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_57be749e2d42",
+      "cad_source_basename": "Left_Apron.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Left_Apron-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_8c980fa3a192",
+      "cad_source_basename": "M2_Splitter.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "M2_Splitter-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_d2362404ca8e",
+      "cad_source_basename": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+      "modeled_count": 3,
+      "instance_names": [
+        "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-1",
+        "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-2",
+        "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-3"
+      ],
+      "class": "bought",
+      "source_named_part_number": "91294A134",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_c7528557a862",
+      "cad_source_basename": "M3x45_91420A138_Steel Phillips Flat Head Screws.SLDPRT",
+      "modeled_count": 8,
+      "instance_names": [
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-5",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-1",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-2",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-3",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-4",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-8",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-6",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-7"
+      ],
+      "class": "bought",
+      "source_named_part_number": "91420A138",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_6ab458265e62",
+      "cad_source_basename": "PanelMnt_SMA_Antenna_Cable.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "PanelMnt_SMA_Antenna_Cable-2",
+        "PanelMnt_SMA_Antenna_Cable-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_001439195b30",
+      "cad_source_basename": "rainbow-matchstick-diffuser.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "rainbow-matchstick-diffuser-2",
+        "rainbow-matchstick-diffuser-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_a2d7b506c6d9",
+      "cad_source_basename": "Rainbow_Matchstick.step.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "Rainbow_Matchstick.step-5",
+        "Rainbow_Matchstick.step-4"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_e6f58f0613fe",
+      "cad_source_basename": "Rear_Cover_Whole.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Rear_Cover_Whole-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_3cf2ecf0674e",
+      "cad_source_basename": "Right_Apron.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Right_Apron-1"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_f49a6b79ecc5",
+      "cad_source_basename": "snowman_mc75-8_heatsink_v1.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "snowman_mc75-8_heatsink_v1-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_35bc922ba3c7",
+      "cad_source_basename": "Speaker.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "Speaker-2",
+        "Speaker-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_a3f594caf952",
+      "cad_source_basename": "SSD_M2_2230.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "SSD_M2_2230-1",
+        "SSD_M2_2230-2"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_124f6fc1c790",
+      "cad_source_basename": "SSD_M2_2280.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "SSD_M2_2280-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_5429a83cd569",
+      "cad_source_basename": "Stubby_SMA_Wifi_Antenna.SLDPRT",
+      "modeled_count": 2,
+      "instance_names": [
+        "Stubby_SMA_Wifi_Antenna-1",
+        "Stubby_SMA_Wifi_Antenna-2"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_6e2a9d87d639",
+      "cad_source_basename": "Top_Cover.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "Top_Cover-2"
+      ],
+      "class": "printed",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    },
+    {
+      "cad_id": "cad_8a5caa14b72d",
+      "cad_source_basename": "USB_Hub.SLDPRT",
+      "modeled_count": 1,
+      "instance_names": [
+        "USB_Hub-1"
+      ],
+      "class": "bought",
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed"
+    }
+  ],
+  "proposed_items": [
+    {
+      "id": "proposal_heatsets_fan_inserts",
+      "item": "Fan-insert heat-set inserts",
+      "role": "Four in each of two 92 mm fan inserts",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 8,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "M3 candidate; final insert selection open",
+        "per_insert": 4,
+        "insert_count": 2
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_dc7f205830dd",
+          "cad_source_basename": "94180A333_Brass Tapered Heat-Set Inserts for Plastic.SLDPRT",
+          "modeled_count": 8,
+          "instance_names": [
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-1",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-5",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-6",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-4",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-3",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-8",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-2",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-7"
+          ],
+          "class": "bought",
+          "source_named_part_number": "94180A333",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same heatset family; assignment to fan inserts proposed"
+        },
+        {
+          "cad_id": "cad_5a28d4baaf93",
+          "cad_source_basename": "92MM_Arctic_PST_Split_Insert.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "92MM_Arctic_PST_Split_Insert-2",
+            "92MM_Arctic_PST_Split_Insert-1"
+          ],
+          "class": "printed",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two printed holders; not an electrical splitter"
+        }
+      ],
+      "reconciliation_status": "owner_count_matches_candidate_cad_family",
+      "arithmetic_delta_if_same_family": 0,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner scope explicitly establishes eight. The CAD has eight 94180A333-named heatsets, but source-named PN is not a final purchased selection.",
+        "Verify insert geometry, thread, plastic hole/installation fit and screw engagement before ordering."
+      ]
+    },
+    {
+      "id": "proposal_heatsets_filter_mounts",
+      "item": "Future fan-filter mount heat-set inserts",
+      "role": "Filter mounts not yet designed",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 4,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "not finalized",
+        "mount_design": "absent/unresolved"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_dc7f205830dd",
+          "cad_source_basename": "94180A333_Brass Tapered Heat-Set Inserts for Plastic.SLDPRT",
+          "modeled_count": 8,
+          "instance_names": [
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-1",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-5",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-6",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-4",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-3",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-8",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-2",
+            "94180A333_Brass Tapered Heat-Set Inserts for Plastic-7"
+          ],
+          "class": "bought",
+          "source_named_part_number": "94180A333",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "related insert family only; eight modeled are not a separate filter allocation"
+        }
+      ],
+      "reconciliation_status": "additional_proposed_allocation_not_modeled_as_filter_mounts",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Separate proposed allocation of four; do not allocate the same eight modeled inserts twice.",
+        "The additional filter mounts, insert selection and joints require design. Aggregate proposal is twelve inserts versus eight modeled, a planning difference of four only."
+      ]
+    },
+    {
+      "id": "proposal_fan_filter_mounts",
+      "item": "Printed fan-filter mounts",
+      "role": "Bottom of backbone",
+      "kind": "custom_part",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "design_status": "not yet designed"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Number of mount pieces and all mount-to-backbone fastener quantities remain unstated.",
+        "Four proposed filter heatsets do not establish four physical mounts."
+      ]
+    },
+    {
+      "id": "proposal_magnets_6x3",
+      "item": "6 x 3 magnets in printed parts",
+      "role": "Magnetic cover/apron retention",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "owner_size_label_mm": "6x3"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_770e1006735b",
+          "cad_source_basename": "6x3_Magnet.SLDPRT",
+          "modeled_count": 14,
+          "instance_names": [
+            "6x3_Magnet-3",
+            "6x3_Magnet-4",
+            "6x3_Magnet-9",
+            "6x3_Magnet-10",
+            "6x3_Magnet-8",
+            "6x3_Magnet-7",
+            "6x3_Magnet-13",
+            "6x3_Magnet-15",
+            "6x3_Magnet-11",
+            "6x3_Magnet-12",
+            "6x3_Magnet-14",
+            "6x3_Magnet-16",
+            "6x3_Magnet-1",
+            "6x3_Magnet-2"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "matching nominal size family only"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner gives no total quantity or distribution. Keep the fourteen actual modeled instances unchanged; do not use maximum suffix 16 as a count.",
+        "Extra magnets were an earlier owner open item; supplier grade/coating/polarity, hole fit and retention remain open."
+      ]
+    },
+    {
+      "id": "proposal_magnets_10x2",
+      "item": "10 x 2 magnets in printed parts",
+      "role": "Magnetic retention",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "owner_size_label_mm": "10x2"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_5d363ea21b12",
+          "cad_source_basename": "10x2_Magnet.SLDPRT",
+          "modeled_count": 6,
+          "instance_names": [
+            "10x2_Magnet-1",
+            "10x2_Magnet-2",
+            "10x2_Magnet-3",
+            "10x2_Magnet-4",
+            "10x2_Magnet-6",
+            "10x2_Magnet-5"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "matching nominal size family only"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner gives no total quantity or distribution. Keep six modeled instances unchanged.",
+        "The source name does not establish that these six are the six threaded magnets later requested."
+      ]
+    },
+    {
+      "id": "proposal_threaded_magnets",
+      "item": "Threaded magnets on backbone",
+      "role": "Rear-cover magnetic retention",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 6,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "M3 requested in earlier owner open item; exact purchased thread and body dimensions unconfirmed",
+        "body_size_mm": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_5d363ea21b12",
+          "cad_source_basename": "10x2_Magnet.SLDPRT",
+          "modeled_count": 6,
+          "instance_names": [
+            "10x2_Magnet-1",
+            "10x2_Magnet-2",
+            "10x2_Magnet-3",
+            "10x2_Magnet-4",
+            "10x2_Magnet-6",
+            "10x2_Magnet-5"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "numerically equal generic magnet family only; no threaded identity established"
+        }
+      ],
+      "reconciliation_status": "threaded_identity_and_cad_role_unresolved",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Six is an owner-proposed requirement, not six verified additional purchases.",
+        "The six generic 10x2 modeled magnets are not proof of six threaded magnets; distinguish by actual drawings and purchased revision before replacing or adding rows.",
+        "Exact size, polarity, thread depth and countersunk attachment geometry remain open."
+      ]
+    },
+    {
+      "id": "proposal_threaded_magnet_fasteners",
+      "item": "Countersunk bolts for threaded magnets",
+      "role": "Front of backbone into rear threaded magnets",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "head": "countersunk",
+        "thread": null,
+        "length_mm": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Six threaded magnets do not authorize inventing an explicit bolt quantity in this reconciliation.",
+        "Check exact magnet thread, depth, countersink, sheet thickness and clearance."
+      ]
+    },
+    {
+      "id": "proposal_bc250_spacers",
+      "item": "6 mm BC250 spacers",
+      "role": "Three board mounting positions",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 3,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "length_mm": 6,
+        "threaded_or_unthreaded": "unresolved"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_0f109b8e4c7a",
+          "cad_source_basename": "93657A009_Nylon Unthreaded Spacer.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "93657A009_Nylon Unthreaded Spacer-2",
+            "93657A009_Nylon Unthreaded Spacer-1",
+            "93657A009_Nylon Unthreaded Spacer-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "93657A009",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same count and 6 mm envelope; joint/thread type conflicts or needs clarification"
+        },
+        {
+          "cad_id": "cad_d2362404ca8e",
+          "cad_source_basename": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-1",
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-2",
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "91294A134",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "existing three M3x16 screws may belong to another joint; not automatically replaced"
+        },
+        {
+          "cad_id": "cad_e4d8bb1694b8",
+          "cad_source_basename": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-2",
+            "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-1",
+            "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "93886A220",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "existing three thumb nuts require role reconciliation"
+        }
+      ],
+      "reconciliation_status": "count_matches_but_joint_and_spacer_type_unresolved",
+      "arithmetic_delta_if_same_family": 0,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Three modeled 93657A009 parts are explicitly Nylon Unthreaded Spacer with a 6 mm local envelope.",
+        "Owner proposes rear countersunk bolts plus separate front M3x8 screws. Resolve the complete joint stack and where each screw engages; do not silently treat an unthreaded spacer as a threaded standoff.",
+        "Final material, insulation, length, screw thread engagement and stand-off clearance need confirmation."
+      ]
+    },
+    {
+      "id": "proposal_bc250_spacer_rear_bolts",
+      "item": "Rear countersunk bolts for BC250 spacer joint",
+      "role": "Rear of backbone",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "head": "countersunk",
+        "thread": null,
+        "length_mm": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_d2362404ca8e",
+          "cad_source_basename": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-1",
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-2",
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "91294A134",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "possible existing joint hardware; assignment unconfirmed"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner gives three spacer positions but does not state rear-bolt quantity or length.",
+        "Determine the complete spacer/bolt/nut arrangement without double-counting existing M3x16 screws and thumb nuts."
+      ]
+    },
+    {
+      "id": "proposal_bc250_mount_m3x8",
+      "item": "BC250-to-spacer screws",
+      "role": "Board attachment to three 6 mm spacers",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 3,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "M3",
+        "length_mm": 8,
+        "head": "not specified"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_0f109b8e4c7a",
+          "cad_source_basename": "93657A009_Nylon Unthreaded Spacer.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "93657A009_Nylon Unthreaded Spacer-2",
+            "93657A009_Nylon Unthreaded Spacer-1",
+            "93657A009_Nylon Unthreaded Spacer-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "93657A009",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "related three positions only"
+        },
+        {
+          "cad_id": "cad_d2362404ca8e",
+          "cad_source_basename": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-1",
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-2",
+            "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "91294A134",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "different modeled length; not an exact match"
+        }
+      ],
+      "reconciliation_status": "new_specification_needs_joint_reconciliation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Root task explicitly clarifies three M3x8 screws. No separately named M3x8 row is present in the top-level CAD BOM.",
+        "Verify engagement, protrusion, electrical insulation and whether the spacer joint is threaded; do not silently replace three modeled M3x16 screws."
+      ]
+    },
+    {
+      "id": "proposal_fan_shroud_m3x45",
+      "item": "Fan/shroud countersunk screws",
+      "role": "Eight fan holes",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 8,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "M3",
+        "length_mm": 45,
+        "head": "countersunk"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_c7528557a862",
+          "cad_source_basename": "M3x45_91420A138_Steel Phillips Flat Head Screws.SLDPRT",
+          "modeled_count": 8,
+          "instance_names": [
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-5",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-1",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-2",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-3",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-4",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-8",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-6",
+            "M3x45_91420A138_Steel Phillips Flat Head Screws-7"
+          ],
+          "class": "bought",
+          "source_named_part_number": "91420A138",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same nominal size and count"
+        }
+      ],
+      "reconciliation_status": "owner_count_and_nominal_size_match_cad",
+      "arithmetic_delta_if_same_family": 0,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner specifies all eight holes. CAD contains eight M3x45 91420A138-named screws.",
+        "This verifies quantity/name correspondence only; head standard, chosen replacement SKU, length through the stack and heatset engagement are not physically validated."
+      ]
+    },
+    {
+      "id": "proposal_psu_mount_candidate",
+      "item": "PSU mounting screws: M3x8 candidate OR supplied screws",
+      "role": "Apevia 500 W SFX to backbone",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 4,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "candidate_thread": "M3",
+        "candidate_length_mm": 8,
+        "candidate_head": "countersunk",
+        "alternative": "screws supplied with exact PSU",
+        "actual_psu_thread": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_4b6ba0b506c2",
+          "cad_source_basename": "Apevia_500_SFX.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "Apevia_500_SFX-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "one modeled PSU; mounting hardware not separately established"
+        }
+      ],
+      "reconciliation_status": "owner_count_known_psu_thread_and_screw_spec_unconfirmed",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Do not approve M3 based on this proposal. Actual Apevia SKU, housing thread and allowable screw penetration are unverified.",
+        "Four candidate screws and four supplied screws are alternatives, not eight required screws.",
+        "No separately named M3x8 row exists in the baseline."
+      ]
+    },
+    {
+      "id": "proposal_psu",
+      "item": "Apevia 500 W SFX PSU",
+      "role": "Primary power supply",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "owner_brand": "Apevia",
+        "power_w": 500,
+        "form_factor": "SFX",
+        "exact_sku": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_4b6ba0b506c2",
+          "cad_source_basename": "Apevia_500_SFX.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "Apevia_500_SFX-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same owner-described PSU family"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "CAD name and owner description correspond, but exact purchased model/revision and supplied hardware remain unconfirmed.",
+        "Apevia selection does not establish compatibility with the Mosfet.Party FSP500-30AS plug-and-play variant."
+      ]
+    },
+    {
+      "id": "proposal_iec_90_adapter",
+      "item": "90 degree IEC adapter",
+      "role": "PSU inlet, facing rear as proposed",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "angle_degrees": 90,
+        "connector_standard": null,
+        "current_voltage_rating": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "A single adapter is proposed. Confirm exact PSU inlet, orientation, earth continuity, rating, clearance and retention; no exact PN or separately named CAD row is established."
+      ]
+    },
+    {
+      "id": "proposal_fans_92",
+      "item": "92 mm fans",
+      "role": "Two shroud fans",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 2,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "nominal_size_mm": 92,
+        "exact_sku": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_ebda0ab48c7d",
+          "cad_source_basename": "92MM_Arctic_PST_FAN.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "92MM_Arctic_PST_FAN-1",
+            "92MM_Arctic_PST_FAN-2"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same nominal size and count; exact SKU unconfirmed"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Two owner fan cables correspond to two modeled 92MM_Arctic_PST_FAN instances.",
+        "P9 ACFAN00298A is a manufacturer-supported candidate, not a confirmed purchased identity. Airflow direction and final wiring require physical checks."
+      ]
+    },
+    {
+      "id": "proposal_fan_120",
+      "item": "120 mm fan",
+      "role": "Third fan connected to splitter",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "nominal_size_mm": 120,
+        "exact_sku": null,
+        "thickness_mm": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_f49a6b79ecc5",
+          "cad_source_basename": "snowman_mc75-8_heatsink_v1.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "snowman_mc75-8_heatsink_v1-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "possible bundled cooler/fan assembly; not a separate 120 mm fan identity"
+        }
+      ],
+      "reconciliation_status": "owner_quantity_known_exact_fan_and_overlap_unresolved",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner specifies one 120 mm fan. P12 Slim PWM PST remains a candidate, not a final selection.",
+        "Check whether the cooler's 79-body CAD component represents/bundles the same fan before counting an additional purchased fan.",
+        "Fan mounting, current, airflow, blade clearance and retention remain open."
+      ]
+    },
+    {
+      "id": "proposal_fan_splitter_3_to_1",
+      "item": "Three-to-one fan splitter",
+      "role": "Two 92 mm fans plus one 120 mm fan to CPU FAN",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "fan_outputs": 3,
+        "board_input": "CPU FAN as owner-proposed",
+        "part_number": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_5a28d4baaf93",
+          "cad_source_basename": "92MM_Arctic_PST_Split_Insert.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "92MM_Arctic_PST_Split_Insert-2",
+            "92MM_Arctic_PST_Split_Insert-1"
+          ],
+          "class": "printed",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "name collision only; structural printed insert, not this splitter"
+        }
+      ],
+      "reconciliation_status": "no_electrical_splitter_row_and_electrical_limits_open",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "The printed 92MM_Arctic_PST_Split_Insert is not an electrical fan splitter. The M2_Splitter is also unrelated.",
+        "Verify BC250 header pinout/rating, all actual fan startup/current labels, splitter power/PWM/tach implementation and one appropriate tach return before approval.",
+        "Conditional two P9 plus one P12 Slim manufacturer-listed running current is 0.36 A; that arithmetic does not establish header safety."
+      ]
+    },
+    {
+      "id": "proposal_stock_heatsink_screws_remove",
+      "item": "Original stock heatsink screws removed and retained",
+      "role": "Handling of existing BC250 hardware",
+      "kind": "reused_hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 8,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "original_thread_length": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_e99f1dd5efea",
+          "cad_source_basename": "bc250_after_heatsink_mod.step.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "bc250_after_heatsink_mod.step-3"
+          ],
+          "class": "custom",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "existing imported board/modified-sink assembly; hardware not independently itemized"
+        }
+      ],
+      "reconciliation_status": "owner_retained_hardware_count_only",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner says eight; creator exact instructions are not independently confirmed here. This is a retained-hardware handling count, not a new purchase requirement.",
+        "Do not overwrite this owner-specific count with a generic guide's different count."
+      ]
+    },
+    {
+      "id": "proposal_stock_outer_sink_screws_reuse",
+      "item": "Original screws reused for outer heatsink sections",
+      "role": "Two outer stock sink sections",
+      "kind": "reused_hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 4,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "springs": "removed as owner-proposed",
+        "actual_thread_length": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_e99f1dd5efea",
+          "cad_source_basename": "bc250_after_heatsink_mod.step.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "bc250_after_heatsink_mod.step-3"
+          ],
+          "class": "custom",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "existing hardware within imported assembly"
+        }
+      ],
+      "reconciliation_status": "subset_of_retained_eight_not_new_purchase",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "These four are a subset of the eight retained screws, not four extra new screws. Remaining retained screw uses are not established.",
+        "Confirm actual stock screw engagement, retention and PCB load; no creator-verifiable screw/thread data was obtained."
+      ]
+    },
+    {
+      "id": "proposal_stock_outer_sink_washers",
+      "item": "M3 washers behind PCB for outer sink sections",
+      "role": "Four reused stock-screw positions",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 4,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "nominal_screw_size": "M3",
+        "material": null,
+        "outer_diameter_mm": null,
+        "thickness_mm": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_bbb76eda1cce",
+          "cad_source_basename": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer.SLDPRT",
+          "modeled_count": 3,
+          "instance_names": [
+            "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-1",
+            "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-2",
+            "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": "90718A110",
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "related M3 washer family; actual mounting role/spec equivalence unconfirmed"
+        }
+      ],
+      "reconciliation_status": "owner_four_vs_modeled_three_role_unresolved",
+      "arithmetic_delta_if_same_family": 1,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Four is the owner proposal; only three 90718A110-named glass-filled nylon washers are separately modeled.",
+        "Arithmetic difference is one at washer-family level only. Their CAD role may differ; no purchased increment or PN equivalence is established.",
+        "Confirm electrical insulation, dimensions, hardware-stack pressure and locations before reusing the modeled washer SKU."
+      ]
+    },
+    {
+      "id": "proposal_rear_sink_adapter_m3",
+      "item": "M3 screws for rear center heatsink through cooler adapter",
+      "role": "Rear VRAM sink attachment",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "thread": "M3 proposed",
+        "length_mm": null,
+        "head": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_4dd575723499",
+          "cad_source_basename": "bc250_am4_adapter_mount_v1.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "bc250_am4_adapter_mount_v1-1"
+          ],
+          "class": "custom",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "nineteen-body custom imported component; physical sub-BOM unresolved"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Quantity and length are not stated; no count is invented from a figure or imported bodies.",
+        "Adapter component contains nineteen exported bodies. Decompose fabricated parts and embedded hardware, checking existing top-level screws, washers, spacers and thumb nuts to avoid double-counting.",
+        "Confirm stock sink thread, engagement and PCB pressure; exact creator screw/thread instructions remain unconfirmed."
+      ]
+    },
+    {
+      "id": "proposal_cooler_mount_hardware",
+      "item": "Cooler's stainless mounting hardware",
+      "role": "APU cooler to AM4 adapter",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "owner_material_description": "stainless mounts",
+        "interface": "exact cooler/adapter revision unconfirmed"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_f49a6b79ecc5",
+          "cad_source_basename": "snowman_mc75-8_heatsink_v1.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "snowman_mc75-8_heatsink_v1-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "modeled cooler assembly; bundled hardware not separately confirmed"
+        },
+        {
+          "cad_id": "cad_4dd575723499",
+          "cad_source_basename": "bc250_am4_adapter_mount_v1.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "bc250_am4_adapter_mount_v1-1"
+          ],
+          "class": "custom",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "custom mounting interface"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner states use of the cooler's mounts but gives no quantity, screw length, thread, bracket revision or tightening specification.",
+        "Creator explicitly tested only one heatsink; generic AM4 identity does not certify all cooler hardware.",
+        "Separate bundled hardware from new purchases during adapter sub-BOM decomposition."
+      ]
+    },
+    {
+      "id": "proposal_utp6_front",
+      "item": "Upsiren UTP-6 thermal putty: front components",
+      "role": "Outer sink contact regions",
+      "kind": "consumable",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": null,
+      "unit": "gram",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "owner_brand_product": "Upsiren UTP-6",
+        "initial_deposit_height_mm": 4,
+        "compressed_gap_mm": null,
+        "coverage_map": "record actual original contact regions"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Four millimetres is an initial deposit before compression, not a measured final gap or bondline.",
+        "Mass, volume, exact coverage, compatibility, pressure and final contact are unconfirmed. No dose is invented."
+      ]
+    },
+    {
+      "id": "proposal_utp6_rear",
+      "item": "Upsiren UTP-6 thermal putty: rear VRAM",
+      "role": "Rear VRAM to reused center sink",
+      "kind": "consumable",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": null,
+      "unit": "gram",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "initial_ball_height_mm": 6,
+        "initial_ball_count": null,
+        "initial_rule": "one per actual VRAM module",
+        "compressed_gap_mm": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Six millimetres is initial ball height before compression. Owner provides no chip count; no number of balls or mass is inferred.",
+        "Measure/validate final contact, sink clearance and pressure before a final material quantity or installation procedure."
+      ]
+    },
+    {
+      "id": "proposal_mx6_apu",
+      "item": "Arctic MX-6 thermal paste",
+      "role": "APU interface",
+      "kind": "consumable",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": null,
+      "unit": "gram",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "owner_product_recommendation": "Arctic MX-6",
+        "dose_g": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner recommendation only; selected pack size and application dose are unstated. Do not substitute thermal putty at the APU interface based on these rows."
+      ]
+    },
+    {
+      "id": "proposal_ipa",
+      "item": "99% IPA",
+      "role": "Thermal interface cleaning",
+      "kind": "consumable",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": null,
+      "unit": "millilitre",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "owner_concentration_percent": 99
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No volume, procedure approval or final material compatibility is established."
+      ]
+    },
+    {
+      "id": "proposal_microfiber",
+      "item": "Soft microfiber cloth",
+      "role": "Owner-proposed APU cleaning",
+      "kind": "consumable",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {},
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No explicit quantity or validated cleaning method is supplied."
+      ]
+    },
+    {
+      "id": "proposal_microsd",
+      "item": "Display microSD card",
+      "role": "Display assets",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "owner_capacity_text": "16-32GB minimum",
+        "selected_capacity_gb": null,
+        "filesystem": null,
+        "speed_class": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Single card is stated. Preserve the owner's ambiguous capacity phrase; do not silently turn it into a confirmed upper limit or format requirement.",
+        "Confirm exact firmware/file layout, card compatibility and selected capacity separately."
+      ]
+    },
+    {
+      "id": "proposal_display_usb_90",
+      "item": "90 degree USB cable to display UART0",
+      "role": "Host display connection",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "angle_degrees": 90,
+        "owner_destination_label": "UART0",
+        "exact_connector_and_orientation": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_69b1461d44c0",
+          "cad_source_basename": "ESP32-P4-5_0-inch-20251230.stp.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "ESP32-P4-5_0-inch-20251230.stp-2"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "related display; interface/cable not identified"
+        },
+        {
+          "cad_id": "cad_6d644622411d",
+          "cad_source_basename": "180degree_USB_Adapter.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "180degree_USB_Adapter-2",
+            "180degree_USB_Adapter-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "different angle/product category; not an exact match"
+        }
+      ],
+      "reconciliation_status": "no_exact_90_degree_cable_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "A cable is proposed, not one of the two modeled 180 degree USB adapters.",
+        "Confirm physical connector, power/data routing, length and bend direction on exact display revision; UART0 alone is not a cable PN."
+      ]
+    },
+    {
+      "id": "proposal_led_boards",
+      "item": "Left and right Matchstick LED boards",
+      "role": "Owner's left-first, right-second chain intent",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 2,
+      "unit": "piece",
+      "quantity_basis": "owner_describes_left_and_right_boards",
+      "proposed_specification": {
+        "owner_chain_intent": [
+          "left",
+          "right"
+        ],
+        "validated_din_dout_orientation": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_a2d7b506c6d9",
+          "cad_source_basename": "Rainbow_Matchstick.step.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "Rainbow_Matchstick.step-5",
+            "Rainbow_Matchstick.step-4"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two actual board instances; physical left/right identity needs orientation check"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Two native CAD Matchstick boards remain two; no new board geometry is proposed here.",
+        "Physical top/bottom is not proof of DIN/DOUT. Exact purchased revision, voltage, pin order, logic and chain orientation still need validation.",
+        "Manual figure callout numbers are component identifiers and do not determine the electrical chain order."
+      ]
+    },
+    {
+      "id": "proposal_led_diffusers",
+      "item": "Matchstick diffusers",
+      "role": "Covers on LED boards",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "exact_revision": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_001439195b30",
+          "cad_source_basename": "rainbow-matchstick-diffuser.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "rainbow-matchstick-diffuser-2",
+            "rainbow-matchstick-diffuser-1"
+          ],
+          "class": "printed",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two modeled diffuser instances"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Two diffusers are modeled. Owner gives no separate purchase/fabrication count or final mounting specification in this paragraph."
+      ]
+    },
+    {
+      "id": "proposal_led_mounts",
+      "item": "LED mounts/brackets",
+      "role": "Support two Matchsticks at chosen positions",
+      "kind": "custom_part",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "design_status": "mounting unresolved"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No mount piece count or final manufactured design is given. LED positions are chosen, but support has not been validated.",
+        "Reference PCB two M3-capable plated-ground holes and outline data are design references, not a purchased-revision pinout/mount approval.",
+        "Do not clamp LED faces or rely on connector cables for support. Check case clearance and removable support concept."
+      ]
+    },
+    {
+      "id": "proposal_led_board_mount_m3",
+      "item": "M3 screws for Matchstick/diffuser to mounts",
+      "role": "LED assembly attachment",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "thread": "M3 proposed",
+        "length_mm": null,
+        "head": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_a2d7b506c6d9",
+          "cad_source_basename": "Rainbow_Matchstick.step.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "Rainbow_Matchstick.step-5",
+            "Rainbow_Matchstick.step-4"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "related PCB mounting features only"
+        },
+        {
+          "cad_id": "cad_001439195b30",
+          "cad_source_basename": "rainbow-matchstick-diffuser.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "rainbow-matchstick-diffuser-2",
+            "rainbow-matchstick-diffuser-1"
+          ],
+          "class": "printed",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "related cover; fastener stack unknown"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner does not state quantity; two reference PCB holes per board are not a final fastener count.",
+        "Confirm exact hole revision, plated-ground contact, electrical isolation if needed, standoff stack and diffuser clearance."
+      ]
+    },
+    {
+      "id": "proposal_led_mount_backbone_bolts",
+      "item": "Bolts for LED mounts to backbone",
+      "role": "Bracket attachment",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "thread": null,
+        "length_mm": null,
+        "head": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Count and size are unspecified. No holes, anchors or hardware are fabricated by this report."
+      ]
+    },
+    {
+      "id": "proposal_led_control_harness",
+      "item": "Display-to-first Matchstick control harness",
+      "role": "Display to left bar as proposed",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "owner_display_connector": "*connector (unresolved)",
+        "owner_bar_end": "top of left bar",
+        "verified_pins": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "One cable is described, but pinout/connector PN, length, voltage, current and logic conversion remain open.",
+        "Reference-design 2.50 versus 2.54 mm discrepancy and reference pin-order evidence must remain reference-only; do not assert final purchased-board pinout.",
+        "The source-defined auxiliary twenty RGB LEDs and fixed white ring are distinct controls; no firmware change is implied."
+      ]
+    },
+    {
+      "id": "proposal_led_interbar_harness",
+      "item": "First-to-second Matchstick bridge harness",
+      "role": "Left bottom under PCB to right bottom as proposed",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "owner_routing_description": "under PCB around bottom of rear center sink",
+        "validated_route": false,
+        "verified_din_dout_pins": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "One bridge wire is described. Route remains owner intent rather than a modeled/clearance-checked cable path.",
+        "Bottom-to-bottom must not be treated as DOUT-to-DIN until the exact board orientation and purchased pinout are inspected."
+      ]
+    },
+    {
+      "id": "proposal_speakers",
+      "item": "Speakers",
+      "role": "One in each side apron",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 2,
+      "unit": "piece",
+      "quantity_basis": "one_per_two_aprons",
+      "proposed_specification": {
+        "model_impedance_power": null,
+        "connector": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_35bc922ba3c7",
+          "cad_source_basename": "Speaker.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "Speaker-2",
+            "Speaker-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same count generic speaker family"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Two owner-described speakers correspond to two generic modeled Speaker instances; electrical ratings and exact display outputs/connectors remain open."
+      ]
+    },
+    {
+      "id": "proposal_power_button",
+      "item": "Power button",
+      "role": "Left apron",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_contact_illumination_spec": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_8d5f897e6762",
+          "cad_source_basename": "16mm_Power_Button.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "16mm_Power_Button-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same generic modeled component"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "One modeled 16 mm button is generic; PS_ON adapter type, contact wiring and any illumination are unconfirmed."
+      ]
+    },
+    {
+      "id": "proposal_usb_hub",
+      "item": "USB hub",
+      "role": "Right apron",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_model": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_8a5caa14b72d",
+          "cad_source_basename": "USB_Hub.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "USB_Hub-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "same generic modeled component"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "One modeled generic hub; power/data cable and interface remain unconfirmed."
+      ]
+    },
+    {
+      "id": "proposal_ps_on_adapter",
+      "item": "Mosfet.Party PS_ON adapter",
+      "role": "Power button/PSU control",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_variant": null,
+        "owner_ground_extension": "proposed cut/solder extension",
+        "purchased_board_pinout": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "The selected Apevia PSU does not establish the FSP500-30AS plug-and-play variant. Resolve button/header/Lite/prewired choice using the exact PSU and official revision.",
+        "Ground pin, solder/strain relief, insulation and retention need verified source and physical checks; this row authorizes no cutting or connection."
+      ]
+    },
+    {
+      "id": "proposal_eps_adapter",
+      "item": "Mosfet.Party power adapter (EPS intent)",
+      "role": "BC250 power input conversion",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "owner_literal_name": "esp adapter",
+        "interpreted_intent": "EPS power adapter; exact revision not confirmed"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Retain the owner's original naming and mark the EPS interpretation. Do not invent the purchased adapter PN.",
+        "Parent official-source review requires CPU 8-pin into the EPS adapter and PCIe 8-pin into the onboard BC250 connector; these are not interchangeable.",
+        "No installation, soldering or power test is performed by this report."
+      ]
+    },
+    {
+      "id": "proposal_ps_on_ground_extension",
+      "item": "PS_ON ground extension wire and insulation/strain relief",
+      "role": "Under-PCB control connection",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "wire_length_gauge_connector": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Exact wire length/gauge, terminal, insulation and retention hardware quantities are not specified. Do not infer an approved PCB ground pin or cable route."
+      ]
+    },
+    {
+      "id": "proposal_hot_glue",
+      "item": "Hot glue as owner-proposed retention",
+      "role": "Ground connection retention",
+      "kind": "consumable",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": null,
+      "unit": "gram",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "amount": "small amount per owner",
+        "validated_retention_method": false
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No mass, temperature rating, material selection or validation is supplied; it does not substitute for suitable electrical/strain-relief design."
+      ]
+    },
+    {
+      "id": "proposal_nvme_extension",
+      "item": "NVMe extension cable/assembly",
+      "role": "Existing OS NVMe moved from BC250 to remote mount",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "length_form_factor_connector": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "The extension is a distinct product from the M.2 splitter. Exact electrical lanes, drive compatibility, bend radius, retention and clearance remain open.",
+        "Owner loop and 90 degree bend are routing intent, not validated cable geometry."
+      ]
+    },
+    {
+      "id": "proposal_nvme_extension_plate",
+      "item": "NVMe extension plate",
+      "role": "Extension assembly to NVMe mount",
+      "kind": "custom_or_bundled_part_unresolved",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_design": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner names a plate but no separately named plate CAD row exists. It may be part of an extension product; no fabrication or purchased identity is assumed."
+      ]
+    },
+    {
+      "id": "proposal_nvme_mount",
+      "item": "NVMe mount",
+      "role": "Bottom of backbone",
+      "kind": "custom_part",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_design": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No separately named NVMe mount row exists. The nineteen-body AM4 cooler adapter is not this NVMe mount.",
+        "Confirm physical design, attachment, drive retention and access before final BOM."
+      ]
+    },
+    {
+      "id": "proposal_nvme_plate_m3",
+      "item": "M3 screws: extension plate to NVMe mount",
+      "role": "First NVMe joint",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 4,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "M3",
+        "length_mm": null,
+        "head": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Four explicitly proposed. Length, head, nut/insert requirements and final joint are unstated; no exact matching top-level screw row is established."
+      ]
+    },
+    {
+      "id": "proposal_nvme_mount_backbone_m3",
+      "item": "M3 screws: NVMe mount to backbone",
+      "role": "Second NVMe joint, initially loose",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 4,
+      "unit": "piece",
+      "quantity_basis": "explicit_owner_quantity",
+      "proposed_specification": {
+        "thread": "M3",
+        "length_mm": null,
+        "head": null,
+        "owner_initial_state": "loose until wiring arranged"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Separate set of four explicitly proposed; not the same four as the plate joint. No length/head/retention is specified.",
+        "Final tightening, access, PCB clearance and thread engagement remain unvalidated."
+      ]
+    },
+    {
+      "id": "proposal_os_nvme_reuse",
+      "item": "Same OS NVMe reused after installation",
+      "role": "Direct-board installation then extension location",
+      "kind": "existing_device_reuse",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_same_owner_device",
+      "proposed_specification": {
+        "capacity_form_factor": null,
+        "same_device_across_steps": true
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_124f6fc1c790",
+          "cad_source_basename": "SSD_M2_2280.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "SSD_M2_2280-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "possible drive; exact OS device unconfirmed"
+        },
+        {
+          "cad_id": "cad_a3f594caf952",
+          "cad_source_basename": "SSD_M2_2230.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "SSD_M2_2230-1",
+            "SSD_M2_2230-2"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two other modeled SSD instances; role/identity unconfirmed"
+        }
+      ],
+      "reconciliation_status": "reuse_does_not_change_three_modeled_ssds",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "The OS drive in the first and later steps is the same owner-described device, not two purchases.",
+        "Baseline remains one 2280 plus two 2230 modeled drives. Their actual purchased identities and use roles remain unconfirmed; do not reduce three CAD instances or select one silently."
+      ]
+    },
+    {
+      "id": "proposal_wifi7_m2",
+      "item": "Wi-Fi 7 M.2 board",
+      "role": "Owner's rear splitter slot",
+      "kind": "hardware",
+      "appendix_priority": "core",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_part_number": null,
+        "electrical_key_interface": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Single board is stated, but no separately named wireless card row establishes its purchased identity.",
+        "Confirm PCIe/USB interfaces, keying, exact splitter slot support and antennas; filename or generic splitter geometry cannot prove Wi-Fi 7 compatibility."
+      ]
+    },
+    {
+      "id": "proposal_m2_splitter",
+      "item": "M.2/NVMe splitter",
+      "role": "BC250 M.2 slot feeding Wi-Fi and NVMe extension",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_part_number": null,
+        "lane_keying_slot_support": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_8c980fa3a192",
+          "cad_source_basename": "M2_Splitter.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "M2_Splitter-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "generic modeled splitter only"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "One generic M2_Splitter is modeled. It does not confirm an electrical bifurcation/switching design or wireless-card support.",
+        "Owner's front/back slot description is unverified for the exact purchased board."
+      ]
+    },
+    {
+      "id": "proposal_wifi_antennas_and_cables",
+      "item": "Wi-Fi antennas and panel-mount cables",
+      "role": "Rear cover RF connections",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "connector_polarity_cable_loss": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_5429a83cd569",
+          "cad_source_basename": "Stubby_SMA_Wifi_Antenna.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "Stubby_SMA_Wifi_Antenna-1",
+            "Stubby_SMA_Wifi_Antenna-2"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two generic antenna instances"
+        },
+        {
+          "cad_id": "cad_6ab458265e62",
+          "cad_source_basename": "PanelMnt_SMA_Antenna_Cable.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "PanelMnt_SMA_Antenna_Cable-2",
+            "PanelMnt_SMA_Antenna_Cable-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two generic antenna cable instances"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Two stubby antennas and two panel-mount cables are modeled; owner paragraph gives no new total or extra quantity.",
+        "Confirm exact wireless module connector, frequency support and SMA/RP-SMA identity before declaring compatible."
+      ]
+    },
+    {
+      "id": "proposal_usb_extensions_alternative",
+      "item": "USB extension cables (alternative)",
+      "role": "Display and hub host connections",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "alternative_group": "usb_host_extension_choice",
+        "alternative_to": "proposal_usb_180_alternative",
+        "length_connector_rating": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Owner proposes extension cables OR 180 degree adapters; do not add both alternatives as mandatory quantities.",
+        "Display/hub port assignments are owner intent, not verified USB topology or exact port pinout. Cable quantities and specifications remain unstated."
+      ]
+    },
+    {
+      "id": "proposal_usb_180_alternative",
+      "item": "180 degree USB adapters (alternative)",
+      "role": "Display and hub host connections",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "alternative_group": "usb_host_extension_choice",
+        "alternative_to": "proposal_usb_extensions_alternative"
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_6d644622411d",
+          "cad_source_basename": "180degree_USB_Adapter.SLDPRT",
+          "modeled_count": 2,
+          "instance_names": [
+            "180degree_USB_Adapter-2",
+            "180degree_USB_Adapter-3"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "two modeled candidate adapters"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Two adapters are modeled, but owner does not state a final required adapter count. Preserve two CAD instances; chosen alternative and exact orientation remain open."
+      ]
+    },
+    {
+      "id": "proposal_zip_ties",
+      "item": "Zip ties",
+      "role": "Excess PSU and signal wiring management",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "locations": "unresolved",
+        "keep_clear": "fan-to-sink-to-top airflow path"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No quantity, size, anchors, routing or tension are specified. Do not invent physical tie points from rendered illustrations.",
+        "Check insulation, connector strain relief, service access, sharp-edge contact, fan/blade clearance and airflow in physical assembly."
+      ]
+    },
+    {
+      "id": "proposal_cable_retention_mounts",
+      "item": "Cable anchors/tie points/harness retention",
+      "role": "Prior owner open item; supports wiring management",
+      "kind": "custom_or_bought_unresolved",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "design_status": "unresolved",
+        "validated_locations": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "No fabricated mount, anchor quantity or installed location is established. Keep this as a design dependency, not a modeled/finished feature."
+      ]
+    },
+    {
+      "id": "proposal_fan_filter_media",
+      "item": "Fan filter/media",
+      "role": "Future filter mount system",
+      "kind": "hardware",
+      "appendix_priority": "open_existing",
+      "owner_proposed_quantity": null,
+      "unit": "piece",
+      "quantity_basis": "not_specified",
+      "proposed_specification": {
+        "size_material": null
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "Mount heatset count does not establish filter count, material, fasteners or finished airflow performance."
+      ]
+    },
+    {
+      "id": "proposal_installer_usb_drive",
+      "item": "USB installer drive",
+      "role": "Owner's selected Bazzite setup workflow",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "capacity": null,
+        "workflow": "parent source review; no commands in this BOM"
+      },
+      "cad_matches": [],
+      "reconciliation_status": "no_separately_named_cad_row",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "A single installer USB device is stated; it is distinct from the display microSD and reused OS NVMe.",
+        "No new purchase or flashing permission is implied by the proposed item."
+      ]
+    },
+    {
+      "id": "proposal_apu_cooler",
+      "item": "APU cooler assembly",
+      "role": "Custom AM4 conversion",
+      "kind": "hardware",
+      "appendix_priority": "context",
+      "owner_proposed_quantity": 1,
+      "unit": "piece",
+      "quantity_basis": "explicit_singular_owner_item",
+      "proposed_specification": {
+        "exact_selected_cooler_revision": null
+      },
+      "cad_matches": [
+        {
+          "cad_id": "cad_f49a6b79ecc5",
+          "cad_source_basename": "snowman_mc75-8_heatsink_v1.SLDPRT",
+          "modeled_count": 1,
+          "instance_names": [
+            "snowman_mc75-8_heatsink_v1-1"
+          ],
+          "class": "bought",
+          "source_named_part_number": null,
+          "purchased_part_number": null,
+          "purchase_confirmation": "unconfirmed",
+          "relation": "one modeled cooler component; internal physical BOM unconfirmed"
+        }
+      ],
+      "reconciliation_status": "related_cad_rows_require_role_and_spec_confirmation",
+      "arithmetic_delta_if_same_family": null,
+      "final_required_quantity": null,
+      "purchased_quantity": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "open_notes": [
+        "One modeled snowman_mc75-8_heatsink_v1 has seventy-nine exported bodies. Its name is source evidence only, not purchased-model confirmation.",
+        "Bundled fan and mounting parts require decomposition/role checks to avoid duplicate physical purchases; cooler fins/orientation and physical mounting are unvalidated."
+      ]
+    }
+  ],
+  "family_comparisons": [
+    {
+      "id": "heatset_family",
+      "proposal_ids": [
+        "proposal_heatsets_fan_inserts",
+        "proposal_heatsets_filter_mounts"
+      ],
+      "owner_proposed_count": 12,
+      "modeled_cad_id": "cad_dc7f205830dd",
+      "modeled_count": 8,
+      "conditional_family_difference": 4,
+      "meaning": "Eight fan insert plus four not-yet-designed filter-mount inserts. Planning difference only; final selected insert/purchase count unconfirmed."
+    },
+    {
+      "id": "outer_sink_washer_family",
+      "proposal_ids": [
+        "proposal_stock_outer_sink_washers"
+      ],
+      "owner_proposed_count": 4,
+      "modeled_cad_id": "cad_bbb76eda1cce",
+      "modeled_count": 3,
+      "conditional_family_difference": 1,
+      "meaning": "Role and specification equivalence unconfirmed; do not order one extra solely from this subtraction."
+    },
+    {
+      "id": "nvme_two_joints",
+      "proposal_ids": [
+        "proposal_nvme_plate_m3",
+        "proposal_nvme_mount_backbone_m3"
+      ],
+      "owner_proposed_count": 8,
+      "modeled_cad_id": null,
+      "modeled_count": null,
+      "conditional_family_difference": null,
+      "meaning": "Four plus four distinct joint screws. Length/head/thread engagement and exact existing-hardware coverage remain open."
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "check_spacer_joint",
+      "proposal_ids": [
+        "proposal_bc250_spacers",
+        "proposal_bc250_spacer_rear_bolts",
+        "proposal_bc250_mount_m3x8"
+      ],
+      "status": "open",
+      "note": "Resolve three modeled unthreaded nylon spacers versus rear bolts plus separate front M3x8 engagement, with existing M3x16 and thumb nuts accounted for."
+    },
+    {
+      "id": "check_psu_thread",
+      "proposal_ids": [
+        "proposal_psu_mount_candidate",
+        "proposal_psu"
+      ],
+      "status": "open",
+      "note": "Four screws are proposed; exact PSU thread, screw penetration and supplied-versus-M3x8 alternative remain unverified."
+    },
+    {
+      "id": "check_thermal_conversion",
+      "proposal_ids": [
+        "proposal_stock_outer_sink_washers",
+        "proposal_rear_sink_adapter_m3",
+        "proposal_utp6_front",
+        "proposal_utp6_rear",
+        "proposal_cooler_mount_hardware"
+      ],
+      "status": "open",
+      "note": "Creator exact screw/thread instructions and compressed gaps were not confirmed; 4 mm/6 mm deposits are initial only. Decompose the nineteen-body adapter sub-BOM without double-counting top-level hardware."
+    },
+    {
+      "id": "check_fan_electrical",
+      "proposal_ids": [
+        "proposal_fans_92",
+        "proposal_fan_120",
+        "proposal_fan_splitter_3_to_1"
+      ],
+      "status": "open",
+      "note": "Confirm actual fan labels, whether 120 mm fan is bundled, header pinout/capacity, startup draw and splitter PWM/tach implementation. Conditional running-current arithmetic does not approve the header."
+    },
+    {
+      "id": "check_led_mount_and_pinout",
+      "proposal_ids": [
+        "proposal_led_mounts",
+        "proposal_led_board_mount_m3",
+        "proposal_led_mount_backbone_bolts",
+        "proposal_led_control_harness",
+        "proposal_led_interbar_harness"
+      ],
+      "status": "open",
+      "note": "Owner intends left first/right second. Exact purchased DIN/DOUT, reference connector pitch discrepancy, power/logic and mechanical support must be validated; no cable supports or LED-face clamping."
+    },
+    {
+      "id": "check_new_mounts_and_harnesses",
+      "proposal_ids": [
+        "proposal_fan_filter_mounts",
+        "proposal_nvme_extension_plate",
+        "proposal_nvme_mount",
+        "proposal_nvme_plate_m3",
+        "proposal_nvme_mount_backbone_m3",
+        "proposal_cable_retention_mounts"
+      ],
+      "status": "open",
+      "note": "New plate/filter/LED/cable retention designs and unspecified joints need dimensional/clearance checks and final fastener selection. No CAD features were added."
+    },
+    {
+      "id": "check_power_variant_and_pinout",
+      "proposal_ids": [
+        "proposal_ps_on_adapter",
+        "proposal_eps_adapter",
+        "proposal_ps_on_ground_extension"
+      ],
+      "status": "open",
+      "note": "Parent official-source report covers EPS versus PCIe and adapter choices. Apevia is not proof of an FSP plug-and-play variant; exact ground/power pinout and retention remain physical checks."
+    },
+    {
+      "id": "check_storage_and_usb",
+      "proposal_ids": [
+        "proposal_microsd",
+        "proposal_nvme_extension",
+        "proposal_os_nvme_reuse",
+        "proposal_wifi7_m2",
+        "proposal_m2_splitter",
+        "proposal_usb_extensions_alternative",
+        "proposal_usb_180_alternative"
+      ],
+      "status": "open",
+      "note": "One OS drive is reused across stages; preserve three modeled SSDs. Confirm exact Wi-Fi/splitter interfaces, card format and USB extension alternative without inferred quantities."
+    }
+  ],
+  "manual_revision": "Rev0.3",
+  "project_status": "in_progress_changing_rapidly",
+  "contact_before_building": "https://artfedderson.tech/#start",
+  "public_data_scope": "Additive proposed hardware, alternatives, reuse/context and routing concepts; not a finalized or purchased BOM.",
+  "public_inventory_file": "BC250_CAD_BOM_Rev_0p3.json",
+  "public_inventory_sha256": "a1bd9f7c3de0d435b0e7815def235c8f09effc9e0cb2aa374169a8794ebdbcc6"
+}
