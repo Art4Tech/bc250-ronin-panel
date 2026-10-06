@@ -1,0 +1,4614 @@
+{
+  "format": "bc250-active-cad-inventory",
+  "version": 1,
+  "generated_utc": "2026-10-04T05:01:01.414032+00:00",
+  "export_sha256": "6629e8ec61feadab36cd367e2baddc19778b2425403b07549a4b3b1a90aa8ac1",
+  "export_bytes": 11221340,
+  "export_last_modified_utc": "2026-10-03T21:48:51.155993+00:00",
+  "active_component_instances": 83,
+  "unique_part_paths": 34,
+  "export_triangle_count": 2344896,
+  "quantity_basis": "One exported active component record per modeled instance; not bodies, folders, purchased quantities or suppressed components.",
+  "units": "Bounds converted from source meters to millimeters; original assembly coordinates retained.",
+  "inventory": [
+    {
+      "id": "cad_5d363ea21b12",
+      "filename": "10x2_Magnet.SLDPRT",
+      "cad_source_basename": "10x2_Magnet.SLDPRT",
+      "modeled_quantity": 6,
+      "modeled_count": 6,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "10x2_Magnet-1",
+        "10x2_Magnet-2",
+        "10x2_Magnet-3",
+        "10x2_Magnet-4",
+        "10x2_Magnet-6",
+        "10x2_Magnet-5"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false,
+        "dimension_label": "10x2"
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Dimension label comes from CAD basename; magnet grade/coating/polarity/retention and supplier PN are unconfirmed."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -4.975,
+        -4.975,
+        0.0,
+        4.975,
+        4.975,
+        1.9
+      ],
+      "local_dimensions_mm": [
+        9.95,
+        9.95,
+        1.9
+      ],
+      "instances": [
+        {
+          "name": "10x2_Magnet-1",
+          "world_bounds_mm": [
+            1430.7434,
+            157.5425,
+            79.6462,
+            1440.6934,
+            159.4425,
+            89.5962
+          ],
+          "transform_source_units_m": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1.4357184153823275,
+            0.15944253023986887,
+            0.08462116478877754,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "10x2_Magnet-2",
+          "world_bounds_mm": [
+            1403.2754,
+            165.8675,
+            79.6462,
+            1405.1754,
+            175.8175,
+            89.5962
+          ],
+          "transform_source_units_m": [
+            1.0730929533853129e-08,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1.0730929533853129e-08,
+            1.4051754153823277,
+            0.1708425302398689,
+            0.08462116511653234,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "10x2_Magnet-3",
+          "world_bounds_mm": [
+            1403.2754,
+            269.8675,
+            79.6462,
+            1405.1754,
+            279.8175,
+            89.5962
+          ],
+          "transform_source_units_m": [
+            1.0730929533853129e-08,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            -1.0730929533853129e-08,
+            1.4032754153823277,
+            0.274842530238742,
+            0.0846211651369211,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "10x2_Magnet-4",
+          "world_bounds_mm": [
+            1430.7434,
+            286.2425,
+            79.6462,
+            1440.6934,
+            288.1425,
+            89.5962
+          ],
+          "transform_source_units_m": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1.4357184153823275,
+            0.28814253023874203,
+            0.08462116478877754,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "10x2_Magnet-6",
+          "world_bounds_mm": [
+            1416.0864,
+            157.7425,
+            47.6462,
+            1426.0364,
+            159.6425,
+            57.5962
+          ],
+          "transform_source_units_m": [
+            1,
+            -1.22464680295433e-16,
+            1.2246468029543304e-16,
+            -1.22464680295433e-16,
+            1.2246468156909657e-16,
+            1,
+            -1.2246468029543304e-16,
+            -1,
+            1.2246468156909655e-16,
+            1.4210614150389727,
+            0.15964253023986885,
+            0.052621164946060735,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "10x2_Magnet-5",
+          "world_bounds_mm": [
+            1416.0864,
+            286.0425,
+            47.6462,
+            1426.0364,
+            287.9425,
+            57.5962
+          ],
+          "transform_source_units_m": [
+            1,
+            -1.224646802954331e-16,
+            -1.2246468029543313e-16,
+            -1.224646802954331e-16,
+            1.2246468818654147e-16,
+            -1,
+            1.2246468029543313e-16,
+            1,
+            1.2246468818654145e-16,
+            1.4210614150389378,
+            0.28604253023874204,
+            0.05262116494606067,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_8d5f897e6762",
+      "filename": "16mm_Power_Button.SLDPRT",
+      "cad_source_basename": "16mm_Power_Button.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "16mm_Power_Button-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 14,
+      "local_envelope_mm": [
+        -11.5908,
+        -9.5273,
+        -30.3133,
+        10.3908,
+        9.5273,
+        7.6985
+      ],
+      "local_dimensions_mm": [
+        21.9816,
+        19.0546,
+        38.0118
+      ],
+      "instances": [
+        {
+          "name": "16mm_Power_Button-1",
+          "world_bounds_mm": [
+            1566.4653,
+            121.274,
+            -0.4641,
+            1588.4469,
+            159.2858,
+            18.5905
+          ],
+          "transform_source_units_m": [
+            1,
+            -1.22464680295433e-16,
+            1.2246468029543304e-16,
+            -1.22464680295433e-16,
+            1.2246468156909657e-16,
+            1,
+            -1.2246468029543304e-16,
+            -1,
+            1.2246468156909655e-16,
+            1.5780560923878852,
+            0.1289725302398695,
+            0.00906321211078602,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_6d644622411d",
+      "filename": "180degree_USB_Adapter.SLDPRT",
+      "cad_source_basename": "180degree_USB_Adapter.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "180degree_USB_Adapter-2",
+        "180degree_USB_Adapter-3"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 5,
+      "local_envelope_mm": [
+        0.0,
+        -8.1,
+        -24.0,
+        18.6,
+        8.1,
+        0.0
+      ],
+      "local_dimensions_mm": [
+        18.6,
+        16.2,
+        24.0
+      ],
+      "instances": [
+        {
+          "name": "180degree_USB_Adapter-2",
+          "world_bounds_mm": [
+            1343.6038,
+            255.7355,
+            354.4717,
+            1373.6884,
+            271.9355,
+            382.5798
+          ],
+          "transform_source_units_m": [
+            0.49999999070674295,
+            1.942890293094024e-16,
+            -0.866025409149903,
+            1.5265566588595902e-16,
+            -1,
+            -1.6653345369377348e-16,
+            -0.866025409149903,
+            -1.3877787807814457e-17,
+            -0.49999999070674295,
+            1.343603834087919,
+            0.2638354717493011,
+            0.37057978739418973,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "180degree_USB_Adapter-3",
+          "world_bounds_mm": [
+            1343.6038,
+            217.4355,
+            354.4717,
+            1373.6884,
+            233.6355,
+            382.5798
+          ],
+          "transform_source_units_m": [
+            0.49999999070674295,
+            1.942890293094024e-16,
+            -0.866025409149903,
+            1.5265566588595902e-16,
+            -1,
+            -1.6653345369377348e-16,
+            -0.866025409149903,
+            -1.3877787807814457e-17,
+            -0.49999999070674295,
+            1.343603834087919,
+            0.22553547174930122,
+            0.3705797873941895,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_770e1006735b",
+      "filename": "6x3_Magnet.SLDPRT",
+      "cad_source_basename": "6x3_Magnet.SLDPRT",
+      "modeled_quantity": 14,
+      "modeled_count": 14,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "6x3_Magnet-3",
+        "6x3_Magnet-4",
+        "6x3_Magnet-9",
+        "6x3_Magnet-10",
+        "6x3_Magnet-8",
+        "6x3_Magnet-7",
+        "6x3_Magnet-13",
+        "6x3_Magnet-15",
+        "6x3_Magnet-11",
+        "6x3_Magnet-12",
+        "6x3_Magnet-14",
+        "6x3_Magnet-16",
+        "6x3_Magnet-1",
+        "6x3_Magnet-2"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false,
+        "dimension_label": "6x3"
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Owner requests additional 6 x 3 magnets; extra quantity and final magnet specification remain open.",
+        "Dimension label comes from CAD basename; magnet grade/coating/polarity/retention and supplier PN are unconfirmed."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -2.965,
+        -2.965,
+        0.0,
+        2.965,
+        2.965,
+        2.56
+      ],
+      "local_dimensions_mm": [
+        5.93,
+        5.93,
+        2.56
+      ],
+      "instances": [
+        {
+          "name": "6x3_Magnet-3",
+          "world_bounds_mm": [
+            1486.0814,
+            312.8125,
+            27.6895,
+            1492.0114,
+            318.7425,
+            30.2495
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.3642954414968413e-18,
+            1.0730929288923766e-08,
+            3.3642938628673666e-18,
+            1,
+            4.96308368378825e-24,
+            -1.0730929288923768e-08,
+            3.2726204421924415e-24,
+            -1,
+            1.4890464147988687,
+            0.315777530238743,
+            0.030249502347204457,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-4",
+          "world_bounds_mm": [
+            1486.0814,
+            126.9425,
+            27.6895,
+            1492.0114,
+            132.8725,
+            30.2495
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.3642954414968413e-18,
+            1.0730929288923766e-08,
+            3.3642938628673666e-18,
+            1,
+            4.96308368378825e-24,
+            -1.0730929288923768e-08,
+            3.2726204421924415e-24,
+            -1,
+            1.4890464147988687,
+            0.12990753023986923,
+            0.030249502347204457,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-9",
+          "world_bounds_mm": [
+            1486.0814,
+            126.9425,
+            24.8472,
+            1492.0114,
+            132.8725,
+            27.4072
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.3642944539494834e-18,
+            1.0730929324338222e-08,
+            3.3642948948262896e-18,
+            1,
+            -1.3141598313434775e-24,
+            -1.0730929324338224e-08,
+            -5.230812248020445e-25,
+            -1,
+            1.4890464147683677,
+            0.12990753023986923,
+            0.027407164216518683,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-10",
+          "world_bounds_mm": [
+            1546.0814,
+            126.9425,
+            24.8472,
+            1552.0114,
+            132.8725,
+            27.4072
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.3642944539494834e-18,
+            1.0730929324338222e-08,
+            3.3642948948262896e-18,
+            1,
+            -1.3141598313434775e-24,
+            -1.0730929324338224e-08,
+            -5.230812248020445e-25,
+            -1,
+            1.5490464147683678,
+            0.12990753023986923,
+            0.02740716357266291,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-8",
+          "world_bounds_mm": [
+            1546.0814,
+            312.8125,
+            24.8464,
+            1552.0114,
+            318.7425,
+            27.4064
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.364294414481592e-18,
+            1.0730929533853127e-08,
+            3.3642951970377284e-18,
+            1,
+            1.0266368716907472e-23,
+            -1.0730929533853127e-08,
+            1.0230266710614531e-23,
+            -1,
+            1.5490464147683594,
+            0.31577753023874167,
+            0.02740638393912522,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-7",
+          "world_bounds_mm": [
+            1486.0814,
+            312.8125,
+            24.9472,
+            1492.0114,
+            318.7425,
+            27.5072
+          ],
+          "transform_source_units_m": [
+            -0.9999999999999999,
+            -1.0092884026000809e-17,
+            1.0730929533853125e-08,
+            -3.364294414481582e-18,
+            1,
+            1.1237957371427364e-23,
+            -1.0730929533853125e-08,
+            1.1129651344150991e-23,
+            -0.9999999999999999,
+            1.489046414769441,
+            0.31577753023874167,
+            0.02750716421651861,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-13",
+          "world_bounds_mm": [
+            1353.8172,
+            129.3603,
+            349.9864,
+            1359.5164,
+            136.3247,
+            357.2977
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926143,
+            -0.9811395172475312,
+            0.1674035128625026,
+            -0.4905697495057838,
+            0.19330092523131306,
+            0.8496917518574315,
+            -0.8660254091499032,
+            5.551115123125783e-17,
+            -0.49999999070674295,
+            1.357775322674701,
+            0.13284253023986886,
+            0.3542820486798438,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-15",
+          "world_bounds_mm": [
+            1414.3172,
+            309.3603,
+            245.1973,
+            1420.0164,
+            316.3247,
+            252.5087
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926143,
+            -0.9811395172475312,
+            0.1674035128625026,
+            -0.4905697495057838,
+            0.19330092523131306,
+            0.8496917518574315,
+            -0.8660254091499032,
+            5.551115123125783e-17,
+            -0.49999999070674295,
+            1.4182753215502164,
+            0.31284253023986885,
+            0.24949297417270622,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-11",
+          "world_bounds_mm": [
+            1496.8172,
+            129.3603,
+            102.3031,
+            1502.5164,
+            136.3247,
+            109.6145
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926143,
+            -0.9811395172475312,
+            0.1674035128625026,
+            -0.4905697495057838,
+            0.19330092523131306,
+            0.8496917518574315,
+            -0.8660254091499032,
+            5.551115123125783e-17,
+            -0.49999999070674295,
+            1.5007753200168295,
+            0.13284253023986883,
+            0.10659878166297125,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-12",
+          "world_bounds_mm": [
+            1496.8172,
+            309.3603,
+            102.3031,
+            1502.5164,
+            316.3247,
+            109.6145
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926143,
+            -0.9811395172475312,
+            0.1674035128625026,
+            -0.4905697495057838,
+            0.19330092523131306,
+            0.8496917518574315,
+            -0.8660254091499032,
+            5.551115123125783e-17,
+            -0.49999999070674295,
+            1.5007753200168292,
+            0.31284253023986885,
+            0.10659878166297175,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-14",
+          "world_bounds_mm": [
+            1414.3172,
+            129.3603,
+            245.1973,
+            1420.0164,
+            136.3247,
+            252.5087
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926143,
+            -0.9811395172475312,
+            0.1674035128625026,
+            -0.4905697495057838,
+            0.19330092523131306,
+            0.8496917518574315,
+            -0.8660254091499032,
+            5.551115123125783e-17,
+            -0.49999999070674295,
+            1.4182753215502164,
+            0.13284253023986886,
+            0.24949297417270622,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-16",
+          "world_bounds_mm": [
+            1353.8172,
+            309.3603,
+            349.9864,
+            1359.5164,
+            316.3247,
+            357.2977
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926143,
+            -0.9811395172475312,
+            0.1674035128625026,
+            -0.4905697495057838,
+            0.19330092523131306,
+            0.8496917518574315,
+            -0.8660254091499032,
+            5.551115123125783e-17,
+            -0.49999999070674295,
+            1.357775322674701,
+            0.31284253023986885,
+            0.3542820486798437,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-1",
+          "world_bounds_mm": [
+            1546.0814,
+            312.8125,
+            27.6895,
+            1552.0114,
+            318.7425,
+            30.2495
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.3642954414968413e-18,
+            1.0730929288923766e-08,
+            3.3642938628673666e-18,
+            1,
+            4.96308368378825e-24,
+            -1.0730929288923768e-08,
+            3.2726204421924415e-24,
+            -1,
+            1.5490464147988687,
+            0.315777530238743,
+            0.030249501703348655,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "6x3_Magnet-2",
+          "world_bounds_mm": [
+            1546.0814,
+            126.9425,
+            27.6895,
+            1552.0114,
+            132.8725,
+            30.2495
+          ],
+          "transform_source_units_m": [
+            -1,
+            -3.3642954414968413e-18,
+            1.0730929288923766e-08,
+            3.3642938628673666e-18,
+            1,
+            4.96308368378825e-24,
+            -1.0730929288923768e-08,
+            3.2726204421924415e-24,
+            -1,
+            1.5490464147988685,
+            0.12990753023986923,
+            0.030249501703348655,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_cc9b0a25d7ac",
+      "filename": "80mm_Fan_Grill.SLDPRT",
+      "cad_source_basename": "80mm_Fan_Grill.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "80mm_Fan_Grill-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -0.0113,
+        326.3795,
+        -915.8829,
+        2.2113,
+        409.9795,
+        -832.2829
+      ],
+      "local_dimensions_mm": [
+        2.2226,
+        83.6,
+        83.6
+      ],
+      "instances": [
+        {
+          "name": "80mm_Fan_Grill-1",
+          "world_bounds_mm": [
+            1402.6501,
+            181.0425,
+            17.8212,
+            1404.8727,
+            264.6425,
+            101.4212
+          ],
+          "transform_source_units_m": [
+            -0.9999999999999999,
+            0,
+            1.0730929411388447e-08,
+            -2.7369110631344083e-48,
+            1,
+            2.645378340415834e-40,
+            -1.0730929411388447e-08,
+            2.6453783404158334e-40,
+            -0.9999999999999999,
+            1.404861405734332,
+            -0.14533698515042115,
+            -0.8144617295332284,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_bbb76eda1cce",
+      "filename": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer.SLDPRT",
+      "cad_source_basename": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer.SLDPRT",
+      "modeled_quantity": 3,
+      "modeled_count": 3,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-1",
+        "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-2",
+        "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-3"
+      ],
+      "source_named_part_number": "90718A110",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": "90718A110",
+        "basis": "Exact code in CAD basename",
+        "primary_catalog_corroboration": true
+      },
+      "source_urls": [
+        "https://www.mcmaster.com/products/shims/thickness~0-500-mm/thickness~0-5-mm/"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -3.5,
+        -3.5,
+        -0.25,
+        3.5,
+        3.5,
+        0.25
+      ],
+      "local_dimensions_mm": [
+        7.0,
+        7.0,
+        0.5
+      ],
+      "instances": [
+        {
+          "name": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-1",
+          "world_bounds_mm": [
+            1509.1491,
+            269.7999,
+            108.0273,
+            1513.6927,
+            278.021,
+            115.3969
+          ],
+          "transform_source_units_m": [
+            0.09665046081926132,
+            0.9811395172475309,
+            -0.16740351286250293,
+            0.4905697495057838,
+            -0.1933009252313133,
+            -0.8496917518574314,
+            -0.8660254091499029,
+            -1.1102230246251565e-16,
+            -0.4999999907067429,
+            1.511420889860873,
+            0.27391047174930583,
+            0.11171211379836721,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-2",
+          "world_bounds_mm": [
+            1363.6991,
+            186.0999,
+            359.9541,
+            1368.2427,
+            194.321,
+            367.3237
+          ],
+          "transform_source_units_m": [
+            0.09665046081926132,
+            0.9811395172475309,
+            -0.16740351286250293,
+            0.4905697495057838,
+            -0.1933009252313133,
+            -0.8496917518574314,
+            -0.8660254091499029,
+            -1.1102230246251565e-16,
+            -0.4999999907067429,
+            1.3659708925642815,
+            0.19021047174930583,
+            0.36363890532007404,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "90718A110_High-Strength Glass-Filled Nylon Plastic Washer-3",
+          "world_bounds_mm": [
+            1363.6991,
+            285.8999,
+            359.9541,
+            1368.2427,
+            294.121,
+            367.3237
+          ],
+          "transform_source_units_m": [
+            0.09665046081926132,
+            0.9811395172475309,
+            -0.16740351286250293,
+            0.4905697495057838,
+            -0.1933009252313133,
+            -0.8496917518574314,
+            -0.8660254091499029,
+            -1.1102230246251565e-16,
+            -0.4999999907067429,
+            1.3659708925642815,
+            0.29001047174930583,
+            0.36363890532007404,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "supplier_evidence": {
+        "url": "https://www.mcmaster.com/products/shims/thickness~0-500-mm/thickness~0-5-mm/",
+        "description": "M3 white glass-filled nylon washer, ID 3.2 mm, OD 7 mm, thickness 0.5 mm.",
+        "confidence": "supplier catalog corroborates model filename; no purchase or final selection claim"
+      }
+    },
+    {
+      "id": "cad_ebda0ab48c7d",
+      "filename": "92MM_Arctic_PST_FAN.SLDPRT",
+      "cad_source_basename": "92MM_Arctic_PST_FAN.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "92MM_Arctic_PST_FAN-1",
+        "92MM_Arctic_PST_FAN-2"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [
+        "https://www.arctic.de/en/P9-PWM-PST-Black/ACFAN00298A"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "P9 ACFAN00298A is a primary product candidate; generic Arctic PST CAD filename does not prove this purchased SKU."
+      ],
+      "representative_body_count": 2,
+      "local_envelope_mm": [
+        284.4,
+        1.805,
+        -26.865,
+        309.4,
+        94.125,
+        65.135
+      ],
+      "local_dimensions_mm": [
+        25.0,
+        92.32,
+        92.0
+      ],
+      "instances": [
+        {
+          "name": "92MM_Arctic_PST_FAN-1",
+          "world_bounds_mm": [
+            1473.0464,
+            223.4225,
+            69.3495,
+            1565.0464,
+            315.7425,
+            94.3495
+          ],
+          "transform_source_units_m": [
+            -1.0730930288923768e-08,
+            -3.9999999950369206e-15,
+            -1,
+            -1.272906120040654e-15,
+            1,
+            -3.999999981897513e-15,
+            1,
+            1.2729060771169326e-15,
+            -1.0730930288923768e-08,
+            1.4999114185336857,
+            0.2216175302385942,
+            0.378749502233903,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "92MM_Arctic_PST_FAN-2",
+          "world_bounds_mm": [
+            1472.7264,
+            129.9425,
+            69.3495,
+            1565.0464,
+            221.9425,
+            94.3495
+          ],
+          "transform_source_units_m": [
+            -1.073093416668399e-08,
+            6.016542704085535e-16,
+            -1,
+            1,
+            -6.902931737446245e-16,
+            -1.073093416668399e-08,
+            -6.902931802009372e-16,
+            -1,
+            -6.01654262481003e-16,
+            1.4709214185373312,
+            0.19507753024484956,
+            0.3787495025449926,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "identity_evidence_key": "arctic_p9"
+    },
+    {
+      "id": "cad_5a28d4baaf93",
+      "filename": "92MM_Arctic_PST_Split_Insert.SLDPRT",
+      "cad_source_basename": "92MM_Arctic_PST_Split_Insert.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "92MM_Arctic_PST_Split_Insert-2",
+        "92MM_Arctic_PST_Split_Insert-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        309.4,
+        -92.7705,
+        -27.9605,
+        325.4084,
+        0.9957,
+        66.2305
+      ],
+      "local_dimensions_mm": [
+        16.0084,
+        93.7662,
+        94.191
+      ],
+      "instances": [
+        {
+          "name": "92MM_Arctic_PST_Split_Insert-2",
+          "world_bounds_mm": [
+            1471.9509,
+            222.647,
+            53.3411,
+            1566.1419,
+            316.4133,
+            69.3495
+          ],
+          "transform_source_units_m": [
+            -1.073093033850491e-08,
+            -4.7136423783958444e-15,
+            -1,
+            -4.0289242860625483e-14,
+            1,
+            -4.713641946574846e-15,
+            1,
+            4.0289242810043716e-14,
+            -1.073093033850491e-08,
+            1.499911418533685,
+            0.31541753023859515,
+            0.37874950223390075,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "92MM_Arctic_PST_Split_Insert-1",
+          "world_bounds_mm": [
+            1471.9509,
+            128.847,
+            53.3411,
+            1566.1419,
+            222.6133,
+            69.3495
+          ],
+          "transform_source_units_m": [
+            -1.0730931216265132e-08,
+            -5.111988112950371e-15,
+            -1,
+            -3.694880611508892e-14,
+            1,
+            -5.111987716975335e-15,
+            1,
+            3.6948806060232525e-14,
+            -1.0730931216265132e-08,
+            1.4999114185336928,
+            0.22161753023866293,
+            0.3787495022339007,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_0f109b8e4c7a",
+      "filename": "93657A009_Nylon Unthreaded Spacer.SLDPRT",
+      "cad_source_basename": "93657A009_Nylon Unthreaded Spacer.SLDPRT",
+      "modeled_quantity": 3,
+      "modeled_count": 3,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "93657A009_Nylon Unthreaded Spacer-2",
+        "93657A009_Nylon Unthreaded Spacer-1",
+        "93657A009_Nylon Unthreaded Spacer-3"
+      ],
+      "source_named_part_number": "93657A009",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": "93657A009",
+        "basis": "Exact code in CAD basename",
+        "primary_catalog_corroboration": true
+      },
+      "source_urls": [
+        "https://www.mcmaster.com/products/94639A258/"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -3.0,
+        -3.0,
+        -3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "local_dimensions_mm": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "instances": [
+        {
+          "name": "93657A009_Nylon Unthreaded Spacer-2",
+          "world_bounds_mm": [
+            1359.0582,
+            187.2105,
+            357.9158,
+            1367.2544,
+            193.2105,
+            366.112
+          ],
+          "transform_source_units_m": [
+            0.49999999070674306,
+            0,
+            -0.8660254091499031,
+            0,
+            1,
+            0,
+            0.8660254091499031,
+            0,
+            0.49999999070674306,
+            1.3631563099845443,
+            0.19021047174930628,
+            0.3620139053502769,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "93657A009_Nylon Unthreaded Spacer-1",
+          "world_bounds_mm": [
+            1504.5082,
+            270.9105,
+            105.989,
+            1512.7044,
+            276.9105,
+            114.1852
+          ],
+          "transform_source_units_m": [
+            0.49999999070674306,
+            0,
+            -0.8660254091499031,
+            0,
+            1,
+            0,
+            0.8660254091499031,
+            0,
+            0.49999999070674306,
+            1.5086063072811358,
+            0.2739104717493063,
+            0.11008711382857009,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "93657A009_Nylon Unthreaded Spacer-3",
+          "world_bounds_mm": [
+            1359.0582,
+            287.0105,
+            357.9158,
+            1367.2544,
+            293.0105,
+            366.112
+          ],
+          "transform_source_units_m": [
+            0.49999999070674306,
+            0,
+            -0.8660254091499031,
+            0,
+            1,
+            0,
+            0.8660254091499031,
+            0,
+            0.49999999070674306,
+            1.3631563099845443,
+            0.2900104717493063,
+            0.3620139053502769,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "supplier_evidence": {
+        "url": "https://www.mcmaster.com/products/94639A258/",
+        "description": "Primary catalog includes 93657A009; linked page is a family table, not a selected alternative. Exact dimensions/purchase to confirm.",
+        "confidence": "supplier catalog corroborates model filename; no purchase or final selection claim"
+      }
+    },
+    {
+      "id": "cad_e4d8bb1694b8",
+      "filename": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut.SLDPRT",
+      "cad_source_basename": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut.SLDPRT",
+      "modeled_quantity": 3,
+      "modeled_count": 3,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-2",
+        "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-1",
+        "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-3"
+      ],
+      "source_named_part_number": "93886A220",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": "93886A220",
+        "basis": "Exact code in CAD basename",
+        "primary_catalog_corroboration": true
+      },
+      "source_urls": [
+        "https://www.mcmaster.com/products/knurled-thumb-screw-nuts/"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 2,
+      "local_envelope_mm": [
+        -4.8074,
+        -4.8074,
+        -2.8328,
+        4.8074,
+        4.8074,
+        2.9692
+      ],
+      "local_dimensions_mm": [
+        9.6148,
+        9.6148,
+        5.802
+      ],
+      "instances": [
+        {
+          "name": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-2",
+          "world_bounds_mm": [
+            1364.9795,
+            185.4031,
+            360.291,
+            1374.8116,
+            195.0179,
+            371.5186
+          ],
+          "transform_source_units_m": [
+            -0.499999990706743,
+            4.8074067457432195e-17,
+            0.866025409149903,
+            -1.1102230246251565e-16,
+            1,
+            5.551115123125783e-17,
+            -0.866025409149903,
+            -2.7755575099749528e-17,
+            -0.49999999070674306,
+            1.3699546094463702,
+            0.1902104717493064,
+            0.3659389052773243,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-1",
+          "world_bounds_mm": [
+            1510.4295,
+            269.1031,
+            108.3642,
+            1520.2615,
+            278.7179,
+            119.5918
+          ],
+          "transform_source_units_m": [
+            -0.499999990706743,
+            4.8074067457432195e-17,
+            0.866025409149903,
+            -1.1102230246251565e-16,
+            1,
+            5.551115123125783e-17,
+            -0.866025409149903,
+            -2.7755575099749528e-17,
+            -0.49999999070674306,
+            1.5154046067429616,
+            0.2739104717493064,
+            0.11401211375561748,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "93886A220_Reinforced Plastic Knurled-Head Thumb Nut-3",
+          "world_bounds_mm": [
+            1364.9795,
+            285.2031,
+            360.291,
+            1374.8116,
+            294.8179,
+            371.5186
+          ],
+          "transform_source_units_m": [
+            -0.499999990706743,
+            4.8074067457432195e-17,
+            0.866025409149903,
+            -1.1102230246251565e-16,
+            1,
+            5.551115123125783e-17,
+            -0.866025409149903,
+            -2.7755575099749528e-17,
+            -0.49999999070674306,
+            1.3699546094463702,
+            0.2900104717493064,
+            0.3659389052773243,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "supplier_evidence": {
+        "url": "https://www.mcmaster.com/products/knurled-thumb-screw-nuts/",
+        "description": "M3 x 0.5 mm reinforced plastic thumb nut with aluminum threaded component; exact current specification and purchase to confirm.",
+        "confidence": "supplier catalog corroborates model filename; no purchase or final selection claim"
+      }
+    },
+    {
+      "id": "cad_dc7f205830dd",
+      "filename": "94180A333_Brass Tapered Heat-Set Inserts for Plastic.SLDPRT",
+      "cad_source_basename": "94180A333_Brass Tapered Heat-Set Inserts for Plastic.SLDPRT",
+      "modeled_quantity": 8,
+      "modeled_count": 8,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-1",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-5",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-6",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-4",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-3",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-8",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-2",
+        "94180A333_Brass Tapered Heat-Set Inserts for Plastic-7"
+      ],
+      "source_named_part_number": "94180A333",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": "94180A333",
+        "basis": "Exact code in CAD basename",
+        "primary_catalog_corroboration": true
+      },
+      "source_urls": [
+        "https://www.mcmaster.com/products/ultrasonic-inserts/"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Owner states modeled heat-set inserts may not be final; final PN, dimensions, holes and quantity remain open."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -2.78,
+        -2.78,
+        -3.2185,
+        2.78,
+        2.78,
+        3.3487
+      ],
+      "local_dimensions_mm": [
+        5.56,
+        5.56,
+        6.5672
+      ],
+      "instances": [
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-1",
+          "world_bounds_mm": [
+            1475.2664,
+            214.1625,
+            53.2258,
+            1480.8264,
+            219.7225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            -1,
+            5.2147025752691534e-17,
+            1.073093121626513e-08,
+            1.1438663516499468e-16,
+            1,
+            -5.111988113266735e-15,
+            -1.0730931216265132e-08,
+            -5.111988111879971e-15,
+            -1,
+            1.4780464150813708,
+            0.21694253023994312,
+            0.05657450246524218,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-5",
+          "world_bounds_mm": [
+            1475.2664,
+            225.9625,
+            53.2258,
+            1480.8264,
+            231.5225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            1,
+            -3.4495078334907946e-16,
+            -1.073093121626513e-08,
+            -3.449508382054722e-16,
+            -1,
+            -5.1119881125988455e-15,
+            -1.073093121626513e-08,
+            5.111988116300489e-15,
+            -1,
+            1.4780464150813708,
+            0.22874253023979516,
+            0.05657450246524586,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-6",
+          "world_bounds_mm": [
+            1475.2664,
+            307.9625,
+            53.2258,
+            1480.8264,
+            313.5225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            1,
+            -3.4495078334907946e-16,
+            -1.073093121626513e-08,
+            -3.449508382054722e-16,
+            -1,
+            -5.1119881125988455e-15,
+            -1.073093121626513e-08,
+            5.111988116300489e-15,
+            -1,
+            1.4780464150813692,
+            0.31074253023979,
+            0.05657450246527007,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-4",
+          "world_bounds_mm": [
+            1557.2664,
+            132.1625,
+            53.2258,
+            1562.8264,
+            137.7225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            -1,
+            5.2147025752691534e-17,
+            1.073093121626513e-08,
+            1.1438663516499468e-16,
+            1,
+            -5.111988113266735e-15,
+            -1.0730931216265132e-08,
+            -5.111988111879971e-15,
+            -1,
+            1.5600464150813693,
+            0.13494253023994837,
+            0.05657450158532893,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-3",
+          "world_bounds_mm": [
+            1475.2664,
+            132.1625,
+            53.2258,
+            1480.8264,
+            137.7225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            -1,
+            5.2147025752691534e-17,
+            1.073093121626513e-08,
+            1.1438663516499468e-16,
+            1,
+            -5.111988113266735e-15,
+            -1.0730931216265132e-08,
+            -5.111988111879971e-15,
+            -1,
+            1.4780464150813692,
+            0.13494253023994837,
+            0.05657450246526638,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-8",
+          "world_bounds_mm": [
+            1557.2664,
+            307.9625,
+            53.2258,
+            1562.8264,
+            313.5225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            1,
+            -3.4495078334907946e-16,
+            -1.073093121626513e-08,
+            -3.449508382054722e-16,
+            -1,
+            -5.1119881125988455e-15,
+            -1.073093121626513e-08,
+            5.111988116300489e-15,
+            -1,
+            1.5600464150813693,
+            0.31074253023978987,
+            0.056574501585332705,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-2",
+          "world_bounds_mm": [
+            1557.2664,
+            214.1625,
+            53.2258,
+            1562.8264,
+            219.7225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            -1,
+            5.2147025752691534e-17,
+            1.073093121626513e-08,
+            1.1438663516499468e-16,
+            1,
+            -5.111988113266735e-15,
+            -1.0730931216265132e-08,
+            -5.111988111879971e-15,
+            -1,
+            1.5600464150813693,
+            0.21694253023994836,
+            0.056574501585322894,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "94180A333_Brass Tapered Heat-Set Inserts for Plastic-7",
+          "world_bounds_mm": [
+            1557.2664,
+            225.9625,
+            53.2258,
+            1562.8264,
+            231.5225,
+            59.793
+          ],
+          "transform_source_units_m": [
+            1,
+            -3.4495078334907946e-16,
+            -1.073093121626513e-08,
+            -3.449508382054722e-16,
+            -1,
+            -5.1119881125988455e-15,
+            -1.073093121626513e-08,
+            5.111988116300489e-15,
+            -1,
+            1.5600464150813693,
+            0.2287425302397899,
+            0.05657450158532666,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "supplier_evidence": {
+        "url": "https://www.mcmaster.com/products/ultrasonic-inserts/",
+        "description": "M3 x 0.5 mm brass tapered insert, 6.4 mm length; current final insert selection open.",
+        "confidence": "supplier catalog corroborates model filename; no purchase or final selection claim"
+      }
+    },
+    {
+      "id": "cad_4b6ba0b506c2",
+      "filename": "Apevia_500_SFX.SLDPRT",
+      "cad_source_basename": "Apevia_500_SFX.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Apevia_500_SFX-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 12,
+      "local_envelope_mm": [
+        -0.2229,
+        305.1795,
+        -985.6881,
+        64.0,
+        440.9366,
+        -820.3689
+      ],
+      "local_dimensions_mm": [
+        64.2229,
+        135.7571,
+        165.3192
+      ],
+      "instances": [
+        {
+          "name": "Apevia_500_SFX-1",
+          "world_bounds_mm": [
+            1404.8614,
+            159.8425,
+            5.9072,
+            1469.0843,
+            295.5996,
+            171.2264
+          ],
+          "transform_source_units_m": [
+            -1,
+            0,
+            1.0730929411388448e-08,
+            0,
+            1,
+            0,
+            -1.0730929411388448e-08,
+            0,
+            -1,
+            1.468861405734332,
+            -0.14533698515042115,
+            -0.8144617302200079,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_0af6f34f1220",
+      "filename": "Backbone.SLDPRT",
+      "cad_source_basename": "Backbone.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "custom",
+      "classification_basis": "Owner explicitly identifies this component as the fabricated sheet-metal backbone; not a printed part.",
+      "instance_names": [
+        "Backbone-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Sheet-metal manufacture is owner-confirmed; exact alloy, thickness, fabrication source and final drawing remain open."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -48.9942,
+        -100.0,
+        -0.0,
+        198.9932,
+        100.0,
+        380.5482
+      ],
+      "local_dimensions_mm": [
+        247.9874,
+        200.0,
+        380.5482
+      ],
+      "instances": [
+        {
+          "name": "Backbone-1",
+          "world_bounds_mm": [
+            1353.5812,
+            122.8425,
+            -11.3788,
+            1601.5687,
+            322.8425,
+            369.1694
+          ],
+          "transform_source_units_m": [
+            1,
+            0,
+            -1.0730929533853129e-08,
+            0,
+            1,
+            0,
+            1.0730929533853129e-08,
+            0,
+            1,
+            1.402575414352158,
+            0.22284253023986886,
+            -0.011378834855567045,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "manufacturing_note": {
+        "process": "fabricated sheet metal",
+        "evidence": "Owner statement relayed by root on 2026-10-03",
+        "alloy": null,
+        "thickness_mm": null,
+        "supplier": null
+      }
+    },
+    {
+      "id": "cad_e99f1dd5efea",
+      "filename": "bc250_after_heatsink_mod.step.SLDPRT",
+      "cad_source_basename": "bc250_after_heatsink_mod.step.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "custom",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "bc250_after_heatsink_mod.step-3"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Custom/modified geometry; source assembly instance is not a retail part number. Fabrication process and final revision remain unconfirmed."
+      ],
+      "representative_body_count": 213,
+      "local_envelope_mm": [
+        -157.2,
+        -72.448,
+        -26.05,
+        154.6,
+        71.825,
+        28.1
+      ],
+      "local_dimensions_mm": [
+        311.8,
+        144.273,
+        54.15
+      ],
+      "instances": [
+        {
+          "name": "bc250_after_heatsink_mod.step-3",
+          "world_bounds_mm": [
+            1337.6341,
+            -19.0645,
+            90.9929,
+            1540.4294,
+            500.9105,
+            388.0946
+          ],
+          "transform_source_units_m": [
+            0.49999999070674317,
+            0,
+            -0.8660254091499029,
+            0,
+            1,
+            0,
+            0.8660254091499029,
+            0,
+            0.49999999070674317,
+            1.4387940962958008,
+            0.2308854717493063,
+            0.23790541336873428,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_4dd575723499",
+      "filename": "bc250_am4_adapter_mount_v1.SLDPRT",
+      "cad_source_basename": "bc250_am4_adapter_mount_v1.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "custom",
+      "classification_basis": "One custom imported component with 19 exported bodies; physical manufacturing process/material unconfirmed.",
+      "instance_names": [
+        "bc250_am4_adapter_mount_v1-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Custom/modified geometry; source assembly instance is not a retail part number. Fabrication process and final revision remain unconfirmed.",
+        "Decompose the imported subassembly into fabricated parts and required hardware; reconcile against top-level washers, spacers and thumb nuts to avoid double-counting. Modeled component count remains one."
+      ],
+      "representative_body_count": 19,
+      "local_envelope_mm": [
+        -33.7,
+        -42.8593,
+        -6.2,
+        73.764,
+        64.1593,
+        18.24
+      ],
+      "local_dimensions_mm": [
+        107.464,
+        107.0186,
+        24.44
+      ],
+      "instances": [
+        {
+          "name": "bc250_am4_adapter_mount_v1-1",
+          "world_bounds_mm": [
+            1415.0678,
+            186.6453,
+            169.7482,
+            1492.2522,
+            296.4257,
+            278.9455
+          ],
+          "transform_source_units_m": [
+            0.49999999070674367,
+            -5.660121625396607e-16,
+            -0.8660254091499028,
+            3.326843195806397e-16,
+            1,
+            -4.408378880466101e-16,
+            0.8660254091499028,
+            -4.656451300212563e-17,
+            0.49999999070674367,
+            1.4388806988367155,
+            0.23088547174930654,
+            0.23795541336780507,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_3f9bb53cd308",
+      "filename": "Dual_92MM_FAN_Shroud.SLDPRT",
+      "cad_source_basename": "Dual_92MM_FAN_Shroud.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Dual_92MM_FAN_Shroud-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        278.3549,
+        -95.86,
+        -31.05,
+        348.6525,
+        98.31,
+        69.32
+      ],
+      "local_dimensions_mm": [
+        70.2976,
+        194.17,
+        100.37
+      ],
+      "instances": [
+        {
+          "name": "Dual_92MM_FAN_Shroud-1",
+          "world_bounds_mm": [
+            1468.8614,
+            125.7575,
+            27.497,
+            1569.2314,
+            319.9275,
+            97.7946
+          ],
+          "transform_source_units_m": [
+            -1.0730929288923768e-08,
+            4.963083675318166e-24,
+            -1,
+            -4.8463638679825024e-17,
+            1,
+            4.963083675318166e-24,
+            1,
+            4.8463638679825073e-17,
+            -1.0730929288923768e-08,
+            1.4999114185057854,
+            0.22161753023859393,
+            0.3761495022339009,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_69b1461d44c0",
+      "filename": "ESP32-P4-5_0-inch-20251230.stp.SLDPRT",
+      "cad_source_basename": "ESP32-P4-5_0-inch-20251230.stp.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "ESP32-P4-5_0-inch-20251230.stp-2"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [
+        "https://www.elecrow.com/crowpanel-advanced-5inch-esp32-p4-hmi-ai-display-800x480-ips-touch-screen-with-wifi-6.html"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Elecrow model identity supported; exact physical revision/options, GPIO harness and mounting fit need confirmation."
+      ],
+      "representative_body_count": 152,
+      "local_envelope_mm": [
+        -0.0053,
+        -0.0,
+        -7.3,
+        132.0025,
+        80.3,
+        8.0
+      ],
+      "local_dimensions_mm": [
+        132.0078,
+        80.3,
+        15.3
+      ],
+      "instances": [
+        {
+          "name": "ESP32-P4-5_0-inch-20251230.stp-2",
+          "world_bounds_mm": [
+            1561.0649,
+            157.0967,
+            14.1399,
+            1602.8455,
+            289.1045,
+            112.3477
+          ],
+          "transform_source_units_m": [
+            -6.787105599759258e-17,
+            -1.0000000000000002,
+            4.163336342344341e-17,
+            -0.25881903473725154,
+            8.780654894738816e-17,
+            0.9659258290664338,
+            -0.9659258290664339,
+            1.734723475976807e-16,
+            -0.2588190347372516,
+            1.5939107125645318,
+            0.28909923023986883,
+            0.01621049362241144,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "identity_evidence_key": "elecrow_display"
+    },
+    {
+      "id": "cad_7190ca57490e",
+      "filename": "Front_Cover.SLDPRT",
+      "cad_source_basename": "Front_Cover.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Front_Cover-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -205.9656,
+        -174.2212,
+        111.2056,
+        5.9656,
+        -7.5051,
+        306.7609
+      ],
+      "local_dimensions_mm": [
+        211.9312,
+        166.7161,
+        195.5553
+      ],
+      "instances": [
+        {
+          "name": "Front_Cover-1",
+          "world_bounds_mm": [
+            1410.0806,
+            116.877,
+            99.8267,
+            1576.7966,
+            328.8081,
+            295.382
+          ],
+          "transform_source_units_m": [
+            3.755515320343696e-25,
+            1,
+            0,
+            -1,
+            1.2356971045985077e-24,
+            1.0730929533853129e-08,
+            1.0730929533853129e-08,
+            0,
+            1,
+            1.4025754143521576,
+            0.32284253023986886,
+            -0.011378834855567045,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_57be749e2d42",
+      "filename": "Left_Apron.SLDPRT",
+      "cad_source_basename": "Left_Apron.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Left_Apron-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -200.0,
+        2.486,
+        -15.5309,
+        -99.8835,
+        196.5072,
+        90.9115
+      ],
+      "local_dimensions_mm": [
+        100.1165,
+        194.0212,
+        106.4424
+      ],
+      "instances": [
+        {
+          "name": "Left_Apron-1",
+          "world_bounds_mm": [
+            1405.0614,
+            222.726,
+            -8.8928,
+            1599.0826,
+            322.8425,
+            97.5495
+          ],
+          "transform_source_units_m": [
+            -1.2246468029543313e-16,
+            -1,
+            -8.271806125530275e-24,
+            0.9999999999999999,
+            -1.2246468029543304e-16,
+            -1.0730929533853129e-08,
+            1.0730929533853125e-08,
+            -9.585965980166418e-24,
+            0.9999999999999999,
+            1.4025754145454963,
+            0.1228425302387427,
+            0.006638047380209316,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_8c980fa3a192",
+      "filename": "M2_Splitter.SLDPRT",
+      "cad_source_basename": "M2_Splitter.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "M2_Splitter-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 4,
+      "local_envelope_mm": [
+        -40.0,
+        -11.0,
+        0.0,
+        40.0,
+        11.0,
+        3.75
+      ],
+      "local_dimensions_mm": [
+        80.0,
+        22.0,
+        3.75
+      ],
+      "instances": [
+        {
+          "name": "M2_Splitter-1",
+          "world_bounds_mm": [
+            1378.5005,
+            214.0855,
+            337.1845,
+            1392.7481,
+            294.0855,
+            358.112
+          ],
+          "transform_source_units_m": [
+            5.551115123125783e-17,
+            -1.0000000000000002,
+            2.7755575615628914e-17,
+            0.49999999070674317,
+            1.232595164407831e-32,
+            -0.8660254091499029,
+            0.866025409149903,
+            2.7755575615628914e-16,
+            0.49999999070674317,
+            1.3840004740196847,
+            0.25408547174930635,
+            0.34671075369200305,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_d2362404ca8e",
+      "filename": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+      "cad_source_basename": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw.SLDPRT",
+      "modeled_quantity": 3,
+      "modeled_count": 3,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-1",
+        "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-2",
+        "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-3"
+      ],
+      "source_named_part_number": "91294A134",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": "91294A134",
+        "basis": "Exact code in CAD basename",
+        "primary_catalog_corroboration": true
+      },
+      "source_urls": [
+        "https://www.mcmaster.com/products/flat-head-screws/specifications-met~din-7991/"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Owner requests different M3 countersunk bolts; replacement PN, length, head geometry and final quantity remain open."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -3.0,
+        -3.0,
+        -8.1486,
+        3.0,
+        3.0,
+        8.1152
+      ],
+      "local_dimensions_mm": [
+        6.0,
+        6.0,
+        16.2638
+      ],
+      "instances": [
+        {
+          "name": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-1",
+          "world_bounds_mm": [
+            1501.9938,
+            270.3872,
+            104.2352,
+            1519.6021,
+            277.4338,
+            118.4697
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926229,
+            -0.9811395172475307,
+            0.16740351286250407,
+            -0.4905697495057839,
+            0.19330092523131476,
+            0.8496917518574311,
+            -0.8660254091499029,
+            6.938893903907228e-17,
+            -0.4999999907067432,
+            1.5107834951597385,
+            0.2739104717493063,
+            0.11134411380520681,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-2",
+          "world_bounds_mm": [
+            1356.5438,
+            186.6872,
+            356.162,
+            1374.1521,
+            193.7338,
+            370.3965
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926229,
+            -0.9811395172475307,
+            0.16740351286250407,
+            -0.4905697495057839,
+            0.19330092523131476,
+            0.8496917518574311,
+            -0.8660254091499029,
+            6.938893903907228e-17,
+            -0.4999999907067432,
+            1.365333497863147,
+            0.19021047174930628,
+            0.36327090532691364,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x16_91294A134_Black-Oxide Alloy Steel Hex Drive Flat Head Screw-3",
+          "world_bounds_mm": [
+            1356.5438,
+            286.4872,
+            356.162,
+            1374.1521,
+            293.5338,
+            370.3965
+          ],
+          "transform_source_units_m": [
+            -0.09665046081926229,
+            -0.9811395172475307,
+            0.16740351286250407,
+            -0.4905697495057839,
+            0.19330092523131476,
+            0.8496917518574311,
+            -0.8660254091499029,
+            6.938893903907228e-17,
+            -0.4999999907067432,
+            1.365333497863147,
+            0.2900104717493063,
+            0.36327090532691364,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "supplier_evidence": {
+        "url": "https://www.mcmaster.com/products/flat-head-screws/specifications-met~din-7991/",
+        "description": "M3 x 0.5 x 16 mm black-oxide alloy steel hex-drive, 90 degree flat head; replacement selection open.",
+        "confidence": "supplier catalog corroborates model filename; no purchase or final selection claim"
+      }
+    },
+    {
+      "id": "cad_c7528557a862",
+      "filename": "M3x45_91420A138_Steel Phillips Flat Head Screws.SLDPRT",
+      "cad_source_basename": "M3x45_91420A138_Steel Phillips Flat Head Screws.SLDPRT",
+      "modeled_quantity": 8,
+      "modeled_count": 8,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-5",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-1",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-2",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-3",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-4",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-8",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-6",
+        "M3x45_91420A138_Steel Phillips Flat Head Screws-7"
+      ],
+      "source_named_part_number": "91420A138",
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": "91420A138",
+        "basis": "Exact code in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [
+        "https://www.mcmaster.com/91420A138/"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Owner requests different M3 countersunk bolts; replacement PN, length, head geometry and final quantity remain open."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -2.8,
+        -2.8,
+        -43.7489,
+        2.8,
+        2.8,
+        1.65
+      ],
+      "local_dimensions_mm": [
+        5.6,
+        5.6,
+        45.3989
+      ],
+      "instances": [
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-5",
+          "world_bounds_mm": [
+            1475.2464,
+            307.9425,
+            52.1506,
+            1480.8464,
+            313.5425,
+            97.5495
+          ],
+          "transform_source_units_m": [
+            1,
+            -7.89314598849127e-25,
+            -1.0730929166459088e-08,
+            7.8931459884912695e-25,
+            1,
+            4.963083610207843e-24,
+            1.0730929166459088e-08,
+            -4.963083618677922e-24,
+            1,
+            1.4780464155033544,
+            0.3107425302398692,
+            0.0958995024652447,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-1",
+          "world_bounds_mm": [
+            1556.518,
+            307.2141,
+            51.9506,
+            1563.5749,
+            314.271,
+            97.3495
+          ],
+          "transform_source_units_m": [
+            0.3091385390574493,
+            -0.9510170154468456,
+            -3.31734387882379e-09,
+            0.9510170154468456,
+            0.30913853905744937,
+            -1.0205296578255413e-08,
+            1.0730929533853127e-08,
+            2.0679515313825692e-24,
+            0.9999999999999999,
+            1.5600464155012084,
+            0.31074253023986853,
+            0.09569950158530845,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-2",
+          "world_bounds_mm": [
+            1556.518,
+            131.4141,
+            51.9506,
+            1563.5749,
+            138.471,
+            97.3495
+          ],
+          "transform_source_units_m": [
+            0.3091385390574493,
+            -0.9510170154468456,
+            -3.31734387882379e-09,
+            0.9510170154468456,
+            0.30913853905744937,
+            -1.0205296578255413e-08,
+            1.0730929533853127e-08,
+            2.0679515313825692e-24,
+            0.9999999999999999,
+            1.5600464155012084,
+            0.13494253023986846,
+            0.09569950158530845,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-3",
+          "world_bounds_mm": [
+            1556.518,
+            225.2141,
+            51.9506,
+            1563.5749,
+            232.271,
+            97.3495
+          ],
+          "transform_source_units_m": [
+            0.3091385390574493,
+            -0.9510170154468456,
+            -3.31734387882379e-09,
+            0.9510170154468456,
+            0.30913853905744937,
+            -1.0205296578255413e-08,
+            1.0730929533853127e-08,
+            2.0679515313825692e-24,
+            0.9999999999999999,
+            1.5600464155012084,
+            0.2287425302398685,
+            0.09569950158530845,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-4",
+          "world_bounds_mm": [
+            1556.518,
+            213.4141,
+            51.9506,
+            1563.5749,
+            220.471,
+            97.3495
+          ],
+          "transform_source_units_m": [
+            0.3091385390574493,
+            -0.9510170154468456,
+            -3.31734387882379e-09,
+            0.9510170154468456,
+            0.30913853905744937,
+            -1.0205296578255413e-08,
+            1.0730929533853127e-08,
+            2.0679515313825692e-24,
+            0.9999999999999999,
+            1.5600464155012084,
+            0.2169425302398685,
+            0.09569950158530845,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-8",
+          "world_bounds_mm": [
+            1475.2464,
+            225.9425,
+            52.1506,
+            1480.8464,
+            231.5425,
+            97.5495
+          ],
+          "transform_source_units_m": [
+            1,
+            -7.89314598849127e-25,
+            -1.0730929166459088e-08,
+            7.8931459884912695e-25,
+            1,
+            4.963083610207843e-24,
+            1.0730929166459088e-08,
+            -4.963083618677922e-24,
+            1,
+            1.4780464155033544,
+            0.2287425302398692,
+            0.0958995024652447,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-6",
+          "world_bounds_mm": [
+            1475.2464,
+            132.1425,
+            52.1506,
+            1480.8464,
+            137.7425,
+            97.5495
+          ],
+          "transform_source_units_m": [
+            1,
+            -7.89314598849127e-25,
+            -1.0730929166459088e-08,
+            7.8931459884912695e-25,
+            1,
+            4.963083610207843e-24,
+            1.0730929166459088e-08,
+            -4.963083618677922e-24,
+            1,
+            1.4780464155033544,
+            0.13494253023986924,
+            0.0958995024652447,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "M3x45_91420A138_Steel Phillips Flat Head Screws-7",
+          "world_bounds_mm": [
+            1475.2464,
+            214.1425,
+            52.1506,
+            1480.8464,
+            219.7425,
+            97.5495
+          ],
+          "transform_source_units_m": [
+            1,
+            -7.89314598849127e-25,
+            -1.0730929166459088e-08,
+            7.8931459884912695e-25,
+            1,
+            4.963083610207843e-24,
+            1.0730929166459088e-08,
+            -4.963083618677922e-24,
+            1,
+            1.4780464155033544,
+            0.21694253023986917,
+            0.0958995024652447,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "supplier_evidence": {
+        "url": "https://www.mcmaster.com/91420A138/",
+        "description": "M3 x 45 steel Phillips flat-head description comes from CAD filename only; direct page inaccessible in source review.",
+        "confidence": "unverified catalog details; replacement selection open"
+      }
+    },
+    {
+      "id": "cad_6ab458265e62",
+      "filename": "PanelMnt_SMA_Antenna_Cable.SLDPRT",
+      "cad_source_basename": "PanelMnt_SMA_Antenna_Cable.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "PanelMnt_SMA_Antenna_Cable-2",
+        "PanelMnt_SMA_Antenna_Cable-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 3,
+      "local_envelope_mm": [
+        100.9975,
+        -6.0884,
+        -5.9387,
+        115.1,
+        6.0884,
+        5.9387
+      ],
+      "local_dimensions_mm": [
+        14.1025,
+        12.1768,
+        11.8774
+      ],
+      "instances": [
+        {
+          "name": "PanelMnt_SMA_Antenna_Cable-2",
+          "world_bounds_mm": [
+            1365.7045,
+            146.7541,
+            193.3333,
+            1485.6668,
+            158.9309,
+            389.058
+          ],
+          "transform_source_units_m": [
+            -0.5003704161212046,
+            -5.551115123125782e-17,
+            0.8658114382882063,
+            -6.797391952343948e-15,
+            1,
+            -3.864239418131033e-15,
+            -0.8658114382882063,
+            -7.818810788509778e-15,
+            -0.5003704161212046,
+            1.4284389260091364,
+            0.1528425302398689,
+            0.2864315296217167,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "PanelMnt_SMA_Antenna_Cable-1",
+          "world_bounds_mm": [
+            1365.7045,
+            170.7541,
+            193.3333,
+            1485.6668,
+            182.9309,
+            389.058
+          ],
+          "transform_source_units_m": [
+            -0.5003704161212046,
+            -5.551115123125782e-17,
+            0.8658114382882063,
+            -6.797391952343948e-15,
+            1,
+            -3.864239418131033e-15,
+            -0.8658114382882063,
+            -7.818810788509778e-15,
+            -0.5003704161212046,
+            1.4284389260091364,
+            0.1768425302398689,
+            0.2864315296217167,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_001439195b30",
+      "filename": "rainbow-matchstick-diffuser.SLDPRT",
+      "cad_source_basename": "rainbow-matchstick-diffuser.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "rainbow-matchstick-diffuser-2",
+        "rainbow-matchstick-diffuser-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -74.2168,
+        -4.7,
+        0.0,
+        74.1832,
+        4.7,
+        2.5
+      ],
+      "local_dimensions_mm": [
+        148.4,
+        9.4,
+        2.5
+      ],
+      "instances": [
+        {
+          "name": "rainbow-matchstick-diffuser-2",
+          "world_bounds_mm": [
+            1407.3512,
+            139.2334,
+            159.5856,
+            1489.9748,
+            144.0811,
+            292.9672
+          ],
+          "transform_source_units_m": [
+            -0.4999999907067432,
+            8.752659839803791e-17,
+            0.8660254091499031,
+            -0.8365163089204477,
+            -0.2588190451025241,
+            -0.48296290416793686,
+            0.22414386943070058,
+            -0.9659258262890674,
+            0.12940952014599028,
+            1.4483744657721447,
+            0.14286467891489935,
+            0.22612923826187353,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rainbow-matchstick-diffuser-1",
+          "world_bounds_mm": [
+            1407.3512,
+            301.6039,
+            159.5856,
+            1489.9748,
+            306.4517,
+            292.9672
+          ],
+          "transform_source_units_m": [
+            -0.4999999907067431,
+            1.1102230246251565e-16,
+            0.8660254091499029,
+            0.8365163089204476,
+            -0.25881904510252446,
+            0.48296290416793686,
+            0.22414386943070086,
+            0.9659258262890671,
+            0.12940952014599022,
+            1.448374420124855,
+            0.30282039568815944,
+            0.22612921190739926,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_a2d7b506c6d9",
+      "filename": "Rainbow_Matchstick.step.SLDPRT",
+      "cad_source_basename": "Rainbow_Matchstick.step.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Rainbow_Matchstick.step-5",
+        "Rainbow_Matchstick.step-4"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [
+        "https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Rainbow_on_a_matchstick"
+      ],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity.",
+        "Chosen positions exist in CAD, but mounting, connectors, harness, display output and power/current budget are unresolved."
+      ],
+      "representative_body_count": 20,
+      "local_envelope_mm": [
+        12.9999,
+        -38.5,
+        -6.15,
+        170.9999,
+        -27.5,
+        3.35
+      ],
+      "local_dimensions_mm": [
+        158.0,
+        11.0,
+        9.5
+      ],
+      "instances": [
+        {
+          "name": "Rainbow_Matchstick.step-5",
+          "world_bounds_mm": [
+            1404.6283,
+            131.508,
+            154.434,
+            1494.9594,
+            143.5313,
+            297.808
+          ],
+          "transform_source_units_m": [
+            0.4999999907067432,
+            -8.752659839803791e-17,
+            -0.8660254091499031,
+            -0.8365163089204477,
+            -0.2588190451025241,
+            -0.48296290416793686,
+            -0.22414386943070058,
+            0.9659258262890674,
+            -0.12940952014599028,
+            1.3758751025416263,
+            0.13033091072560432,
+            0.2896763204372228,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Rainbow_Matchstick.step-4",
+          "world_bounds_mm": [
+            1404.6283,
+            302.1538,
+            154.434,
+            1494.9594,
+            314.1771,
+            297.808
+          ],
+          "transform_source_units_m": [
+            0.4999999907067431,
+            -1.1102230246251565e-16,
+            -0.8660254091499029,
+            0.8365163089204476,
+            -0.25881904510252446,
+            0.48296290416793686,
+            -0.22414386943070086,
+            -0.9659258262890671,
+            -0.12940952014599022,
+            1.4310851237202997,
+            0.2982721098594244,
+            0.3215518402367551,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "identity_evidence_key": "rainbow_matchstick",
+      "pcb_bounds_local_mm": [
+        12.9999,
+        -38.5,
+        0.0,
+        170.9999,
+        -27.5,
+        1.58
+      ],
+      "pcb_dimensions_mm": [
+        158.0,
+        11.0,
+        1.58
+      ]
+    },
+    {
+      "id": "cad_e6f58f0613fe",
+      "filename": "Rear_Cover_Whole.SLDPRT",
+      "cad_source_basename": "Rear_Cover_Whole.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Rear_Cover_Whole-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -206.0395,
+        -106.4337,
+        79.99,
+        5.4678,
+        126.2644,
+        379.4052
+      ],
+      "local_dimensions_mm": [
+        211.5073,
+        232.6981,
+        299.4152
+      ],
+      "instances": [
+        {
+          "name": "Rear_Cover_Whole-1",
+          "world_bounds_mm": [
+            1276.311,
+            116.803,
+            68.6112,
+            1509.0091,
+            328.3104,
+            368.0264
+          ],
+          "transform_source_units_m": [
+            0,
+            1,
+            0,
+            -1,
+            0,
+            1.0730929533853129e-08,
+            1.0730929533853129e-08,
+            0,
+            1,
+            1.402575414352158,
+            0.32284253023986886,
+            -0.01137883485556701,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_3cf2ecf0674e",
+      "filename": "Right_Apron.SLDPRT",
+      "cad_source_basename": "Right_Apron.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Right_Apron-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -100.0,
+        2.486,
+        -15.5309,
+        0.0,
+        196.5072,
+        90.9115
+      ],
+      "local_dimensions_mm": [
+        100.0,
+        194.0212,
+        106.4424
+      ],
+      "instances": [
+        {
+          "name": "Right_Apron-1",
+          "world_bounds_mm": [
+            1405.0614,
+            122.8425,
+            -8.8928,
+            1599.0826,
+            222.8425,
+            97.5495
+          ],
+          "transform_source_units_m": [
+            -1.2246468029543304e-16,
+            -1,
+            1.6543612251060553e-24,
+            0.9999999999999999,
+            -1.22464680295433e-16,
+            -1.0730929533853129e-08,
+            1.0730929533853125e-08,
+            3.4020137046991137e-25,
+            0.9999999999999999,
+            1.4025754145455311,
+            0.12284253023986953,
+            0.006638047380209377,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_f49a6b79ecc5",
+      "filename": "snowman_mc75-8_heatsink_v1.SLDPRT",
+      "cad_source_basename": "snowman_mc75-8_heatsink_v1.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "snowman_mc75-8_heatsink_v1-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 79,
+      "local_envelope_mm": [
+        -60.0,
+        -0.0434,
+        -47.3549,
+        60.0,
+        60.6,
+        76.8
+      ],
+      "local_dimensions_mm": [
+        120.0,
+        60.6434,
+        124.1549
+      ],
+      "instances": [
+        {
+          "name": "snowman_mc75-8_heatsink_v1-1",
+          "world_bounds_mm": [
+            1421.696,
+            164.9175,
+            171.0571,
+            1534.385,
+            289.0724,
+            305.4001
+          ],
+          "transform_source_units_m": [
+            0.49999999070674334,
+            6.071711008142592e-16,
+            -0.8660254091499028,
+            0.8660254091499028,
+            3.201854999152545e-16,
+            0.49999999070674334,
+            5.808743233325073e-16,
+            -1,
+            -3.6573285402460456e-16,
+            1.4519038817505463,
+            0.24171753023987003,
+            0.22313859846964357,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_35bc922ba3c7",
+      "filename": "Speaker.SLDPRT",
+      "cad_source_basename": "Speaker.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Speaker-2",
+        "Speaker-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        0.0,
+        -15.2,
+        -10.2,
+        9.0,
+        75.2,
+        10.2
+      ],
+      "local_dimensions_mm": [
+        9.0,
+        90.4,
+        20.4
+      ],
+      "instances": [
+        {
+          "name": "Speaker-2",
+          "world_bounds_mm": [
+            1572.1678,
+            229.5858,
+            58.3867,
+            1586.1411,
+            319.9858,
+            80.4209
+          ],
+          "transform_source_units_m": [
+            0.965925829066434,
+            -3.835670304770927e-16,
+            0.25881903473725115,
+            -3.9709780910177106e-16,
+            -1,
+            -1.2325951644078307e-32,
+            0.25881903473725115,
+            -1.0277647164799759e-16,
+            -0.965925829066434,
+            1.5748077956633109,
+            0.3047858302398695,
+            0.0682391276796788,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Speaker-1",
+          "world_bounds_mm": [
+            1572.1678,
+            125.6992,
+            58.3867,
+            1586.1411,
+            216.0992,
+            80.4209
+          ],
+          "transform_source_units_m": [
+            0.965925829066434,
+            0,
+            0.25881903473725115,
+            0,
+            1,
+            0,
+            -0.25881903473725115,
+            0,
+            0.965925829066434,
+            1.5748077956633109,
+            0.1408992302398688,
+            0.06823912767967878,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_a3f594caf952",
+      "filename": "SSD_M2_2230.SLDPRT",
+      "cad_source_basename": "SSD_M2_2230.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "SSD_M2_2230-1",
+        "SSD_M2_2230-2"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 3,
+      "local_envelope_mm": [
+        -15.0,
+        -11.0,
+        0.0,
+        15.0,
+        11.0,
+        3.5
+      ],
+      "local_dimensions_mm": [
+        30.0,
+        22.0,
+        3.5
+      ],
+      "instances": [
+        {
+          "name": "SSD_M2_2230-1",
+          "world_bounds_mm": [
+            1379.4098,
+            256.8855,
+            337.7095,
+            1393.4409,
+            286.8855,
+            358.512
+          ],
+          "transform_source_units_m": [
+            1.6653345369377338e-16,
+            -1,
+            2.2204460492503123e-16,
+            0.4999999907067433,
+            -1.0902954453048015e-16,
+            -0.8660254091499031,
+            0.8660254091499031,
+            2.5524450277129475e-16,
+            0.4999999907067433,
+            1.3849098006992921,
+            0.2718854717492963,
+            0.3472357536822448,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "SSD_M2_2230-2",
+          "world_bounds_mm": [
+            1379.4098,
+            220.8855,
+            337.7095,
+            1393.4409,
+            250.8855,
+            358.512
+          ],
+          "transform_source_units_m": [
+            1.6653345369377338e-16,
+            -1,
+            2.2204460492503123e-16,
+            0.4999999907067433,
+            -1.0902954453048015e-16,
+            -0.8660254091499031,
+            0.8660254091499031,
+            2.5524450277129475e-16,
+            0.4999999907067433,
+            1.3849098006992915,
+            0.2358854717492963,
+            0.34723575368224485,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_124f6fc1c790",
+      "filename": "SSD_M2_2280.SLDPRT",
+      "cad_source_basename": "SSD_M2_2280.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "SSD_M2_2280-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 3,
+      "local_envelope_mm": [
+        -40.0,
+        -11.0,
+        0.0,
+        40.0,
+        11.0,
+        3.5
+      ],
+      "local_dimensions_mm": [
+        80.0,
+        22.0,
+        3.5
+      ],
+      "instances": [
+        {
+          "name": "SSD_M2_2280-1",
+          "world_bounds_mm": [
+            1437.1026,
+            135.1959,
+            135.0812,
+            1480.1336,
+            157.1959,
+            206.1132
+          ],
+          "transform_source_units_m": [
+            0.49999999070674295,
+            0,
+            -0.866025409149903,
+            0,
+            1,
+            0,
+            0.866025409149903,
+            0,
+            0.49999999070674295,
+            1.4571025578515067,
+            0.14619589563063762,
+            0.16972222628207592,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_5429a83cd569",
+      "filename": "Stubby_SMA_Wifi_Antenna.SLDPRT",
+      "cad_source_basename": "Stubby_SMA_Wifi_Antenna.SLDPRT",
+      "modeled_quantity": 2,
+      "modeled_count": 2,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Stubby_SMA_Wifi_Antenna-1",
+        "Stubby_SMA_Wifi_Antenna-2"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -6.25,
+        -6.25,
+        -131.2173,
+        6.25,
+        6.25,
+        -42.2173
+      ],
+      "local_dimensions_mm": [
+        12.5,
+        12.5,
+        89.0
+      ],
+      "instances": [
+        {
+          "name": "Stubby_SMA_Wifi_Antenna-1",
+          "world_bounds_mm": [
+            1321.6351,
+            168.6942,
+            377.8966,
+            1380.278,
+            184.9909,
+            463.1082
+          ],
+          "transform_source_units_m": [
+            -0.8016127249911373,
+            -0.37788781496138213,
+            -0.46326864607481816,
+            -0.3271795925833019,
+            0.925851391587069,
+            -0.18908388321935954,
+            0.5003704161212046,
+            1.1102230246251565e-16,
+            -0.8658114382882062,
+            1.3943473349712345,
+            0.176842530239869,
+            0.34542160681067136,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Stubby_SMA_Wifi_Antenna-2",
+          "world_bounds_mm": [
+            1321.6351,
+            144.6942,
+            377.8966,
+            1380.278,
+            160.9909,
+            463.1082
+          ],
+          "transform_source_units_m": [
+            -0.8016127249911373,
+            -0.37788781496138213,
+            -0.46326864607481816,
+            -0.3271795925833019,
+            0.925851391587069,
+            -0.18908388321935954,
+            0.5003704161212046,
+            1.1102230246251565e-16,
+            -0.8658114382882062,
+            1.3943473349712345,
+            0.15284253023986902,
+            0.34542160681067136,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_6e2a9d87d639",
+      "filename": "Top_Cover.SLDPRT",
+      "cad_source_basename": "Top_Cover.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "printed",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "Top_Cover-2"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -200.7904,
+        -66.6564,
+        278.6947,
+        0.7904,
+        47.0059,
+        400.4383
+      ],
+      "local_dimensions_mm": [
+        201.5808,
+        113.6623,
+        121.7436
+      ],
+      "instances": [
+        {
+          "name": "Top_Cover-2",
+          "world_bounds_mm": [
+            1355.5695,
+            122.0521,
+            267.3159,
+            1469.2319,
+            323.633,
+            389.0595
+          ],
+          "transform_source_units_m": [
+            3.755515320343696e-25,
+            1,
+            0,
+            -1,
+            1.2356971045985077e-24,
+            1.0730929533853129e-08,
+            1.0730929533853129e-08,
+            0,
+            1,
+            1.4025754143521576,
+            0.32284253023986886,
+            -0.011378834855567045,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cad_8a5caa14b72d",
+      "filename": "USB_Hub.SLDPRT",
+      "cad_source_basename": "USB_Hub.SLDPRT",
+      "modeled_quantity": 1,
+      "modeled_count": 1,
+      "class": "bought",
+      "classification_basis": "Provisional intended BOM class inferred from the CAD name and purpose; actual fabrication/purchase not verified.",
+      "instance_names": [
+        "USB_Hub-1"
+      ],
+      "source_named_part_number": null,
+      "purchased_part_number": null,
+      "purchase_confirmation": "unconfirmed",
+      "confirmed_purchase_specification_status": "Not established by the CAD export; requires owner label/order/specification confirmation.",
+      "source_part_number_evidence": {
+        "value": null,
+        "basis": "No exact supplier PN in CAD basename",
+        "primary_catalog_corroboration": false
+      },
+      "source_urls": [],
+      "open_notes": [
+        "Modeled count is the active assembly count, not a purchased or final required quantity."
+      ],
+      "representative_body_count": 1,
+      "local_envelope_mm": [
+        -15.0065,
+        -47.9,
+        -0.0,
+        7.8,
+        58.2065,
+        14.0
+      ],
+      "local_dimensions_mm": [
+        22.8065,
+        106.1065,
+        14.0
+      ],
+      "instances": [
+        {
+          "name": "USB_Hub-1",
+          "world_bounds_mm": [
+            1477.9549,
+            298.036,
+            9.3072,
+            1584.0614,
+            320.8425,
+            23.3072
+          ],
+          "transform_source_units_m": [
+            -1.2246468487781895e-16,
+            1,
+            9.739585048014941e-25,
+            -1,
+            -1.2246468335615527e-16,
+            1.0730929651461503e-08,
+            1.0730929651461503e-08,
+            1.6653345403397482e-16,
+            1,
+            1.5361614145741385,
+            0.3130425302387428,
+            0.009307163710930846,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "primary_product_evidence": {
+    "rainbow_matchstick": {
+      "url": "https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Rainbow_on_a_matchstick",
+      "parent_readme_url": "https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight",
+      "facts": {
+        "leds_per_board": 10,
+        "type": "addressable RGB",
+        "reference_led": "WS2812B 5050",
+        "connector_bom": "2 angled three-pin JST-XH 2.54 connectors",
+        "power_net": "+5V"
+      },
+      "status": "Official design identity supported by filename and matching 158 x 11 mm PCB envelope; purchased vendor/revision unconfirmed."
+    },
+    "arctic_p9": {
+      "url": "https://www.arctic.de/en/P9-PWM-PST-Black/ACFAN00298A",
+      "part_number": "ACFAN00298A",
+      "dimensions_mm": [
+        92,
+        92,
+        25
+      ],
+      "voltage_dc": 12,
+      "current_a": 0.12,
+      "connector": "4-pin fan plug plus 4-pin PST socket",
+      "cable_mm": [
+        400,
+        80
+      ],
+      "status": "Primary product candidate; CAD name 92MM_Arctic_PST_FAN does not establish purchased SKU."
+    },
+    "arctic_p12_slim": {
+      "url": "https://www.arctic.de/en/P12-Slim-PWM-PST/ACFAN00187A",
+      "drawing_url": "https://support.arctic.de/products/p12-slim-pwm-pst/techdocs/P12%20Slim%20PWM%20PST%20-%202D%20Drawing.pdf",
+      "part_number": "ACFAN00187A",
+      "dimensions_mm": [
+        120,
+        120,
+        15
+      ],
+      "voltage_dc": 12,
+      "current_a": 0.12,
+      "connector": "4-pin connector plus 4-pin socket",
+      "cable_mm": 400,
+      "status": "Possible owner-requested addition; no active CAD instance or quantity selected."
+    },
+    "elecrow_display": {
+      "url": "https://www.elecrow.com/crowpanel-advanced-5inch-esp32-p4-hmi-ai-display-800x480-ips-touch-screen-with-wifi-6.html",
+      "repository_url": "https://github.com/Elecrow-RD/-CrowPanel-Advanced-5inch-ESP32-P4-HMI-AI-Display-800x480-IPS-Touch-Screen",
+      "sku": "DHE04005D",
+      "diagonal_inch": 5,
+      "pixels": [
+        800,
+        480
+      ],
+      "soc": "ESP32-P4",
+      "wireless_module": "ESP32-C6-MINI-1",
+      "wireless": "2.4 GHz Wi-Fi 6 and Bluetooth 5.3",
+      "speaker_connector": "PH2.0-2P; external speaker output with onboard amplifier",
+      "status": "Owner/display source identity supported; current shop revision/options and mating pin orientation require confirmation."
+    },
+    "mosfet_power_distribution": {
+      "url": "https://mosfet.party/products/eps-8pin-to-dual-microfit",
+      "name": "EPS-8pin to dual Micro-Fit adapter",
+      "input": "EPS CPU 8-pin",
+      "output": "2 x Molex Micro-Fit",
+      "manufacturer_requirement": "Use together with the BC250 built-in PCIe 8-pin connector; do not insert a PCIe cable into the EPS input.",
+      "status": "Exact primary product; owner phrase ESP Power Adapter likely means EPS, but purchase/revision/quantity unconfirmed."
+    },
+    "mosfet_ps_on_button": {
+      "url": "https://mosfet.party/products/adapter-3",
+      "name": "PS_ON ATX 24-pin edition + button",
+      "included": "Pre-wired connection cables and 16 mm panel-mount backlit button",
+      "status": "Variant candidate; selection unconfirmed."
+    },
+    "mosfet_ps_on_headers": {
+      "url": "https://mosfet.party/products/adapter-4",
+      "name": "PS_ON ATX 24-pin edition + PC case headers",
+      "included": "Pre-wired PSU/BC250 connection cables and headers for power button and power LED",
+      "status": "Variant candidate; selection unconfirmed."
+    },
+    "mosfet_ps_on_lite": {
+      "url": "https://mosfet.party/products/adapter-2",
+      "name": "PS_ON LITE/DIY edition",
+      "repository_url": "https://github.com/mosfetparty/bc250-psu-adapter",
+      "status": "Variant candidate; selection unconfirmed."
+    },
+    "diffuser_mount_reference": {
+      "url": "https://github.com/MapleLeafMakers/Matchstick_Diffuser",
+      "status": "Optional independent reference design only; existing CAD diffuser filename does not establish that it is this design."
+    }
+  },
+  "open_bom_rows": [
+    {
+      "id": "additional_6x3_magnets",
+      "item": "Additional 6 x 3 magnets",
+      "modeled_baseline_quantity": 14,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Additional quantity, grade, coating, polarity/orientation and retention fit."
+    },
+    {
+      "id": "m3_countersunk_replacements",
+      "item": "Different M3 countersunk bolts",
+      "modeled_baseline_quantity": 11,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Length, head angle/diameter, drive, grade, quantity, thread engagement and countersink fit; existing model has 3 x16 and 8 x45."
+    },
+    {
+      "id": "threaded_magnets",
+      "item": "Owner-requested 3 mm threaded magnets",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Clarify M3 thread versus 3 mm body size, male/female thread, envelope, quantity, mounting and polarity."
+    },
+    {
+      "id": "final_heatsets",
+      "item": "Final heat-set inserts",
+      "modeled_baseline_quantity": 8,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Final PN, thread, OD/length, hole geometry, insertion method, quantity and pull-out test."
+    },
+    {
+      "id": "display_led_harness",
+      "item": "Display to LED bar 1 to LED bar 2 harness",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Display output GPIO/header mapping, logic levels, +5V source/budget, common ground, LED revision pinout, connector housings/crimps, wire gauge, lengths, keyed orientation and test."
+    },
+    {
+      "id": "led_mounting",
+      "item": "Mounts/fasteners/clips for two chosen LED positions",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Support surfaces, hole alignment, insulated clearance, insert/bolt selection, connector access, diffuser retention and service removal; no mount validated."
+    },
+    {
+      "id": "usb_extensions",
+      "item": "USB extension cables",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Connector genders, USB speed/power requirements, length, bend radius, panel retention and exact quantity."
+    },
+    {
+      "id": "usb_right_angle",
+      "item": "90 degree USB-C to USB-A cable",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Connector genders/orientation, data capability, cable length, bend clearance, strain relief and exact quantity; separate from two modeled 180-degree USB adapters."
+    },
+    {
+      "id": "optional_p12",
+      "item": "Possible ARCTIC P12 Slim PWM PST",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Selection/quantity, airflow direction, 120 x120 x15 mm clearance, hole pattern, fan power/header budget, wiring and mount validation."
+    },
+    {
+      "id": "mosfet_distribution",
+      "item": "Mosfet.Party EPS power distribution adapter",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Confirm product/revision/quantity, PSU cable compatibility, board bounds, mounting, both BC250 power paths and harness retention."
+    },
+    {
+      "id": "mosfet_ps_on",
+      "item": "Mosfet.Party PS_ON control adapter",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Confirm ATX button/header versus LITE variant, board bounds/holes, button/LED connector pinout, PSU and BC250 sense wiring, quantity and mounting."
+    },
+    {
+      "id": "psu_cable_management",
+      "item": "Excess PSU cable retention",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Choose case anchor/tie-point locations, zip-tie/mount PN/quantity, routing, bend radius, insulation, fan clearance and service slack."
+    },
+    {
+      "id": "small_cable_management",
+      "item": "Small/USB/LED/audio cable retention",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Choose separate anchor/tie-point locations, zip ties/mounts/retainers, lengths, strain relief, connector access and service slack."
+    },
+    {
+      "id": "speakers",
+      "item": "Speaker wiring and final speaker parts",
+      "modeled_baseline_quantity": 2,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Exact speaker PN/impedance/rating, PH2.0 housing/pin orientation, harness length, mounting and clearance."
+    },
+    {
+      "id": "wireless_identity",
+      "item": "Wireless card and antenna identity",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "No explicitly named wireless card instance; confirm installed card PN, interface, adapter and antenna/bulkhead cable identities from owner evidence."
+    },
+    {
+      "id": "nvme_splitter_identity",
+      "item": "M.2 splitter identity",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Manufacturer/PN, topology/interface compatibility, power, mounting and attached devices; generic CAD filename cannot establish exact purchased splitter."
+    },
+    {
+      "id": "storage_identity",
+      "item": "Final SSD identities",
+      "modeled_baseline_quantity": 3,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "PN/capacity/interface and role for 2 modeled 2230 and 1 modeled 2280 bodies."
+    },
+    {
+      "id": "usb_hub_identity",
+      "item": "USB hub identity",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Exact PN, ports/speed, power source, cable and mounting."
+    },
+    {
+      "id": "psu_identity",
+      "item": "PSU identity and cable set",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Apevia 500 SFX filename only; confirm exact label PN/revision, connectors/pinouts and cable gauges."
+    },
+    {
+      "id": "am4_custom_subassembly_bom",
+      "item": "Decompose the custom AM4 adapter subassembly",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "One imported custom CAD component contains 19 exported bodies. Identify fabricated parts and separately required hardware, checking against top-level washers, spacers and thumb nuts to avoid double-counting. Manufacturing/material and final physical quantities remain open; do not decompose bought board/PSU chips into separate purchases."
+    },
+    {
+      "id": "remaining_items",
+      "item": "Other owner-mentioned missing components",
+      "modeled_baseline_quantity": null,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Owner to identify remaining components; inventory is not a purchasing checklist."
+    }
+  ],
+  "led_mounting_context": {
+    "bars": [
+      {
+        "instance_name": "Rainbow_Matchstick.step-5",
+        "world_bounds_mm": [
+          1404.6283,
+          131.508,
+          154.434,
+          1494.9594,
+          143.5313,
+          297.808
+        ],
+        "case_candidates": [
+          {
+            "instance_name": "Rear_Cover_Whole-1",
+            "filename": "Rear_Cover_Whole.SLDPRT",
+            "world_bounds_mm": [
+              1276.311,
+              116.803,
+              68.6112,
+              1509.0091,
+              328.3104,
+              368.0264
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Backbone-1",
+            "filename": "Backbone.SLDPRT",
+            "world_bounds_mm": [
+              1353.5812,
+              122.8425,
+              -11.3788,
+              1601.5687,
+              322.8425,
+              369.1694
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Front_Cover-1",
+            "filename": "Front_Cover.SLDPRT",
+            "world_bounds_mm": [
+              1410.0806,
+              116.877,
+              99.8267,
+              1576.7966,
+              328.8081,
+              295.382
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Top_Cover-2",
+            "filename": "Top_Cover.SLDPRT",
+            "world_bounds_mm": [
+              1355.5695,
+              122.0521,
+              267.3159,
+              1469.2319,
+              323.633,
+              389.0595
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Dual_92MM_FAN_Shroud-1",
+            "filename": "Dual_92MM_FAN_Shroud.SLDPRT",
+            "world_bounds_mm": [
+              1468.8614,
+              125.7575,
+              27.497,
+              1569.2314,
+              319.9275,
+              97.7946
+            ],
+            "aabb_gap_mm": 56.6394
+          },
+          {
+            "instance_name": "Right_Apron-1",
+            "filename": "Right_Apron.SLDPRT",
+            "world_bounds_mm": [
+              1405.0614,
+              122.8425,
+              -8.8928,
+              1599.0826,
+              222.8425,
+              97.5495
+            ],
+            "aabb_gap_mm": 56.8845
+          },
+          {
+            "instance_name": "Left_Apron-1",
+            "filename": "Left_Apron.SLDPRT",
+            "world_bounds_mm": [
+              1405.0614,
+              222.726,
+              -8.8928,
+              1599.0826,
+              322.8425,
+              97.5495
+            ],
+            "aabb_gap_mm": 97.5072
+          }
+        ]
+      },
+      {
+        "instance_name": "Rainbow_Matchstick.step-4",
+        "world_bounds_mm": [
+          1404.6283,
+          302.1538,
+          154.434,
+          1494.9594,
+          314.1771,
+          297.808
+        ],
+        "case_candidates": [
+          {
+            "instance_name": "Rear_Cover_Whole-1",
+            "filename": "Rear_Cover_Whole.SLDPRT",
+            "world_bounds_mm": [
+              1276.311,
+              116.803,
+              68.6112,
+              1509.0091,
+              328.3104,
+              368.0264
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Backbone-1",
+            "filename": "Backbone.SLDPRT",
+            "world_bounds_mm": [
+              1353.5812,
+              122.8425,
+              -11.3788,
+              1601.5687,
+              322.8425,
+              369.1694
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Front_Cover-1",
+            "filename": "Front_Cover.SLDPRT",
+            "world_bounds_mm": [
+              1410.0806,
+              116.877,
+              99.8267,
+              1576.7966,
+              328.8081,
+              295.382
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Top_Cover-2",
+            "filename": "Top_Cover.SLDPRT",
+            "world_bounds_mm": [
+              1355.5695,
+              122.0521,
+              267.3159,
+              1469.2319,
+              323.633,
+              389.0595
+            ],
+            "aabb_gap_mm": 0.0
+          },
+          {
+            "instance_name": "Dual_92MM_FAN_Shroud-1",
+            "filename": "Dual_92MM_FAN_Shroud.SLDPRT",
+            "world_bounds_mm": [
+              1468.8614,
+              125.7575,
+              27.497,
+              1569.2314,
+              319.9275,
+              97.7946
+            ],
+            "aabb_gap_mm": 56.6394
+          },
+          {
+            "instance_name": "Left_Apron-1",
+            "filename": "Left_Apron.SLDPRT",
+            "world_bounds_mm": [
+              1405.0614,
+              222.726,
+              -8.8928,
+              1599.0826,
+              322.8425,
+              97.5495
+            ],
+            "aabb_gap_mm": 56.8845
+          },
+          {
+            "instance_name": "Right_Apron-1",
+            "filename": "Right_Apron.SLDPRT",
+            "world_bounds_mm": [
+              1405.0614,
+              122.8425,
+              -8.8928,
+              1599.0826,
+              222.8425,
+              97.5495
+            ],
+            "aabb_gap_mm": 97.6019
+          }
+        ]
+      }
+    ],
+    "interpretation": "The two bars sit near opposite side edges in source Y (approximately 131-144 and 302-314 mm), with diffusers already modeled. Backbone, Front_Cover, Rear_Cover_Whole and Top_Cover are candidate structures to inspect for future supports. Left/Right Apron bounds end at Z 97.55 mm while LED bounds begin at Z 154.434 mm, an AABB vertical gap of 56.884 mm; their suitability needs a bridging design or relocation. AABB overlap/distance does not identify contact faces, wall thickness, holes, collision or valid mounting.",
+    "mounting_features_status": "Official LED PCB hole and pin metadata is separate; no chosen fastener, clip, anchor or physical fit is validated."
+  },
+  "export_warnings": [
+    "92MM_Arctic_PST_FAN-1/Stock-bc250_wind_tunnel_case_v1.step-1: untessellated face",
+    "92MM_Arctic_PST_FAN-1/Stock-bc250_wind_tunnel_case_v1.step-1: untessellated face",
+    "92MM_Arctic_PST_FAN-2/Stock-bc250_wind_tunnel_case_v1.step-1: untessellated face",
+    "92MM_Arctic_PST_FAN-2/Stock-bc250_wind_tunnel_case_v1.step-1: untessellated face"
+  ],
+  "limitations": [
+    "No CAD kernel, active apps or original CAD files were opened or edited.",
+    "Filename identities and source PNs are not proof of purchased hardware or final selected parts.",
+    "Four fan faces were untessellated in the export; detailed fan feature/clearance assessment is incomplete.",
+    "No CAD part path existence or current source modification time was verified; paths come from the exported active assembly.",
+    "Current primary design/product revision may differ from purchased hardware.",
+    "No wiring, thermal, mechanical, fan-control or power-compatibility test was performed."
+  ],
+  "official_led_pcb_evidence": {
+    "url": "https://github.com/VoronDesign/Voron-Hardware/blob/master/Daylight/Rainbow_on_a_matchstick/Rainbow_Matchstick.kicad_pcb",
+    "retrieved_utc": "2026-10-04T05:00:34.880384+00:00",
+    "text_sha256": "3586223b2041a05dea6f6d104b5a3582ead8d85bd9d301f7695886bd1a4a8258",
+    "connectors": [
+      {
+        "reference": "J3",
+        "footprint": "Daylight:PinHeader-1-with-SMDpad",
+        "position_mm": [
+          23.4,
+          33.0,
+          180.0
+        ],
+        "pin_nets": {
+          "1": "DOUT"
+        }
+      },
+      {
+        "reference": "J1",
+        "footprint": "Daylight:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal",
+        "position_mm": [
+          36.5,
+          35.5,
+          90.0
+        ],
+        "pin_nets": {
+          "1": "DIN",
+          "2": "+5V",
+          "3": "GND"
+        }
+      },
+      {
+        "reference": "J2",
+        "footprint": "Daylight:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal",
+        "position_mm": [
+          150.6,
+          30.5,
+          -90.0
+        ],
+        "pin_nets": {
+          "1": "GND",
+          "2": "+5V",
+          "3": "DOUT"
+        }
+      }
+    ],
+    "mounting_holes": [
+      {
+        "reference": "H2",
+        "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+        "position_mm": [
+          134.15,
+          32.8
+        ],
+        "central_hole": {
+          "number": "1",
+          "net": "GND",
+          "local_at_mm": [
+            0.0,
+            0.0
+          ],
+          "drill_mm": 3.2
+        },
+        "center_offset_from_outline_min_xy_mm": [
+          121.15,
+          5.3
+        ],
+        "center_distance_to_outline_max_xy_mm": [
+          36.85,
+          5.7
+        ]
+      },
+      {
+        "reference": "H1",
+        "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+        "position_mm": [
+          49.15,
+          33.0
+        ],
+        "central_hole": {
+          "number": "1",
+          "net": "GND",
+          "local_at_mm": [
+            0.0,
+            0.0
+          ],
+          "drill_mm": 3.2
+        },
+        "center_offset_from_outline_min_xy_mm": [
+          36.15,
+          5.5
+        ],
+        "center_distance_to_outline_max_xy_mm": [
+          121.85,
+          5.5
+        ]
+      }
+    ],
+    "outline_bounds_native_pcb_mm": [
+      13.0,
+      27.5,
+      171.0,
+      38.5
+    ],
+    "outline_dimensions_mm": [
+      158.0,
+      11.0
+    ],
+    "reference_board_thickness_mm": 1.6,
+    "hole_center_distance_mm": 85.00023529379199,
+    "removable_mount_concept_constraints": [
+      "A future removable standoff/bracket may use the two reference M3-capable holes only after purchased revision and CAD clearance checks.",
+      "Do not clamp LED emitting faces or use the connector cables as mechanical support.",
+      "Allow connector/harness access, diffuser removal, insertion clearance and service slack.",
+      "Acknowledge grounded plated hole pads; verify isolation and conductor clearance for the actual mounting materials."
+    ],
+    "limitations": [
+      "Official current KiCad revision; physical purchased LED revision is unconfirmed.",
+      "Connector pin numbers are footprint pin numbers, not an assumed cable viewing orientation.",
+      "Grounded plated mounting pads require appropriate clearance from other conductors.",
+      "No display GPIO, wire gauge, supply capacity, logic-level interface or harness was selected or tested."
+    ]
+  },
+  "reconciliation": {
+    "instance_count": 83,
+    "row_count": 34,
+    "sum_modeled_counts": 83,
+    "unique_instance_names": 83,
+    "unique_row_ids": 34,
+    "classes": {
+      "bought": 22,
+      "printed": 10,
+      "custom": 2
+    },
+    "all_additional_quantities_unset": true
+  },
+  "manual_revision": "Rev0.3",
+  "project_status": "in_progress_changing_rapidly",
+  "questions_contact": "https://artfedderson.tech/#start",
+  "public_data_scope": "Current CAD inventory and source evidence; not a finalized purchase BOM.",
+  "source_assembly_basename": "BC250-Assy.SLDASM",
+  "source_revision_note": "The manual's current CAD inventory is later than the repository's preserved October 1 CAD snapshot. Check the current source revision and open decisions before fabrication. Questions are welcome.",
+  "source_snapshot": {
+    "assembly_basename": "BC250-Assy.SLDASM",
+    "observed_saved_assembly_utc": "2026-10-03T21:11:25.9008253Z",
+    "observed_saved_assembly_sha256": "9373a60ab27ae99628ebbc556cbeacaa1fa84fe42846cb7406cfa16978e2c861",
+    "observed_saved_assembly_bytes": 32609106,
+    "qualification": "Export postdates the saved assembly; this does not prove every referenced component is unchanged.",
+    "repository_cad_file": "case-design/BC250-Assy.SLDASM",
+    "repository_cad_lfs_sha256": "271cf7703d2a2d1c0b56d6f5e30ba2481672cdabf75e36cca64796add342484a",
+    "repository_cad_bytes": 35712166,
+    "repository_cad_matches_observed_saved_assembly": false
+  }
+}

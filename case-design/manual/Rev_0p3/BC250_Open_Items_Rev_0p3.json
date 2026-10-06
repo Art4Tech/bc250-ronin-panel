@@ -1,0 +1,203 @@
+{
+  "format": "bc250-open-bom-register",
+  "version": 1,
+  "items": [
+    {
+      "id": "additional_6x3_magnets",
+      "item": "Additional 6 x 3 magnets",
+      "modeled_baseline_quantity": 14,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Additional quantity, grade, coating, polarity/orientation and retention fit."
+    },
+    {
+      "id": "m3_countersunk_replacements",
+      "item": "Different M3 countersunk bolts",
+      "modeled_baseline_quantity": 11,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Length, head angle/diameter, drive, grade, quantity, thread engagement and countersink fit; existing model has 3 x16 and 8 x45."
+    },
+    {
+      "id": "threaded_magnets",
+      "item": "Owner-requested 3 mm threaded magnets",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Clarify M3 thread versus 3 mm body size, male/female thread, envelope, quantity, mounting and polarity."
+    },
+    {
+      "id": "final_heatsets",
+      "item": "Final heat-set inserts",
+      "modeled_baseline_quantity": 8,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Final PN, thread, OD/length, hole geometry, insertion method, quantity and pull-out test."
+    },
+    {
+      "id": "display_led_harness",
+      "item": "Display to LED bar 1 to LED bar 2 harness",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Display output GPIO/header mapping, logic levels, +5V source/budget, common ground, LED revision pinout, connector housings/crimps, wire gauge, lengths, keyed orientation and test."
+    },
+    {
+      "id": "led_mounting",
+      "item": "Mounts/fasteners/clips for two chosen LED positions",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Support surfaces, hole alignment, insulated clearance, insert/bolt selection, connector access, diffuser retention and service removal; no mount validated."
+    },
+    {
+      "id": "usb_extensions",
+      "item": "USB extension cables",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Connector genders, USB speed/power requirements, length, bend radius, panel retention and exact quantity."
+    },
+    {
+      "id": "usb_right_angle",
+      "item": "90 degree USB-C to USB-A cable",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Connector genders/orientation, data capability, cable length, bend clearance, strain relief and exact quantity; separate from two modeled 180-degree USB adapters."
+    },
+    {
+      "id": "optional_p12",
+      "item": "Possible ARCTIC P12 Slim PWM PST",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Selection/quantity, airflow direction, 120 x120 x15 mm clearance, hole pattern, fan power/header budget, wiring and mount validation."
+    },
+    {
+      "id": "mosfet_distribution",
+      "item": "Mosfet.Party EPS power distribution adapter",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Confirm product/revision/quantity, PSU cable compatibility, board bounds, mounting, both BC250 power paths and harness retention."
+    },
+    {
+      "id": "mosfet_ps_on",
+      "item": "Mosfet.Party PS_ON control adapter",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Confirm ATX button/header versus LITE variant, board bounds/holes, button/LED connector pinout, PSU and BC250 sense wiring, quantity and mounting."
+    },
+    {
+      "id": "psu_cable_management",
+      "item": "Excess PSU cable retention",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Choose case anchor/tie-point locations, zip-tie/mount PN/quantity, routing, bend radius, insulation, fan clearance and service slack."
+    },
+    {
+      "id": "small_cable_management",
+      "item": "Small/USB/LED/audio cable retention",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Choose separate anchor/tie-point locations, zip ties/mounts/retainers, lengths, strain relief, connector access and service slack."
+    },
+    {
+      "id": "speakers",
+      "item": "Speaker wiring and final speaker parts",
+      "modeled_baseline_quantity": 2,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Exact speaker PN/impedance/rating, PH2.0 housing/pin orientation, harness length, mounting and clearance."
+    },
+    {
+      "id": "wireless_identity",
+      "item": "Wireless card and antenna identity",
+      "modeled_baseline_quantity": 0,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "No explicitly named wireless card instance; confirm installed card PN, interface, adapter and antenna/bulkhead cable identities from owner evidence."
+    },
+    {
+      "id": "nvme_splitter_identity",
+      "item": "M.2 splitter identity",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Manufacturer/PN, topology/interface compatibility, power, mounting and attached devices; generic CAD filename cannot establish exact purchased splitter."
+    },
+    {
+      "id": "storage_identity",
+      "item": "Final SSD identities",
+      "modeled_baseline_quantity": 3,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "PN/capacity/interface and role for 2 modeled 2230 and 1 modeled 2280 bodies."
+    },
+    {
+      "id": "usb_hub_identity",
+      "item": "USB hub identity",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Exact PN, ports/speed, power source, cable and mounting."
+    },
+    {
+      "id": "psu_identity",
+      "item": "PSU identity and cable set",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Apevia 500 SFX filename only; confirm exact label PN/revision, connectors/pinouts and cable gauges."
+    },
+    {
+      "id": "am4_custom_subassembly_bom",
+      "item": "Decompose the custom AM4 adapter subassembly",
+      "modeled_baseline_quantity": 1,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "One imported custom CAD component contains 19 exported bodies. Identify fabricated parts and separately required hardware, checking against top-level washers, spacers and thumb nuts to avoid double-counting. Manufacturing/material and final physical quantities remain open; do not decompose bought board/PSU chips into separate purchases."
+    },
+    {
+      "id": "remaining_items",
+      "item": "Other owner-mentioned missing components",
+      "modeled_baseline_quantity": null,
+      "additional_quantity": null,
+      "final_part_number": null,
+      "status": "open",
+      "needed_confirmation": "Owner to identify remaining components; inventory is not a purchasing checklist."
+    }
+  ],
+  "quantity_rule": "Additional/final quantities and PNs remain null until confirmed; modeled baselines are descriptive only.",
+  "inventory_sha256": "1636440cd8dcbf44390c9c3dae6320075b19c1f7bc1676c47a859722a2560755",
+  "manual_revision": "Rev0.3",
+  "project_status": "in_progress_changing_rapidly",
+  "questions_contact": "https://artfedderson.tech/#start",
+  "public_data_scope": "Original unresolved BOM and build-interface register.",
+  "public_inventory_file": "BC250_CAD_BOM_Rev_0p3.json",
+  "public_inventory_sha256": "0c56658282e0e95322989785c7a79819e793b8bbd7ba36f015119da3a4514d17"
+}

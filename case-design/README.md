@@ -2,7 +2,14 @@
 
 [Project overview](../README.md) · [Display software and its original README](../display/README.md)
 
+> [!NOTE]
+> **Work in progress: the design and manual are changing rapidly.** You're welcome to build and remix the case. The [Rev0.3 printing and assembly manual](manual/README.md) records the current revision and open decisions. Mounting, wiring, fit and assembly details still need validation. If you have questions, [ask Arthur](https://artfedderson.tech/#start).
+
 Saved design and rendering snapshot imported on 2026-10-01. The original folder layout is retained so nearby parts, media and relative Blender references stay together.
+
+## Printing and assembly manual
+
+Start with the [Rev0.3 manual and editable companion files](manual/README.md). The PDF records current CAD locators, printing guidance, component evidence, and unresolved build decisions. The CSV and JSON files make the BOM, open items, and proposed parts easy to review and update. The saved October 1 CAD snapshot in this folder and the manual's later source revision must be checked together before fabrication.
 
 ## Latest media revision
 
