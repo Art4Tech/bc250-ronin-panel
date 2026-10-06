@@ -2,8 +2,8 @@
 
 [Project overview](../README.md) · [Display software and its original README](../display/README.md)
 
-> [!WARNING]
-> **This project and its manual are in progress and changing rapidly.** [Contact Arthur before building now](https://artfedderson.tech/#start) to confirm the current design, parts, and unresolved interfaces. The [Rev0.3 printing and assembly manual](manual/README.md) is a provisional first edition; final mounting, wiring, fit, and assembly details still need validation.
+> [!NOTE]
+> **Work in progress: the design and manual are changing rapidly.** You're welcome to build and remix the case. The [Rev0.3 printing and assembly manual](manual/README.md) records the current revision and open decisions. Mounting, wiring, fit and assembly details still need validation. If you have questions, [ask Arthur](https://artfedderson.tech/#start).
 
 Saved design and rendering snapshot imported on 2026-10-01. The original folder layout is retained so nearby parts, media and relative Blender references stay together.
 

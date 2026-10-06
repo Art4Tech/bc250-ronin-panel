@@ -2724,8 +2724,8 @@
   ],
   "manual_revision": "Rev0.3",
   "project_status": "in_progress_changing_rapidly",
-  "contact_before_building": "https://artfedderson.tech/#start",
+  "questions_contact": "https://artfedderson.tech/#start",
   "public_data_scope": "Additive proposed hardware, alternatives, reuse/context and routing concepts; not a finalized or purchased BOM.",
   "public_inventory_file": "BC250_CAD_BOM_Rev_0p3.json",
-  "public_inventory_sha256": "a1bd9f7c3de0d435b0e7815def235c8f09effc9e0cb2aa374169a8794ebdbcc6"
+  "public_inventory_sha256": "0c56658282e0e95322989785c7a79819e793b8bbd7ba36f015119da3a4514d17"
 }

@@ -1,7 +1,7 @@
 # BC250 Ronin — case design
 
-> [!WARNING]
-> **In-progress project: the design and manual are changing rapidly.** Before buying parts, printing, or building a BC250 Ronin now, [contact Arthur](https://artfedderson.tech/#start) to confirm the current revision and unresolved interfaces. The Rev0.3 manual is a provisional first edition; it is not a finalized fabrication or wiring release.
+> [!NOTE]
+> **Work in progress: the design and manual are changing rapidly.** You're welcome to build and remix Ronin. Check the revision notes and open decisions as you go. Rev0.3 is a provisional first edition, with fabrication and wiring details still to validate. If you have questions, [ask Arthur](https://artfedderson.tech/#start).
 
 A custom desktop enclosure built around the BC250 board: a sheet-metal backbone, removable magnetic and translucent PCTG covers, and an animated ESP32-P4 resource display at the base.
 

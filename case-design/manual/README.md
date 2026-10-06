@@ -1,9 +1,9 @@
 # BC250 Ronin printing and assembly manual
 
-> [!WARNING]
-> **In-progress project — changing rapidly. Contact Arthur before building now.** Before purchasing parts, printing, or starting assembly, [contact Arthur](https://artfedderson.tech/#start) to confirm the latest design and open decisions. Rev0.3 is a draft for review and iteration, with provisional CAD locator illustrations. It is not a finalized fabrication, wiring, or assembly release.
+> [!NOTE]
+> **Work in progress — changing rapidly.** You're welcome to use this manual to build and remix Ronin. Rev0.3 is a draft for review and iteration, with provisional CAD locator illustrations. Fabrication and wiring details remain unresolved, and the assembly sequence is provisional. Check the source revision and open decisions before choosing parts. [Ask Arthur](https://artfedderson.tech/#start) if you have questions.
 
-**Revision:** Rev0.3 · **Status:** provisional first edition · **Publication date:** 2026-10-04
+**Revision:** Rev0.3 · **Status:** provisional first edition · **Publication date:** 2026-10-04 · **Editorial update:** 2026-10-05
 
 [Open the illustrated PDF](Rev_0p3/BC250_Ronin_Build_Manual_Rev_0p3.pdf)
 
@@ -23,7 +23,7 @@ These are public companion derivatives for this manual revision. They preserve m
 
 Rev0.3 records a native CAD export with 83 active instances and 34 unique CAD source paths. The saved `BC250-Assy.SLDASM` was observed on **2026-10-03 at 21:11:25 UTC**, with SHA-256 `9373a60ab27ae99628ebbc556cbeacaa1fa84fe42846cb7406cfa16978e2c861`. The export SHA-256 is `6629e8ec61feadab36cd367e2baddc19778b2425403b07549a4b3b1a90aa8ac1`. The export postdates that saved assembly; this does not prove every referenced component is unchanged.
 
-The [assembly preserved in the repository](../BC250-Assy.SLDASM) is the earlier imported snapshot, with Git LFS SHA-256 `271cf7703d2a2d1c0b56d6f5e30ba2481672cdabf75e36cca64796add342484a`. It differs from the saved assembly observed for this manual. **Confirm the current CAD and parts with Arthur before fabrication.** This manual publication does not update that preserved CAD snapshot.
+The [assembly preserved in the repository](../BC250-Assy.SLDASM) is the earlier imported snapshot, with Git LFS SHA-256 `271cf7703d2a2d1c0b56d6f5e30ba2481672cdabf75e36cca64796add342484a`. It differs from the saved assembly observed for this manual. **Check the current CAD source and unresolved parts before fabrication.** [Ask Arthur](https://artfedderson.tech/#start) if anything is unclear. This manual publication does not update that preserved CAD snapshot.
 
 ## How to use this draft
 

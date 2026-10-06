@@ -4596,10 +4596,10 @@
   },
   "manual_revision": "Rev0.3",
   "project_status": "in_progress_changing_rapidly",
-  "contact_before_building": "https://artfedderson.tech/#start",
+  "questions_contact": "https://artfedderson.tech/#start",
   "public_data_scope": "Current CAD inventory and source evidence; not a finalized purchase BOM.",
   "source_assembly_basename": "BC250-Assy.SLDASM",
-  "source_revision_note": "The manual's current CAD inventory is later than the repository's preserved October 1 CAD snapshot. Confirm the current design with Arthur before fabrication.",
+  "source_revision_note": "The manual's current CAD inventory is later than the repository's preserved October 1 CAD snapshot. Check the current source revision and open decisions before fabrication. Questions are welcome.",
   "source_snapshot": {
     "assembly_basename": "BC250-Assy.SLDASM",
     "observed_saved_assembly_utc": "2026-10-03T21:11:25.9008253Z",
