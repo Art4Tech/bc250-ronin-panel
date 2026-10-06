@@ -34,7 +34,7 @@ The [assembly preserved in the repository](../BC250-Assy.SLDASM) is the earlier 
 
 The design uses two ten-LED **Rainbow on a Matchstick boards by Blamm**; the power-button indicator is separate. LED mounting and harness details still need confirmation. The **Mosfet.Party EPS Power Adapter and PS_ON Adapter** remain subject to variant, mounting, and harness confirmation. Credit for the single remixed 92 mm fan shroud belongs to **MandicReally**. Component manufacturer sources and remaining verification work are recorded in the manual and companion data.
 
-Live USB resource telemetry has been physically confirmed. New LED control, touch shortcuts, gamepad host wake, and AI/voice functions remain planned until verified. See the [display package](../../display/README.md) and [project overview](../../README.md) for software status.
+The current Windows prototype has physically verified live USB telemetry, the native menu, profile selection and touch actions. All six app buttons bring existing SolidWorks, Steam, Claude, PrusaSlicer, OBS and Codex windows forward; OBS also passed a fresh launch and focus check. The [repository display package](../../display/README.md) contains an earlier baseline, while the [latest prototype writeup](https://artfedderson.tech/blog/bc250-display-native-menu-profiles) covers this newer work. The Rev0.3 PDF software chapter still reflects its earlier draft. Linux hardware and Gaming Mode, other fresh application launches, physical LED control, gamepad host wake and AI/voice functions remain pending.
 
 ## Keeping the revision current
 
