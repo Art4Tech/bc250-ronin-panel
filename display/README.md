@@ -1,40 +1,28 @@
-# BC250 Ronin resource panel and case design
+# Ronin display and companion
 
 This is the original ESP32 resource-panel package, now contained in `display/`. The firmware and companion retain their existing paths under `project/` within this folder. For the enclosure, see the [project overview](../README.md) and [case-design guide](../case-design/README.md).
 
 Case binary assets use **Git LFS**. Install Git LFS, then run `git lfs install` before cloning and `git lfs pull` inside the checkout afterward. Download ZIP is intended for the panel software workflow below; use a Git LFS checkout to obtain the complete case assets reliably.
 
-## Resource panel
+## Baseline and newer prototype
+
+The source, binaries and commands below are the **earlier published resource-panel baseline**. The newer local prototype has verified native menu/profiles and six Windows app tiles with existing-window focus and duplicate suppression. [Current status](CURRENT_STATUS.md) records its physical checks and Linux limits; this documentation update does not update the baseline firmware package.
+
+The **Rev A SATA-powered LED adapter is ordered**. See [harness preparation](../case-design/manual/Ronin_LED_Harness_Rev_A.md) for sourced parts and unverified connector/mux interfaces. Two independent Matchstick channels, startup/fault handling and physical LEDs remain firmware/bench work.
+
+## Resource panel — published baseline
 
 An Elecrow CrowPanel Advanced **5-inch ESP32-P4 V1.0** display for a BC250 desktop, with a serene animated ronin/onsen scene, day/night transitions, per-clip sound, and USB serial resource monitoring from Windows or Linux.
 
-**Working:** CPU/RAM/disk usage, optional Windows CPU temperature through LibreHardwareMonitor, touchscreen sleep/wake, four SD video/audio clips, settings QR helper, and Bluetooth scanning/pairing experiments.
+**Working in this baseline:** CPU/RAM/disk usage, optional Windows CPU temperature through LibreHardwareMonitor, touchscreen sleep/wake, four SD video/audio clips, settings QR helper, and Bluetooth scanning/pairing experiments.
 
-**Unfinished:** the voice-companion workflow, two-board Matchstick ARGB control, app/page-aware touch shortcuts, reliable GameSir button input and PC power-on relay, standby wiring, controller handoff, and native USB microphone/speaker and video streaming. A successful BLE connection is not a completed PC power-on solution.
+**Unfinished in this baseline:** the voice-companion workflow, two-board Matchstick ARGB control, app/page-aware touch shortcuts, reliable GameSir button input and PC power-on relay, standby wiring, controller handoff, and native USB microphone/speaker and video streaming. A successful BLE connection is not a completed PC power-on solution.
 
-## Display roadmap
+## Next display work
 
-The ESP32-P4 panel already receives CPU, memory and disk readings over USB serial and plays its local animated scenes with audio. The next firmware work gives that small screen four more jobs; **these features are planned, not completed**:
+Linux, initially Bazzite, is the product baseline. Keep one shared companion/protocol and portable profiles, with explicit host-local paths, sensors, permissions and desktop bindings. Linux GUI/Wayland/Gaming Mode acceptance remains pending. Elgato software is not intended as a normal-operation requirement.
 
-- **Voice companion:** use the panel's onboard microphone and amplified outputs for external speakers as the listening and speaking interface for a companion. The complete voice workflow still needs implementation.
-- **ARGB controller:** control the two ten-LED Rainbow on a Matchstick boards from the touch interface, with colors and effects for all twenty LEDs.
-- **Gamepad wake of the host:** use the controller to wake or start the BC250. Display connection-wake experiments are separate; they do not yet operate the host's power signal.
-- **Touch shortcut pages:** Stream Deck-like button pages that dispatch configured host scripts or commands according to the selected app/program, page or display screen. The context selection, action dispatch and host integration still need to be built.
-
-The [manufacturer audio lesson](https://www.elecrow.com/wiki/5inch_P4_Arduino_11_Playback_After_Recording.html) documents recording and speaker playback hardware. The current Bluetooth work demonstrates scanning/pairing experiments, rather than reliable host wake or controller handoff. Existing local touch controls and sound playback do not yet constitute the voice companion or shortcut system.
-
-## Planned Windows/Linux companion app
-
-The existing [Python resource companion](https://github.com/Art4Tech/bc250-ronin-panel/blob/main/display/project/outputs/Resource-Panel/resource_panel.py) sends host telemetry to the display over USB serial. It is the working resource-monitor helper, rather than the full app described below.
-
-The planned Windows and Linux app will bring the configuration together:
-
-- Advanced LED animations for the two Matchstick boards.
-- Installation and activation of resource-monitor modules.
-- Touch-button profiles and configured script, command and program integrations, with actions selected by app/program, page or display screen.
-- Configuration of the AI-agent portal connection used by the companion workflow.
-
-This full configuration app and its display/host integrations are future work. Existing telemetry and local media playback are not being presented as implementation of those new functions.
+Planned work includes advanced effects for the two ten-pixel Matchsticks, resource-module configuration, automatic app-context/held shortcuts, gamepad host wake and AI voice. Current touch releases/manual profiles do not establish those broader features. Display Sleep/Wake does not operate PC power; scene audio and Claude/Codex host-app tiles are not a completed voice workflow. See [current status](CURRENT_STATUS.md) before choosing a package or making feature claims.
 
 ## Continue on Windows
 
@@ -82,4 +70,4 @@ This preview uses an unchanged frame of the current day video and the firmware's
 
 [Interactive preview](project/outputs/Resource-Panel/simulations/bazzite/bazzite-interactive-preview.html) (download and open locally): DroidSansM Nerd Font Mono, LED controller concept for two 24-pixel rings, and 120.7 × 76.3 mm outer dimensions with 3.5 mm top and 7.5 mm bottom bands. Native image is 800 × 480; the physical illustration models a 108 × 65.3 mm active area. This is a simulated UI, not flashed firmware or a fabrication drawing. [Preliminary wiring notes](project/outputs/Resource-Panel/simulations/bazzite/NEOPIXEL-WIRING.md).
 
-This preserved Bazzite preview predates the current lighting hardware. Its two 24-pixel ring controls are historical UI concepts; the current target is two ten-LED Rainbow on a Matchstick boards. Matchstick control, voice interaction, host gamepad wake and contextual shortcut pages remain planned firmware work.
+This preserved Bazzite preview predates the current lighting hardware. Its two 24-pixel ring controls are historical UI concepts; the current target is two ten-LED Rainbow on a Matchstick boards. Matchstick control, voice interaction, host gamepad wake and automatic context switching remain pending. Manually selected action pages now work in the newer local prototype described in [current status](CURRENT_STATUS.md); this historical preview remains unchanged.

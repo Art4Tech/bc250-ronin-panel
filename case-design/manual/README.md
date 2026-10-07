@@ -1,11 +1,19 @@
-# BC250 Ronin printing and assembly manual
+# Ronin printing and assembly manual
 
 > [!NOTE]
 > **Work in progress — changing rapidly.** You're welcome to use this manual to build and remix Ronin. Rev0.3 is a draft for review and iteration, with provisional CAD locator illustrations. Fabrication and wiring details remain unresolved, and the assembly sequence is provisional. Check the source revision and open decisions before choosing parts. [Ask Arthur](https://artfedderson.tech/#start) if you have questions.
 
-**Revision:** Rev0.3 · **Status:** provisional first edition · **Publication date:** 2026-10-04 · **Editorial update:** 2026-10-05
+**Revision:** Rev0.3 · **Status:** provisional first edition · **Publication date:** 2026-10-04 · **Live documentation update:** 2026-10-06 (Rev0.3 PDF/BOM retained)
 
 [Open the illustrated PDF](Rev_0p3/BC250_Ronin_Build_Manual_Rev_0p3.pdf)
+
+## Newer working documents
+
+- [Rev A LED harness preparation](Ronin_LED_Harness_Rev_A.md): exact sourced cable parts, numbered electrical maps, crimping steps and required checks. The SATA-powered adapter is ordered; harness, LED firmware and bench acceptance remain pending.
+- [October 6 revision notes](REVISION_NOTES_2026-10-06.md): adapter, modeled NVMe extension/twin mounts/ribbon and concrete next-manual followups.
+- [Current display prototype](../../display/CURRENT_STATUS.md): physical Windows acceptance and Linux/feature limits; newer than the published firmware baseline.
+
+These are live addenda. The Rev0.3 PDF and companion data below preserve their original source revision and counts.
 
 ## Editable companion files
 
@@ -32,7 +40,7 @@ The [assembly preserved in the repository](../BC250-Assy.SLDASM) is the earlier 
 3. Treat printed orientations, mounting/routing concepts, and current-CAD locators as provisional wherever indicated.
 4. Confirm final wiring and mechanical interfaces before applying power or following an assembly sequence.
 
-The design uses two ten-LED **Rainbow on a Matchstick boards by Blamm**; the power-button indicator is separate. LED mounting and harness details still need confirmation. The **Mosfet.Party EPS Power Adapter and PS_ON Adapter** remain subject to variant, mounting, and harness confirmation. Credit for the single remixed 92 mm fan shroud belongs to **MandicReally**. Component manufacturer sources and remaining verification work are recorded in the manual and companion data.
+The design uses two ten-LED **Rainbow on a Matchstick boards by Blamm**; the power-button indicator is separate. The ordered Rev A adapter now supplies two independent LED channels from SATA while the display retains USB power; the [harness addendum](Ronin_LED_Harness_Rev_A.md) supersedes the older stick-to-stick proposal. Mounting, real connector fit and LED output remain unverified. The **Mosfet.Party EPS Power Adapter and PS_ON Adapter** remain subject to variant, mounting, and harness confirmation. Credit for the single remixed 92 mm fan shroud belongs to **MandicReally**. Component manufacturer sources and remaining verification work are recorded in the manual and companion data.
 
 The current Windows prototype has physically verified live USB telemetry, the native menu, profile selection and touch actions. All six app buttons bring existing SolidWorks, Steam, Claude, PrusaSlicer, OBS and Codex windows forward; OBS also passed a fresh launch and focus check. The [repository display package](../../display/README.md) contains an earlier baseline, while the [latest prototype writeup](https://artfedderson.tech/blog/bc250-display-native-menu-profiles) covers this newer work. The Rev0.3 PDF software chapter still reflects its earlier draft. Linux hardware and Gaming Mode, other fresh application launches, physical LED control, gamepad host wake and AI/voice functions remain pending.
 
