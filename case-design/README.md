@@ -1,4 +1,6 @@
-# BC250 case design
+# Ronin case design
+
+![Ronin project logo](branding/ronin-brand-banner.jpg)
 
 [Project overview](../README.md) · [Display software and its original README](../display/README.md)
 
@@ -28,29 +30,27 @@ The V5 handover states that GUI images, fonts and audio are packed where support
 
 The V5 lighting layout is a Blender proposal. Its reversed LED rings and foot strip are not completed mounting changes in the SolidWorks model. Rendered captions and effects do not establish that the panel firmware implements the depicted feature; see the repository's software status.
 
-## Display roadmap
+## October 6 working-CAD changes
 
-The ESP32-P4 panel already receives CPU, memory and disk readings over USB serial and plays its local animated scenes with audio. The next firmware work gives that small screen four more jobs; **these features are planned, not completed**:
+The current working assembly includes one visible **Ronin Rev A SATA LED adapter**, one NVMe extension board, two printed extension mounts, one modeled extension ribbon and a relocated M.2 2280 SSD. The adapter has been ordered; delivery and bench acceptance are pending. The explicit ribbon route and mounts are modeled proposals awaiting physical fit, retention and PCIe checks.
 
-- **Voice companion:** use the panel's onboard microphone and amplified outputs for external speakers as the listening and speaking interface for a companion. The complete voice workflow still needs implementation.
-- **ARGB controller:** control the two ten-LED Rainbow on a Matchstick boards from the touch interface, with colors and effects for all twenty LEDs.
-- **Gamepad wake of the host:** use the controller to wake or start the BC250. Display connection-wake experiments are separate; they do not yet operate the host's power signal.
-- **Touch shortcut pages:** Stream Deck-like button pages that dispatch configured host scripts or commands according to the selected app/program, page or display screen. The context selection, action dispatch and host integration still need to be built.
+![Ordered LED adapter design visualization](media/ronin-led-adapter-top.jpg)
 
-The [manufacturer audio lesson](https://www.elecrow.com/wiki/5inch_P4_Arduino_11_Playback_After_Recording.html) documents recording and speaker playback hardware. The current Bluetooth work demonstrates scanning/pairing experiments, rather than reliable host wake or controller handoff. Existing local touch controls and sound playback do not yet constitute the voice companion or shortcut system.
+Visualization from ordered fabrication layers and current CAD, not a physical photograph. Some packages are simplified; the optional single 5 V shunt is illustrated. This documentation/media update does not replace the saved October 1 assembly or publish native PCB/manufacturing files. See [manual revision notes](manual/REVISION_NOTES_2026-10-06.md) and [harness preparation](manual/Ronin_LED_Harness_Rev_A.md).
 
-## Planned Windows/Linux companion app
+![Ronin Rev A adapter underside with exposed copper logo and board name](media/ronin-led-adapter-bottom.jpg)
 
-The existing [Python resource companion](https://github.com/Art4Tech/bc250-ronin-panel/blob/main/display/project/outputs/Resource-Panel/resource_panel.py) sends host telemetry to the display over USB serial. It is the working resource-monitor helper, rather than the full app described below.
+Ordered copper/mask artwork visualized in Blender with a gold ENIG finish. This is a design visualization, not an assembled-board photograph.
 
-The planned Windows and Linux app will bring the configuration together:
+![Current CAD locator of the NVMe extension, modeled ribbon and twin mounts](media/ronin-nvme-route.jpg)
 
-- Advanced LED animations for the two Matchstick boards.
-- Installation and activation of resource-monitor modules.
-- Touch-button profiles and configured script, command and program integrations, with actions selected by app/program, page or display screen.
-- Configuration of the AI-agent portal connection used by the companion workflow.
+Pink identifies the ribbon route, lavender the two printed mounts, and teal the SSD/extension. The backbone and BC250 are ghosted for visibility. This is a current-CAD locator, not a cable cut-length, physical fit or storage-link validation.
 
-This full configuration app and its display/host integrations are future work. Existing telemetry and local media playback are not being presented as implementation of those new functions.
+## Display progress
+
+The current local Windows prototype has verified USB telemetry, scene/audio controls, a native menu/profiles and six application tiles. Existing app focus and duplicate suppression passed; OBS also passed fresh-launch focus. The repository retains an earlier software baseline. [Current status](../display/CURRENT_STATUS.md) explains the distinction and the Linux-first shared workflow.
+
+Physical Linux GUI/Wayland/Gaming Mode, Matchstick output, gamepad host wake and AI voice remain pending. The two independent LED channels use SATA power; the display stays USB-powered. Matchstick V1.0 requires the adapter's **5 V** selection. Final wiring, mounts and firmware must be validated before applying power.
 
 ## Download and verify
 

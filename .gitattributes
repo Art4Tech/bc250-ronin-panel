@@ -30,3 +30,6 @@ case-design/manual/**/*.pdf binary
 case-design/manual/**/*.md text eol=lf !whitespace
 case-design/manual/**/*.csv text eol=lf !whitespace
 case-design/manual/**/*.json text eol=lf !whitespace
+
+case-design/branding/README.md text eol=lf !whitespace
+case-design/media/README.md text eol=lf !whitespace
